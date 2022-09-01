@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:padding="@dimen/floating_action_button_margin">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/chatButton_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/ic_chat"
+        android:tint="@color/button_raised_text"
+        app:fabSize="normal"
+        app:borderWidth="0dp"
+        app:tint="@color/white"
+        tools:src="@drawable/ic_chat_bubble" />
+
+    <TextView
+        android:id="@+id/chatButton_numberOfUnreadMessagesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="2dp"
+        android:textColor="?colorAccent"
+        android:textStyle="bold"
+        android:translationZ="@dimen/floating_action_button_elevation_default"
+        android:visibility="gone"
+        tools:text="2"
+        tools:visibility="visible" />
+
+</FrameLayout>

@@ -1,0 +1,51 @@
+{
+  materials: [
+    {
+      name: 'Material',
+      parameters: [
+        {
+          baseColor: [
+            0,
+            0,
+            0,
+            0,
+          ],
+        },
+        {
+          emissive: [
+            0,
+            0,
+            0,
+            0,
+          ],
+        },
+        {
+          roughness: 0,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          reflectance: 0,
+        },
+        {
+          ambientOcclusion: 0,
+        },
+      ],
+      source: 'assets/default_lit_opaque.mat',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'assets/dummy_lit_opaque.obj',
+    name: 'dummy_lit_opaque',
+    recenter: 'root',
+    scale: 0.5,
+  },
+  version: '0.54:2',
+}

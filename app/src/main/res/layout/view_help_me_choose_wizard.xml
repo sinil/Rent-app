@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".helpmechoose.HelpMeChooseWizardViewImpl">
+
+    <include
+        layout="@layout/toolbar"
+        app:layout_constraintBottom_toTopOf="@id/scrollView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:paddingBottom="24dp">
+
+            <TextView
+                android:id="@+id/whatToLiftTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/help_me_choose_what_to_lift_section_title"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                android:textColor="@color/material_text_high_emphasis"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="@id/startGuide"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.riwal.rentalapp.helpmechoose.HelpMeChooseOptionCard
+                android:id="@+id/liftPeopleButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/img_lift_people_button"
+                android:text="@string/help_me_choose_lift_people_option_title"
+                app:cardElevation="@dimen/card_resting_elevation"
+                app:layout_constraintEnd_toStartOf="@id/liftMaterialsButton"
+                app:layout_constraintStart_toStartOf="@id/startGuide"
+                app:layout_constraintTop_toBottomOf="@id/whatToLiftTitleTextView" />
+
+            <com.riwal.rentalapp.helpmechoose.HelpMeChooseOptionCard
+                android:id="@+id/liftMaterialsButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_lift_materials_button"
+                android:text="@string/help_me_choose_lift_materials_option_title"
+                app:cardElevation="@dimen/card_resting_elevation"
+                app:layout_constraintEnd_toEndOf="@id/endGuide"
+                app:layout_constraintStart_toEndOf="@id/liftPeopleButton"
+                app:layout_constraintTop_toTopOf="@id/liftPeopleButton" />
+
+            <TextView
+                android:id="@+id/locationTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/help_me_choose_location_section_title"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                android:textColor="@color/material_text_high_emphasis"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="@id/startGuide"
+                app:layout_constraintTop_toBottomOf="@id/liftPeopleButton" />
+
+            <com.riwal.rentalapp.helpmechoose.HelpMeChooseOptionCard
+                android:id="@+id/locationOutdoorsButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/img_outdoor_button"
+                android:text="@string/help_me_choose_location_outdoors_option_title"
+                app:cardElevation="@dimen/card_resting_elevation"
+                app:layout_constraintEnd_toStartOf="@id/locationIndoorsButton"
+                app:layout_constraintStart_toStartOf="@id/startGuide"
+                app:layout_constraintTop_toBottomOf="@id/locationTitleTextView" />
+
+            <com.riwal.rentalapp.helpmechoose.HelpMeChooseOptionCard
+                android:id="@+id/locationIndoorsButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_indoor_button"
+                android:text="@string/help_me_choose_location_indoors_option_title"
+                app:cardElevation="@dimen/card_resting_elevation"
+                app:layout_constraintEnd_toEndOf="@id/endGuide"
+                app:layout_constraintStart_toEndOf="@id/locationOutdoorsButton"
+                app:layout_constraintTop_toTopOf="@id/locationOutdoorsButton" />
+
+            <TextView
+                android:id="@+id/reachTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/help_me_choose_reachability_section_title"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                android:textColor="@color/material_text_high_emphasis"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="@id/startGuide"
+                app:layout_constraintTop_toBottomOf="@id/locationOutdoorsButton" />
+
+            <com.riwal.rentalapp.helpmechoose.HelpMeChooseOptionCard
+                android:id="@+id/verticalReachButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/img_scissor_lift"
+                android:text="@string/help_me_choose_reach_vertical_option_title"
+                app:cardElevation="@dimen/card_resting_elevation"
+                app:layout_constraintEnd_toStartOf="@id/angledReachButton"
+                app:layout_constraintStart_toStartOf="@id/startGuide"
+                app:layout_constraintTop_toBottomOf="@id/reachTitleTextView" />
+
+            <com.riwal.rentalapp.helpmechoose.HelpMeChooseOptionCard
+                android:id="@+id/angledReachButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:src="@drawable/img_telescopic_boom_lift"
+                android:text="@string/help_me_choose_reach_angled_option_title"
+                app:cardElevation="@dimen/card_resting_elevation"
+                app:layout_constraintEnd_toStartOf="@id/endGuide"
+                app:layout_constraintStart_toEndOf="@id/verticalReachButton"
+                app:layout_constraintTop_toTopOf="@id/verticalReachButton" />
+
+            <com.riwal.rentalapp.helpmechoose.HelpMeChooseOptionCard
+                android:id="@+id/multiAngledReachButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/img_spider_lift"
+                android:text="@string/help_me_choose_reach_multi_angled_option_title"
+                app:cardElevation="@dimen/card_resting_elevation"
+                app:layout_constraintEnd_toEndOf="@id/verticalReachButton"
+                app:layout_constraintStart_toStartOf="@id/startGuide"
+                app:layout_constraintTop_toBottomOf="@id/verticalReachButton" />
+
+            <TextView
+                android:id="@+id/workingHeightTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/help_me_choose_working_height_section_title"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                android:textColor="@color/material_text_high_emphasis"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@id/endGuide"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@id/startGuide"
+                app:layout_constraintTop_toBottomOf="@id/multiAngledReachButton" />
+
+            <com.riwal.rentalapp.common.ui.DiscreteSlider
+                android:id="@+id/workingHeightSlider"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="@id/endGuide"
+                app:layout_constraintStart_toStartOf="@id/startGuide"
+                app:layout_constraintTop_toBottomOf="@id/workingHeightTitleTextView"
+                tools:progress="50" />
+
+            <TextView
+                android:id="@+id/workingHeightValueTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                android:textColor="@color/material_text_high_emphasis"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="@id/endGuide"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="@id/startGuide"
+                app:layout_constraintTop_toTopOf="@id/workingHeightSlider"
+                tools:layout_constraintHorizontal_bias="0.5"
+                tools:text="0 m" />
+
+            <TextView
+                android:id="@+id/workingOutreachTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/help_me_choose_working_outreach_section_title"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                android:textColor="@color/material_text_high_emphasis"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@id/endGuide"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="@id/startGuide"
+                app:layout_constraintTop_toBottomOf="@id/workingHeightSlider" />
+
+            <com.riwal.rentalapp.common.ui.DiscreteSlider
+                android:id="@+id/workingOutreachSlider"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="@id/endGuide"
+                app:layout_constraintStart_toStartOf="@id/startGuide"
+                app:layout_constraintTop_toBottomOf="@id/workingOutreachTitleTextView"
+                tools:value="50" />
+
+            <TextView
+                android:id="@+id/workingOutreachValueTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                android:textColor="@color/material_text_high_emphasis"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="@id/endGuide"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="@id/startGuide"
+                app:layout_constraintTop_toTopOf="@id/workingOutreachSlider"
+                tools:layout_constraintHorizontal_bias="0.5"
+                tools:text="0 m" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/showResultsButton"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/button_min_width"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/endGuide"
+                app:layout_constraintHorizontal_bias="1"
+                app:layout_constraintStart_toStartOf="@id/startGuide"
+                app:layout_constraintTop_toBottomOf="@id/workingOutreachSlider"
+                tools:text="Show 68 results" />
+
+            <TextView
+                android:id="@+id/noResultsMessage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/help_me_choose_no_results_message"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                android:textColor="@color/material_text_medium_emphasis"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/endGuide"
+                app:layout_constraintStart_toStartOf="@id/startGuide"
+                app:layout_constraintTop_toBottomOf="@id/workingOutreachSlider" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/startGuide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="16dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/endGuide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_end="16dp" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/locationSection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:constraint_referenced_ids="locationTitleTextView, locationOutdoorsButton, locationIndoorsButton" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/reachSection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:constraint_referenced_ids="reachTitleTextView, verticalReachButton, angledReachButton, multiAngledReachButton" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/workingHeightGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:constraint_referenced_ids="workingHeightTitleTextView, workingHeightSlider, workingHeightValueTextView" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/workingOutreachGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:constraint_referenced_ids="workingOutreachTitleTextView, workingOutreachSlider, workingOutreachValueTextView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/trainingName"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/material_text_high_emphasis"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="IPAF Training" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/durationLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:text="@string/key_duration"
+            android:textColor="@color/material_text_medium_emphasis"
+            app:layout_constraintStart_toStartOf="@id/trainingName"
+            app:layout_constraintTop_toBottomOf="@id/trainingName" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/durationTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:gravity="start"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/certificationTextView"
+            app:layout_constraintTop_toTopOf="@id/durationLabel"
+            tools:text="1-2 days" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/certificationLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="start"
+            android:text="@string/key_certification"
+            android:textColor="@color/material_text_medium_emphasis"
+            app:layout_constraintStart_toStartOf="@id/trainingName"
+            app:layout_constraintTop_toBottomOf="@id/durationTextView" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/certificationTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="start"
+            android:inputType="textMultiLine"
+            android:scrollHorizontally="false"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintEnd_toEndOf="@id/durationTextView"
+            app:layout_constraintStart_toEndOf="@id/certificationLabel"
+            app:layout_constraintTop_toTopOf="@+id/certificationLabel"
+            tools:text="1a, 2a, 3a, 4a" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/participantLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="start"
+            android:text="@string/key_participant"
+            android:textColor="@color/material_text_medium_emphasis"
+            app:layout_constraintStart_toStartOf="@id/trainingName"
+            app:layout_constraintTop_toBottomOf="@id/certificationTextView" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/participantTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintEnd_toEndOf="@id/durationTextView"
+            app:layout_constraintStart_toStartOf="@id/certificationTextView"
+            app:layout_constraintTop_toTopOf="@id/participantLabel"
+            tools:text="4 - 6" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/priceLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="start"
+            android:text="@string/key_price"
+            android:textColor="@color/material_text_medium_emphasis"
+            app:layout_constraintStart_toStartOf="@id/trainingName"
+            app:layout_constraintTop_toBottomOf="@id/participantTextView" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/priceTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="start"
+            android:inputType="textMultiLine"
+            android:scrollHorizontally="false"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintBottom_toTopOf="@id/detailsButton"
+            app:layout_constraintEnd_toEndOf="@id/durationTextView"
+            app:layout_constraintStart_toStartOf="@id/participantTextView"
+            app:layout_constraintTop_toTopOf="@id/priceLabel"
+            tools:text="Depends on the location, please reach out to us." />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/detailsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/button_details"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/durationTextView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
+
+
+
+
+

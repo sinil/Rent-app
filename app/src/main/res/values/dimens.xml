@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="top_app_bar_elevation">4dp</dimen>
+    <dimen name="bottom_app_bar_elevation">4dp</dimen>
+    <dimen name="app_bar_default_height">56dp</dimen>
+
+    <dimen name="card_marginTop">24dp</dimen>
+    <dimen name="card_marginBottom">24dp</dimen>
+    <dimen name="card_marginStart">16dp</dimen>
+    <dimen name="card_marginEnd">16dp</dimen>
+    <dimen name="card_title_marginTop">24dp</dimen>
+    <dimen name="card_title_marginBottom">12dp</dimen>
+    <dimen name="card_title_marginStart">16dp</dimen>
+    <dimen name="card_title_marginEnd">16dp</dimen>
+    <dimen name="card_subtitle_marginTop">12dp</dimen>
+    <dimen name="card_subtitle_marginBottom">16dp</dimen>
+    <dimen name="card_supportingText_margin">16dp</dimen>
+    <dimen name="card_image_marginTop">16dp</dimen>
+    <dimen name="card_image_marginBottom">16dp</dimen>
+    <dimen name="card_action_margin">8dp</dimen>
+    <dimen name="card_resting_elevation">1dp</dimen>
+    <dimen name="card_raised_elevation">8dp</dimen>
+
+    <dimen name="button_elevation_default">2dp</dimen>
+    <dimen name="button_min_width">64dp</dimen>
+
+    <dimen name="floating_action_button_elevation_default">6dp</dimen>
+    <dimen name="floating_action_button_margin">16dp</dimen>
+
+    <dimen name="snackbar_elevation_default">6dp</dimen>
+
+    <dimen name="model_bottom_sheet_elevation">16dp</dimen>
+
+    <dimen name="size_machine_category">125dp</dimen>
+    <dimen name="size_square_button">48dp</dimen>
+    <dimen name="size_machine_order_button">20dp</dimen>
+
+    <dimen name="list_item_marginStart">16dp</dimen>
+    <dimen name="list_item_marginEnd">16dp</dimen>
+    <dimen name="list_item_marginTop">20dp</dimen>
+    <dimen name="list_item_marginBottom">20dp</dimen>
+
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="customers_pager_height">210dp</dimen>
+
+    <dimen name="spinner_max_height">200dp</dimen>
+
+</resources>

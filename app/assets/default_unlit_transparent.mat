@@ -1,0 +1,23 @@
+material {
+    parameters : [
+        {
+            name: baseColor,
+            type: float4
+        },
+        {
+            name: emissive,
+            type: float4
+        }
+    ],
+    shadingModel: unlit,
+    blending: transparent,
+    doubleSided: true
+}
+
+fragment {
+    void material(inout MaterialInputs material) {
+        prepareMaterial(material);
+        material.baseColor = materialParams.baseColor;
+        material.emissive = materialParams.emissive;
+    }
+}

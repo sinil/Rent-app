@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- COMMON -->
+    <string name="categories">"Categorieën"</string>
+    <string name="riwal_slogan">"Als je iets wilt bereiken."</string>
+    <string name="password">"Wachtwoord"</string>
+
+    <!-- PAGES -->
+    <string name="page_search">"Zoeken"</string>
+    <string name="page_cart">"Mandje"</string>
+    <string name="page_account">"Account"</string>
+    <string name="page_contact">"Contact"</string>
+    <string name="page_my_rentals">"Mijn huurorders"</string>
+    <string name="page_country">"Selecteer een land"</string>
+    <string name="page_project">"Project"</string>
+    <string name="page_create_project">"Project aanmaken"</string>
+    <string name="page_summary">"Samenvatting"</string>
+
+    <!-- HINTS -->
+    <string name="hint_search">"Zoek"</string>
+    <string name="rental_period">"Huurperiode"</string>
+
+    <!-- BUTTONS -->
+    <string name="button_all_categories">"Alle categorieën"</string>
+    <string name="filter">"Filter"</string>
+    <string name="clear">"Wissen"</string>
+    <string name="done">"Gereed"</string>
+    <string name="delete">"Verwijderen"</string>
+    <string name="cancel">"Annuleren"</string>
+    <string name="submit">"Verstuur"</string>
+    <string name="request_rental">"Aanvraag starten"</string>
+    <string name="button_continue">"Ga verder"</string>
+    <string name="pick_a_location">"Kies een locatie"</string>
+    <string name="send_request">"Aanvraag versturen"</string>
+    <string name="rent_again">"Huur opnieuw"</string>
+    <string name="option_expected">"Verwachte"</string>
+    <string name="option_final">"Definitief"</string>
+    <string name="machine">"Machine"</string>
+    <string name="working">"Werken"</string>
+    <string name="add_to_order">"Voeg toe aan order"</string>
+    <string name="pictures">"Afbeeldingen"</string>
+    <string name="cart">"Mandje"</string>
+    <string name="delivery_time">"Bezorgtijd"</string>
+    <string name="machine_order_added">"Machine toegevoegd aan het mandje"</string>
+    <string name="project">"Project"</string>
+    <string name="rental">"Huurorder"</string>
+
+    <!-- KEYS -->
+    <string name="key_brand">"Merk:"</string>
+    <string name="key_model">"Model:"</string>
+    <string name="key_weight">"Gewicht:"</string>
+    <string name="key_dimensions">"Afmetingen (l × b × h):"</string>
+    <string name="key_platform_dimensions">"Platform (l × b):"</string>
+    <string name="key_working_height">"Werkhoogte:"</string>
+    <string name="key_working_outreach">"Reikwijdte:"</string>
+    <string name="key_lift_capacity">"Hefvermogen:"</string>
+    <string name="key_propulsion">"Aandrijving:"</string>
+    <string name="key_order_number">"Ordernummer:"</string>
+    <string name="key_price_rate">"Tarief:"</string>
+    <string name="key_project_city">"Project stad:"</string>
+    <string name="key_contact_person">"Contactpersoon:"</string>
+    <string name="key_project_name">"Projectnaam:"</string>
+    <string name="key_operator_name">"Naam operator:"</string>
+    <string name="key_purchase_order">"Uw referentie:"</string>
+    <string name="key_period">"Periode:"</string>
+    <string name="key_delivery_time">"Bezorgtijd:"</string>
+    <string name="key_quantity">"Aantal:"</string>
+
+    <!-- VALUES -->
+    <string name="value_in_meters">"%s meter"</string>
+
+    <!-- CONTACT INFO -->
+    <string name="company">"Bedrijf"</string>
+    <string name="name">"Naam"</string>
+    <string name="phone">"Telefoonnummer"</string>
+    <string name="email">"E-mail"</string>
+
+    <!-- PROJECT -->
+    <string name="project_name">"Projectnaam"</string>
+    <string name="project_contact_name">"Contactpersoon op project"</string>
+    <string name="project_contact_phone_number">"Telefoonnummer"</string>
+    <string name="address">"Adres"</string>
+    <string name="zip_code">"Postcode"</string>
+    <string name="city">"Stad"</string>
+
+    <!-- SUMMARY -->
+    <string name="machines">"Machines"</string>
+    <string name="contact_information">"Contact informatie"</string>
+    <string name="project_information">"Project informatie"</string>
+    <string name="general">"Algemeen"</string>
+    <string name="purchase_order">"Uw referentie"</string>
+    <string name="notes">"Opmerkingen"</string>
+
+    <!-- EMPTY STATES -->
+    <string name="no_machines_found">"Geen machines gevonden"</string>
+    <string name="empty_cart">"Uw mandje is nog leeg"</string>
+    <string name="empty_project">"U heeft nog geen projecten.
+Klik op de \"+\" knop om een project toe te voegen"</string>
+
+    <!-- ERRORS -->
+    <string name="error_invalid_mail_address">"Gebruik een geldig e-mailadres"</string>
+    <string name="error_invalid_password">"Voer een wachtwoord in"</string>
+
+    <!-- DIALOGS -->
+    <string name="dialog_delete_machine_order_title">"Verwijderen uit mandje?"</string>
+    <string name="dialog_delete_machine_order_message">"Deze machine wordt uit het mandje gehaald."</string>
+    <string name="dialog_delete_project_title">"Project verwijderen?"</string>
+    <string name="dialog_delete_project_message">"Dit project zal niet meer beschikbaar zijn."</string>
+
+    <!-- ORDER -->
+    <string name="option_contact_person">"Ik ben de contactpersoon"</string>
+    <string name="place_this_order">"Order aanvragen?"</string>
+
+    <!-- ACCOUNT -->
+    <string name="account_manager">"Account Manager"</string>
+    <string name="any_questions">"Vragen?"</string>
+    <string name="my_rentals">"Mijn huurorders"</string>
+    <string name="my_invoices">"Mijn facturen"</string>
+    <string name="training">"Opleiding"</string>
+    <string name="log_out">"Log uit"</string>
+    <string name="log_in">"Log in"</string>
+
+    <!-- MACHINE TYPES -->
+    <string name="scissor_lift">"Schaar\u00ADhoogwerker"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="vertical_lift">"Mast\u00ADhoogwerker"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="crawler_lift">"Rups\u00ADhoogwerker"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="articulated_boom_lift">"Knikarm\u00ADhoogwerker"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="spider_lift">"Spin\u00ADhoogwerker"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="telescopic_boom_lift">"Telescoop\u00ADhoogwerker"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="trailer_mounted_lift">"Aanhanger hoogwerker"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="truck_mounted_lift">"Auto\u00ADhoogwerker"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="forklift">"Hef\u00ADtruck"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="telehandler_standard">"Standaard verreiker"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="telehandler_rotating">"Roterende verreiker"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="crane">"Kraan"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="glass_lift">"Glaslift"</string>
+
+    <!-- ORDER STATUSSES -->
+    <string name="order_status_unknown">"Onbekend"</string>
+    <string name="order_status_pending_deliveries">"Nog af te leveren"</string>
+    <string name="order_status_closed_rentals">"Afgesloten"</string>
+
+    <!-- COUNTRIES -->
+    <string name="country_belgium">"België"</string>
+    <string name="country_croatia">"Kroatië"</string>
+    <string name="country_denmark">"Denemarken"</string>
+    <string name="country_france">"Frankrijk"</string>
+    <string name="country_germany">"Duitsland"</string>
+    <string name="country_kazakhstan">"Kazakhstan"</string>
+    <string name="country_norway">"Noorwegen"</string>
+    <string name="country_poland">"Polen"</string>
+    <string name="country_slovenia">"Slovenië"</string>
+    <string name="country_spain">"Spanje"</string>
+    <string name="country_sweden">"Zweden"</string>
+    <string name="country_netherlands">"Nederland"</string>
+    <string name="country_united_kingdom">"Verenigd Koninkrijk"</string>
+    <string name="no_rentals_found">"Geen huurorders gevonden"</string>
+    <string name="unknown">"Onbekend"</string>
+    <string name="request_changes">"Wijzigen"</string>
+    <string name="order_request_succeeded">"Bedankt. Uw verzoek is verzonden."</string>
+    <string name="order_request_failed">"Er is helaas iets misgegaan. Probeer het opnieuw."</string>
+    <string name="login_failed">"Inloggen mislukt"</string>
+    <string name="unknown_username_password_combination">"De combinatie van gebruikersnaam en wachtwoord is onbekend"</string>
+    <string name="confirm">"Bevestig"</string>
+    <string name="off_rent_date">"Einde huurperiode"</string>
+    <string name="off_rent_time">"Afmeldtijd"</string>
+    <string name="comments">"Opmerkingen"</string>
+    <string name="dialog_confirm_off_hire_title">"%s afmelden"</string>
+    <string name="dialog_confirm_off_hire_message">"Stop de huur van deze machine op %s."</string>
+    <string name="dialog_confirm_request_change_title">"Wijziging doorgeven"</string>
+    <string name="dialog_confirm_request_change_message">"De wijziging zal zo spoedig mogelijk worden verwerkt."</string>
+    <string name="request_off_rent_failed">"Afmelden niet gelukt. Probeer het later opnieuw."</string>
+    <string name="off_rent_requested">"Afmelding aangevraagd. We zullen dit zo spoedig mogelijk verwerken."</string>
+    <string name="change_request_failed">"Wijzigingsaanvraag niet gelukt. Probeer het later opnieuw."</string>
+    <string name="changes_requested_message">"Wijziging aangevraagd. We zullen dit zo spoedig mogelijk verwerken."</string>
+
+    <!-- PROPULSION -->
+    <string name="electric">"Elektrisch"</string>
+    <string name="diesel">"Diesel"</string>
+    <string name="hybrid_gasoline">"Hybride (benzine)"</string>
+    <string name="hybrid_diesel">"Hybride (diesel)"</string>
+    <string name="hybrid">"Hybride"</string>
+    <string name="gasoline">"Benzine"</string>
+    <string name="natural_gas">"Gas"</string>
+    <string name="propulsion">"Aandrijving"</string>
+    <string name="off_rent_button">"Afmelden"</string>
+    <string name="on_rent">"Start huurperiode"</string>
+    <string name="country_international">"Riwal International"</string>
+
+    <!-- REQUEST CHANGES SCREEN -->
+    <string name="change_expected_off_rent_date_edit_text_hint">"Einde huurperiode (verwacht)"</string>
+    <string name="change_final_off_rent_date_edit_text_hint">"Einde huurperiode (definitief)"</string>
+    <string name="dialog_clear_machine_orders_title">"Mandje legen?"</string>
+    <string name="dialog_clear_machine_orders_message">"U kunt geen machines uit verschillende landen bestellen. Uw mandje zal geleegd worden."</string>
+    <string name="update">"Update"</string>
+    <string name="feedback">"Feedback"</string>
+    <string name="send">"Verzenden"</string>
+    <string name="page_depot">"Vestigingen"</string>
+    <string name="page_feedback">"Feedback"</string>
+    <string name="page_edit_project">"Project aanpassen"</string>
+
+    <!-- SETTINGS -->
+    <string name="setting_depots">"Vestigingen"</string>
+    <string name="setting_contact">"Contact"</string>
+    <string name="setting_country">"Land"</string>
+    <string name="setting_disclaimer">"Disclaimer"</string>
+    <string name="setting_privacy_policy">"Privacy policy"</string>
+    <string name="setting_feedback">"Feedback"</string>
+    <string name="search_menu_item">"Zoeken"</string>
+    <string name="filter_period_title">"Periode"</string>
+    <string name="filter_rental_status_title">"Huurstatus"</string>
+
+    <!-- Fuzzy -->
+    <string name="search_results">"%s resultaten"</string>
+
+    <!-- RATING -->
+    <string name="rating_terrible">"Vreselijk"</string>
+    <string name="rating_bad">"Slecht"</string>
+    <string name="rating_okay">"Oke"</string>
+    <string name="rating_good">"Goed"</string>
+    <string name="rating_great">"Geweldig"</string>
+    <string name="empty_depot">"Er zijn geen depots."</string>
+    <string name="dialog_update_app_title">"Update beschikbaar"</string>
+    <string name="dialog_update_app_message">"Er is een nieuwe versie van de app beschikbaar."</string>
+    <string name="dialog_update_app_required_message">"U moet de app updaten voordat u verder kunt gaan."</string>
+    <string name="dialog_update_app_cancel_button">"Nee bedankt"</string>
+    <string name="message_send_feedback_succeeded">"Bedankt voor uw feedback!"</string>
+    <string name="message_send_feedback_failed">"Er is helaas iets misgegaan bij het verzenden van uw feedback. Probeer het later nogmaals."</string>
+    <string name="setting_inventory">"Inventaris"</string>
+
+    <!-- LABELS -->
+    <string name="key_minimum_working_height">"Minimum werkhoogte:"</string>
+    <string name="key_minimum_working_outreach">"Minimale reikwijdte:"</string>
+    <string name="key_minimum_lift_capacity">"Minimum hefvermogen:"</string>
+    <string name="electric_hybdrid_filter">"Alleen elektrisch/hybrid"</string>
+    <string name="no_internet_connection">"Geen internetverbinding"</string>
+    <string name="help_title_standard">"Hulp nodig?"</string>
+    <string name="help_subtitle_chat">"Chat met ons"</string>
+    <string name="help_title_search">"Hulp nodig bij kiezen?"</string>
+    <string name="yes">"Ja"</string>
+    <string name="no">"Nee"</string>
+    <string name="page_more">"Meer"</string>
+
+    <!-- HINTS -->
+    <string name="hint_search_example">"Zoek, bijv. %s"</string>
+    <string name="settings">"Instellingen"</string>
+    <string name="information">"Informatie"</string>
+    <string name="key_project_address">"Afleveradres:"</string>
+    <string name="value_in_m">"%s m"</string>
+    <string name="value_in_kg">"%s kg"</string>
+    <string name="value_in_dimensions_m3">"%s × %s × %s m"</string>
+    <string name="value_in_dimensions_m2">"%s × %s m"</string>
+
+    <!-- WELCOME SCREEN -->
+    <string name="welcome_screen_done_button">"Aan de slag!"</string>
+    <string name="welcome_screen_country_selection_hint">"Selecteer uw land"</string>
+    <string name="welcome_screen_country_selection_note">"* U kunt dit later altijd nog aanpassen"</string>
+
+    <!-- MACHINE DETAILS SCREEN -->
+    <string name="machine_detail_screen_specifications_title">"Specificaties"</string>
+    <string name="machine_availability_direct">"Op voorraad"</string>
+    <string name="add_to_order_button">"Voeg toe"</string>
+
+    <!-- MACHINE TYPE DESCRIPTIONS -->
+    <string name="scissor_lift_description">"Een schaarhoogwerker is een hoogwerker waarbij het platform personen en hulpmiddelen verticaal omhoog brengt naar de gewenste werkplek. Het onderstel van een schaarhoogwerker kan voorzien zijn van wielen of rupsen om de machine te verplaatsen. De aandrijving kan diesel of elektrisch zijn."</string>
+    <string name="vertical_lift_description">"De masthoogwerker verplaatst het platform verticaal omhoog naar de gewenste werkplek. Kenmerkend voor een masthoogwerker is dat de machine door de compacte bouw weinig ruimte inneemt, waardoor ze zeer goed kan manoeuvreren bij kleine en moeilijk te bereiken ruimten."</string>
+    <string name="crawler_lift_description">"De veelzijdig inzetbare rupshoogwerkers zijn er in twee typen: de rupsschaarhoogwerkers en rupstelescoophoogwerkers. Beide types worden aangedreven door diesel en zijn geschikt voor buitengebruik. Door de rupsbanden wordt de bodemdruk verspreid, waardoor de machines beter te gebruiken zijn op ruwterrein."</string>
+    <string name="spider_lift_description">"Een spinhoogwerker heeft vier stempelpoten als basis. Door het lichte gewicht en rupsbanden zijn ze te gebruiken op verschillende ondergronden. Deze hoogwerker wordt veelal ingezet bij moeilijk bereikbare plekken omdat ze goed kan manoeuvreren door smalle ruimtes."</string>
+    <string name="telescopic_boom_lift_description">"Een telescoophoogwerker is ideaal voor werken op hoogte. Kenmerkend voor deze machine is de uitschuifbare mast, die in een rechte lijn omhoog gaat. Daarnaast heeft de telescoop een groot zijdelings bereik en is geschikt om zeer hoge en lastige plekken te bereiken."</string>
+    <string name="trailer_mounted_lift_description">"Een op een aanhangwagen gemonteerde hoogwerker kan door een voertuig worden voortgetrokken, ideaal voor mensen die onderweg zijn. De elektrische varianten zijn perfect geschikt om zowel binnen als buiten mee te werken."</string>
+    <string name="truck_mounted_lift_description">"Een autohoogwerker is een telescoophoogwerker, opgebouwd in een auto (rijbewijs B). Ideaal om meerdere klussen op verschillende locaties achtereenvolgend uit te voeren. Deze hoogwerkers zijn zeer compact en makkelijk te bedienen. Ze zijn voorzien van hydraulische stempels. Hoogwerker afhalen vanaf depot."</string>
+    <string name="telehandler_standard_description">"Een verreiker is een voertuig dat gebouwd is om zware lasten te tillen, hijsen en/of verplaatsen. Grote voordeel van deze machine is dat er verschillende voorzetstukken aan de telescooparm bevestigd kunnen worden. Vaak voorzien met lepelbord of hijsjip (eventueel met hijslier)."</string>
+    <string name="telehandler_rotating_description">"Een roterende verreiker is een krachtige machine die zware materialen kan verplaatsen. Dankzij het roterende bovenstel is het mogelijk om het onderstel te laten staan (middels stempelpoten) en draaiend de werkzaamheden uit te voeren. De verreiker is geschikt voor elke type ondergrond."</string>
+    <string name="crane_description">"Minikranen zijn kranen die bedoeld zijn voor relatief licht tillen. Wanneer hefvereisten zich op een locatie met een nauwe toegang, beperkte ruimte of obstakels bevinden, is een minikraan perfect voor de klus. Minikranen zijn ontworpen om naar plaatsen te gaan waar conventionele of grote kranen niet kunnen gaan."</string>
+    <string name="glass_lift_description">"Een SmartLift is ontworpen om glazen panelen veilig en eenvoudig te plaatsen. Deze revolutionaire nieuwe glasverwerkingsmachines heffen en positioneren zowel rechte als gebogen ruiten met precisie, zodat u uw glas precies daar kunt plaatsen waar u het nodig hebt"</string>
+    <string name="retry">"Probeer opnieuw"</string>
+    <string name="error">"Fout"</string>
+    <string name="key_fleet_number">"Vlootnummer:"</string>
+    <string name="order_confirmation_dialog_message">"Uw order is pas geldig bij ontvangst van een orderbevestiging."</string>
+
+    <!-- RENTAL PANEL -->
+    <string name="order_panel_on_rent_date_title">"Start huurperiode"</string>
+
+    <!-- Fuzzy -->
+    <string name="order_panel_off_rent_date_strictness_title">"Is er een exacte einddatum?"</string>
+    <string name="order_panel_off_rent_date_estimate_title">"Einde huurperiode ongeveer op"</string>
+    <string name="rental_panel_off_rent_date_title">"Einde huurperiode"</string>
+    <string name="rental_panel_date_button_placeholder">"Datum"</string>
+    <string name="rental_panel_time_button_placeholder">"Tijd"</string>
+    <string name="order_panel_earliest_delivery_day_notice">"De vroegst mogelijke bezorgdag is %s. Heeft u deze machine eerder nodig? Bel ons."</string>
+
+    <!-- Fuzzy -->
+    <string name="off_rent_panel_same_day_off_rent_cutoff_notice">"De verhuur vandaag beëindigen kon tot %s via de app. Bel ons als u de verhuur vandaag nog wilt beëindigen."</string>
+    <string name="machine_order_key_from">"Van:"</string>
+    <string name="machine_order_key_to">"Tot:"</string>
+    <string name="dialog_comments_title">"Opmerkingen"</string>
+    <string name="dialog_comments_message">"Heeft u nog opmerkingen voor de Rental Desk?"</string>
+
+    <!-- COMMON -->
+    <string name="riwal_app_name">"Riwal Rental"</string>
+    <string name="manlift_app_name">"Manlift Rental"</string>
+    <string name="manlift_slogan">"Taking You to New Heights Safely!"</string>
+
+    <!-- COUNTRIES -->
+    <string name="country_none">"Geen selectie"</string>
+    <string name="country_india">"India"</string>
+    <string name="country_qatar">"Katar"</string>
+    <string name="country_uae">"Verenigde Arabische Emiraten"</string>
+    <string name="riwal_disclaimer_url">"https://www.riwal.com/nederland/nl-nl/over-riwal/disclaimer?strip=1"</string>
+    <string name="riwal_privacy_policy_url">"https://www.riwal.com/nederland/nl-nl/over-riwal/privacypolicy?strip=1"</string>
+    <string name="manlift_disclaimer_url">"https://www.manliftgroup.com/en/disclaimer?strip=1"</string>
+    <string name="manlift_privacy_policy_url">"https://www.manliftgroup.com/en/privacy-statement?strip=1"</string>
+
+    <!-- FEEDBACK SCREEN -->
+    <string name="riwal_feedback_how_satisfied_are_you">"Hoe tevreden bent u met de Riwal Rental app?"</string>
+    <string name="manlift_feedback_how_satisfied_are_you">"Hoe tevreden bent u met de Manlift Rental app?"</string>
+    <string name="riwal_feedback_how_can_we_improve">"Hoe kunnen we de Riwal Rental app verbeteren?"</string>
+    <string name="manlift_feedback_how_can_we_improve">"Hoe kunnen we de Manlift Rental app verbeteren?"</string>
+
+    <!-- WELCOME SCREEN -->
+    <string name="riwal_welcome_screen_title">"Welkom bij Riwal"</string>
+    <string name="manlift_welcome_screen_title">"Welkom bij Manlift"</string>
+    <string name="riwal_articulated_boom_lift_description">"Een knikarmhoogwerker heeft door de knik halverwege de arm een grote bewegingsvrijheid. Deze is dan ook speciaal geschikt om lastige plekken te kunnen bereiken."</string>
+    <string name="manlift_articulated_boom_lift_description">"Een knikarmhoogwerker heeft door de knik halverwege de arm een grote bewegingsvrijheid. Deze is dan ook speciaal geschikt om lastige plekken te kunnen bereiken."</string>
+    <string name="riwal_forklift_description">"Een vorkheftruck is een transportmiddel aangedreven door een elektromotor of een verbrandingsmotor, hoofdzakelijk voor het vervoer van goederen die op een pallet staan, bijvoorbeeld in een magazijn of op een bedrijfsterrein. Daarnaast zijn verschillende types goed inzetbaar op ruwterrein."</string>
+    <string name="manlift_forklift_description">"Een vorkheftruck is een transportmiddel aangedreven door een elektromotor of een verbrandingsmotor, hoofdzakelijk voor het vervoer van goederen die op een pallet staan, bijvoorbeeld in een magazijn of op een bedrijfsterrein. Daarnaast zijn verschillende types goed inzetbaar op ruwterrein."</string>
+
+    <!-- On rental screen -->
+    <string name="button_machine_details">"Machine bekijken"</string>
+
+    <!-- E.g. in the Rental Detail screen, the button to show more detailed information about your rental -->
+    <string name="button_more">"Meer"</string>
+
+    <!-- E.g. in the Rental Detail screen, the button to show less detailed information about your rental -->
+    <string name="button_less">"Minder"</string>
+    <string name="call">"Bel"</string>
+
+    <!-- Displayed e.g. when in the details of a Rental that cannot be ordered via the app, after clicking on the asset -->
+    <string name="contact_us">"Neem contact op"</string>
+
+    <!-- Message displayed in rental details when an asset cannot be ordered via the app -->
+    <string name="rental_asset_not_available_in_app">"Het is helaas nog niet mogelijk om %s via de app te bestellen."</string>
+
+    <!-- Displayed on standard buttons that just need the user to acknowledge a message -->
+    <string name="button_ok">"Oké"</string>
+
+    <!-- Message displayed when app asks permission for using the user's location -->
+    <string name="location_when_in_use_description">"We gebruiken dit om je locatie op de kaart te tonen."</string>
+    <string name="error_invalid_phone_number">"Gebruik een geldig telefoonnummer"</string>
+
+    <!-- Fuzzy -->
+    <string name="order_panel_off_rent_exact_explanation">"De huurperiode eindigt op %s. De machine wordt dan zo snel mogelijk door ons opgehaald. U kunt dit later nog wijzigen in Mijn huurorders op uw accountpagina, of door contact met ons op te nemen."</string>
+    <string name="order_panel_off_rent_approximate_explanation">"U hebt de mogelijkheid om de machine na %s te blijven gebruiken. De huurperiode gaat door totdat u een aanvraag indient om de verhuur stop te zetten via Mijn huurorders op uw accountpagina, of wanneer u contact met ons opneemt."</string>
+    <string name="order_panel_off_rent_exact_explanation_no_access4u">"De huurperiode eindigt op %s. De machine wordt dan zo snel mogelijk door ons opgehaald. U kunt dit later nog wijzigen door contact met ons op te nemen."</string>
+    <string name="order_panel_off_rent_approximate_explanation_no_access4u">"U hebt de mogelijkheid om de machine na %s te blijven gebruiken. De huurperiode gaat door totdat u contact met ons opneemt om de verhuur stop te zetten."</string>
+    <string name="approximate_value">"~ %s"</string>
+    <string name="change_request_form_project_name_field_label">"Projectnaam"</string>
+    <string name="change_request_form_project_address_field_label">"Adres"</string>
+    <string name="change_request_form_project_contact_field_label">"Contactpersoon op project"</string>
+    <string name="change_request_form_project_contact_phone_number_field_label">"Telefoonnummer"</string>
+    <string name="change_request_form_on_rent_date_field_label">"Start huurperiode"</string>
+    <string name="change_request_form_on_rent_time_field_label">"Bezorgtijd"</string>
+    <string name="change_request_form_off_rent_date_field_label">"Einde huurperiode (datum)"</string>
+    <string name="change_request_form_off_rent_time_field_label">"Einde huurperiode (tijd)"</string>
+    <string name="change_request_form_purchase_order_field_label">"Uw referentie"</string>
+
+    <!-- Title on button to show the search results in My Rentals as a list -->
+    <string name="my_rentals_result_format_list_button_title">"Lijst"</string>
+
+    <!-- Title on button to show the search results in My Rentals on a map -->
+    <string name="my_rentals_result_format_map_button_title">"Kaart"</string>
+
+    <!-- Message displayed to indicate only machines with a GPS module are displayed on the Map in My Rentals -->
+    <string name="my_rentals_map_displays_only_gps_machines_message">"Alleen machines met GPS worden getoond"</string>
+
+    <!-- Text preceding the project name in My Rentals and the detail page of a Rental -->
+    <string name="key_rental_order_project">"Project:"</string>
+
+    <!-- Text preceding the status of the rental in My Rentals and the detail page of a rental -->
+    <string name="key_rental_order_status">"Status:"</string>
+
+    <!-- Text preceding the off rent date in My Rentals and the detail page of a Rental -->
+    <string name="key_rental_order_stop_renting">"Einde huur:"</string>
+
+    <!-- Text preceding the on rent date in My Rentals and the detail page of a Rental -->
+    <string name="key_rental_order_start_renting">"Start huur:"</string>
+
+    <!-- Text displayed in My Rentals when a rental has no fixed off rent date -->
+    <string name="rental_order_stop_renting_date_tbd">"Na afmelding"</string>
+    <string name="my_rentals_select_rental_order">"Selecteer"</string>
+    <string name="my_rentals_one_rental_order_selected">"%s huurorder geselecteerd"</string>
+    <string name="my_rentals_multiple_rental_orders_selected">"%s huurorders geselecteerd"</string>
+    <string name="off_rent_panel_off_rent_multiple_machines_explanation">"De huurperiode eindigt op %s. De machines worden dan zo snel mogelijk door ons opgehaald."</string>
+    <string name="off_rent_panel_off_rent_single_machine_explanation">"De huurperiode eindigt op %s. De machine wordt dan zo snel mogelijk door ons opgehaald."</string>
+    <string name="help_me_choose_what_to_lift_section_title">"Ik moet ... verplaatsen"</string>
+    <string name="help_me_choose_lift_people_option_title">"Mensen"</string>
+    <string name="help_me_choose_lift_materials_option_title">"Materialen"</string>
+    <string name="help_me_choose_location_section_title">"Het werk is..."</string>
+    <string name="help_me_choose_location_outdoors_option_title">"Buiten"</string>
+    <string name="help_me_choose_location_indoors_option_title">"Binnen"</string>
+    <string name="help_me_choose_reachability_section_title">"Het werk kan ... worden bereikt"</string>
+    <string name="help_me_choose_reach_vertical_option_title">"Verticaal"</string>
+    <string name="help_me_choose_reach_angled_option_title">"Schuin"</string>
+    <string name="help_me_choose_reach_multi_angled_option_title">"Via een moeilijke hoek"</string>
+    <string name="help_me_choose_show_results_button_title">"Toon %s resultaten"</string>
+    <string name="help_me_choose_slider_zero_placeholder">"Ik besluit later"</string>
+    <string name="help_me_choose_wizard_title">"Help me kiezen"</string>
+    <string name="help_me_choose_working_height_section_title">"Minimum werkhoogte is"</string>
+    <string name="help_me_choose_working_outreach_section_title">"Minimale reikwijdte is..."</string>
+
+    <!-- Text displayed when the user selects options in "Help me choose" that we have no available machines for, e.g. for telehandlers in Manlift countries -->
+    <string name="help_me_choose_no_results_message">"Helaas hebben wij in jouw land geen machines beschikbaar die we direct kunnen aanbevelen, op basis van jouw voorkeuren. Onze Rental Desk kan mogelijk een alternatief voorstellen."</string>
+
+    <!-- Button displayed in the Machine Detail screen, when there is an 3D augmented reality (AR) model available for the machine. Clicking it will navigate to the AR view. -->
+    <string name="machine_detail_button_view_in_ar">"Bekijk in AR"</string>
+    <string name="notification_channel_off_rent">"Einde huurperiode"</string>
+    <string name="notification_off_rent_will_expire_title">"De huurperiode eindigt binnenkort"</string>
+    <string name="notification_off_rent_will_expire_message">"De huurperiode van machine %s zal over %s dag(en) stoppen."</string>
+
+    <!-- In the summary page, if the purchase order is not entered it will show an error message -->
+    <string name="purchase_order_required">"Vul uw referentie in"</string>
+
+    <!-- Message displayed when the user can place the machine in AR -->
+    <string name="machine_in_ar_onboarding_message">"Raak het scherm aan om de machine te plaatsen"</string>
+
+    <!-- Loading progress percentage displayed when AR model of machine is loading -->
+    <string name="machine_in_ar_loading_progress">"Laden: %s%%"</string>
+
+    <!-- Message displayed when the user is not connected to Wifi or cellular data -->
+    <string name="error_no_internet_connection_try_again">"Geen internetverbinding. Verbind met het internet en probeer het opnieuw."</string>
+
+    <!-- Message displayed when it takes too long to get data from the backend -->
+    <string name="error_timeout">"Er is een timeout opgetreden. Probeer het opnieuw."</string>
+
+    <!-- Generic error message, when we don't have a better message to display. The code is something users can tell to the service desk, as a start for further investigation. -->
+    <string name="error_something_went_wrong">"Er is een fout opgetreden.
+
+Code: %s"</string>
+
+    <!-- Error displayed when we really have no idea what went wrong. -->
+    <string name="error_unknown">"Er is iets misgegaan. Probeer het opnieuw, of neem contact op met de service desk als dit vaker gebeurd."</string>
+
+    <!-- Message to show when server is down -->
+    <string name="server_not_reachable">"De server reageert niet, probeer het later nog eens."</string>
+
+    <!-- "Last inspection date" string which is shown in the order details page -->
+    <string name="last_inspection_date">"Laatste inspectie:"</string>
+
+    <!-- Title displayed when preparing for Augmented Reality, while the app is scanning the floor -->
+    <string name="ar_tutorial_title_floor_detection">"Beweeg telefoon om te beginnen"</string>
+
+    <!-- Title displayed in Augmented Reality, when the app has detected a floor and the user can place a machine on it -->
+    <string name="ar_tutorial_title_machine_movement">"Verplaats de machine"</string>
+
+    <!-- Title displayed in Augmented Reality, when the user has selected the Measure mode and still needs to detect a wall -->
+    <string name="ar_tutorial_title_wall_detection">"Beweeg telefoon voor een muur"</string>
+
+    <!-- Title displayed in Augmented Reality, when the app has detected a wall and the user can display the machine dimensions on it -->
+    <string name="ar_tutorial_title_machine_dimensions_movement">"Verplaats de rechthoek met afmetingen"</string>
+
+    <!-- Button displayed in Augmented Reality. Selecting it will switch to a mode where the user can see and move a 3D model of the machine. -->
+    <string name="ar_mode_3d">"3D"</string>
+
+    <!-- Button displayed in Augmented Reality. Selecting it will switch to a mode where the user can see the machine's dimensions projected on a real-world wall. -->
+    <string name="ar_mode_measure">"Opmeten"</string>
+
+    <!-- Message displayed in Augmented Reality, when the loading of the selected machine's 3D model has failed for some reason. -->
+    <string name="ar_machine_model_loading_failed">"Laden mislukt, probeer het later nog eens"</string>
+
+    <!-- One of the help items displayed when the user presses the "Help" button in Augmented Reality -->
+    <string name="ar_help_item_lighting">"Zorg ervoor dat de omgeving optimaal verlicht is."</string>
+
+    <!-- The title of the page displayed when the user presses the "Help" button in Augmented Reality -->
+    <string name="ar_help_title">"Help"</string>
+
+    <!-- One of the help items displayed when the user presses the "Help" button in Augmented Reality -->
+    <string name="ar_help_item_floor_reflectivity">"De vloer / muur moet niet reflecteren. AR werkt slecht op bijvoorbeeld glanzende vloeren of glazen wanden."</string>
+
+    <!-- One of the help items displayed when the user presses the \"Help\" button in Augmented Reality -->
+    <string name="ar_help_item_open_area">"Plaats de machine in een omgeving waar hij qua afmetingen zou passen. Dit voorkomt optische illusies, zoals dat de machine lijkt te \"zweven\" wanneer hij overlapt met objecten in de echte wereld."</string>
+
+    <!-- One of the help items displayed when the user presses the \"Help\" button in Augmented Reality -->
+    <string name="ar_help_item_movement_speed">"Beweeg de camera niet te snel."</string>
+
+    <!-- Button the user can press to dismiss the help view in Augmented Reality -->
+    <string name="ar_help_dismiss_button">"Begrepen!"</string>
+
+    <!-- Button displayed in Augmented Reality. Tapping it will bring up a help view with tips for using Augmented Reality. -->
+    <string name="ar_help_button">"Help"</string>
+
+    <!-- Message displayed in the main screen when loading machines has failed (e.g. because of a problem with the internet connection) -->
+    <string name="error_loading_machines_failed_message">"Laden mislukt"</string>
+    <string name="augmented_reality_not_supported_message">"AR wordt alleen ondersteund op iPhone 6s- en nieuwere iPhones die draaien op iOS 11.3 of hoger"</string>
+
+    <!-- Message displayed in a popup on the AR screen, to explain the buttons to rotate the machine -->
+    <string name="ar_onboarding_message_rotate_machine">"Houd de linker- of rechterknop ingedrukt om de machine te draaien"</string>
+
+    <!-- Message displayed in a popup on the AR screen, to explain the buttons to change the machine positions -->
+    <string name="ar_onboarding_message_change_machine_position">"Verander de stand van de machine"</string>
+
+    <!-- Message displayed in a popup on the AR screen, to explain the button to switch to the measure mode -->
+    <string name="ar_onboarding_message_measure_mode">"Tip: Meet of de machine past bij jouw project"</string>
+
+    <!-- Extra hint displayed when scanning a wall -->
+    <string name="ar_tutorial_subtitle_wall_detection">"Houd ± 2 meter afstand"</string>
+    <string name="error_loading_machines_message">"Het laden is mislukt."</string>
+    <string name="request_an_account">"Account aanvragen"</string>
+    <string name="request_account_message">"Vul de gegevens in. Je zult een bevestiging mail ontvangen nadat je het formulier hebt verstuurd."</string>
+
+    <!-- Fuzzy -->
+    <string name="riwal_login_message_title">"Bekijk My Riwal"</string>
+    <string name="login_message">"Je huidige huurorders bekijken? Snel een machine afmelden of een huidige huurorder aanpassen?
+
+Log in of vraag een account aan om te beginnen."</string>
+    <string name="account_request_succeeded">"Account aangevraagd. We zullen dit zo spoedig mogelijk verwerken."</string>
+    <string name="account_request_failed">"Account aanvragen is niet gelukt. Probeer het later opnieuw."</string>
+
+    <!-- Description text for alert dialog shown before logging out from the application -->
+    <string name="logout_confirmation_dialog_message">"Weet je zeker dat je wilt uitloggen?"</string>
+
+    <!-- Title text shown for Alert Dialog before Logging out from Application -->
+    <string name="logout_confirm_title">"Uitloggen"</string>
+    <string name="notification_for_delivery_is_not_available_in_weekend">"Bezorging in het weekend is niet mogelijk via de app. Neem telefonisch contact om met de Rental Desk. Excuses voor het ongemak."</string>
+    <string name="select_this_location">"Selecteer deze locatie"</string>
+    <string name="search_place">"Zoek locatie"</string>
+    <string name="no_location_selected">"Geen locatie geselecteerd..."</string>
+    <string name="download_pdf_button">"Download PDF"</string>
+    <string name="rental_detail_report_breakdown_button">"Storing melden"</string>
+    <string name="breakdown_report_message">"Storing gemeld. Wij verwerken dit zo snel mogelijk."</string>
+    <string name="breakdown_report_failed">"Storing melden mislukt. Probeer het later opnieuw."</string>
+    <string name="breakdown_text_field_hint">"Beschrijf het probleem"</string>
+    <string name="breakdown_explanation_text">"Onze technische dienst neemt spoedig contact met u op voor een oplossing."</string>
+
+    <!-- To explain to the user for which reason we need to use their camera  -->
+    <string name="camera_permission_reason">"Deze app gebruikt de camera voor het scannen van QR codes en Augmented Reality."</string>
+    <string name="breakdown_title">"Storing"</string>
+
+    <!-- Message displayed after the QR code on the machine was successfully scanned, and the information about the current rental order is being loaded -->
+    <string name="scan_machine_qr_loading_rental_message">"Informatie wordt geladen"</string>
+
+    <!-- Hint displayed in the QR code scanning screen to help the user figure out what to do -->
+    <string name="scan_machine_qr_hint">"Scan de QR code op de machine"</string>
+
+    <!-- Error message displayed when scanning a QR code that was not a valid Riwal machine QR code -->
+    <string name="scan_machine_qr_error_invalid_qr_code_message">"QR code niet herkend"</string>
+
+    <!-- Error message displayed when looking up the current rental order for the scanned machine has failed -->
+    <string name="scan_machine_qr_error_rental_not_found_message">"De huurorder voor de machine kon niet worden gevonden"</string>
+
+    <!-- Title of the popup displayed when asking the user for permission to access the camera, after the user had initially denied that permission. The %s is a placeholder for the app name (e.g. "My Riwal"), keep it in the translated string! -->
+    <string name="camera_permission_after_deny_ios_popup_title">"%s wil toegang tot de camera"</string>
+
+    <!-- Message of the popup displayed when asking the user for permission to access the camera, after the user had initially denied that permission -->
+    <string name="camera_permission_after_deny_ios_popup_message">"Om deze functionaliteit te gebruiken, moet u het gebruik van de camera toestaan in Instellingen."</string>
+
+    <!-- Title of the popup displayed when notifying the user that the app cannot use the camera, because the device administrator has disabled access to the camera -->
+    <string name="camera_usage_restricted_popup_title">"Cameratoegang beperkt"</string>
+
+    <!-- Message in the popup displayed when notifying the user that the app cannot use the camera, because the device administrator has disabled access to the camera -->
+    <string name="camera_usage_restricted_popup_message">"Toegang tot de camera is beperkt. Neem contact op met uw systeemadministrator."</string>
+
+    <!-- Machine QR code scanning button in the account screen -->
+    <string name="account_scan_machine_option">"Scan machine"</string>
+
+    <!-- Title for the error popup that is displayed when access to the camera is blocked for an unknown reason -->
+    <string name="camera_usage_failed_unknown_error_popup_title">"Probleem met camera"</string>
+
+    <!-- Message in the error popup that is displayed when access to the camera is blocked for an unknown reason -->
+    <string name="camera_usage_failed_unknown_error_popup_message">"De camera kan niet gebruikt worden om een onbekende reden. Er is een melding gemaakt bij het ontwikkelteam van de app."</string>
+    <string name="breakdown_contact_phone_number">"Telefoonnummer"</string>
+    <string name="item_received_title">"Ontvangen machine"</string>
+    <string name="item_requested_title">"Gevraagde machine"</string>
+    <string name="forgot_password_button_title">"Wachtwoord vergeten?"</string>
+    <string name="forgot_password_explanation">"Zodra we uw aanvraag ontvangen hebben, sturen wij u een mail met uw nieuwe wachtwoord."</string>
+    <string name="reset_password_button_title">"Aanpassen wachtwoord"</string>
+    <string name="reset_password__success_message">"Uw wachtwoord is aangepast. Check uw email voor uw nieuwe wachtwoord."</string>
+    <string name="reset_password_failed">"Het ingevulde email adres is niet correct, pas het email adres aan."</string>
+    <string name="privacy_policy_message">"Ik heb de privacy policy gelezen en geaccepteerd"</string>
+    <string name="quantity_dialog_title">"Geselecteerd aantal"</string>
+    <string name="add_accessories_title">"Toevoegen accessoires"</string>
+    <string name="accessories_title">"Accessoires"</string>
+    <string name="no_customers_found">"Er zijn geen klanten gekoppeld aan deze gebruiker. Voeg klanten toe aan deze gebruiker."</string>
+    <string name="cancel_rent_button">"Annuleer huurorder"</string>
+    <string name="request_cancel_rent_failed">"Annuleren van huurorder niet gelukt. Probeer het later nog een keer."</string>
+    <string name="cancel_rent_requested">"Annuleren van huurorder verstuurd. Wij verwerken uw annulering zo snel mogelijk."</string>
+
+    <!-- select a customer from a list of customers. -->
+    <string name="select_customer_title">"Selecteer klant"</string>
+
+    <!-- Please choose a time before %s, or call us if you need to stop renting at this time. -->
+    <string name="invalid_off_rent_time">"Selecteer een tijd voor %s, of bel ons als u de huurorder wilt afmelden op dit tijdstip."</string>
+
+    <!-- Please choose a time before %s, or call us if you need to start renting at this time. -->
+    <string name="invalid_on_rent_time">"Selecteer een tijd voor %s, of bel ons als u de huurorder wilt plaatsen op dit tijdstip."</string>
+    <string name="open_rental">"Open huur"</string>
+    <string name="accessories_on_rent">"Accessoires in huur"</string>
+    <string name="no_accessories_found">"Geen accessoires"</string>
+    <string name="error_loading_accessories_message">"Laden niet gelukt"</string>
+    <string name="no_accessories_on_rent_found">"Geen accessoires in huur gevonden"</string>
+    <string name="my_projects">"Mijn projecten"</string>
+    <string name="book_training">"Boek een training"</string>
+    <string name="upload_image">"Upload foto's"</string>
+    <string name="contact_dialog_title">"Selecteer contact"</string>
+    <string name="project_dialog_title">"Selecteer project"</string>
+    <string name="upload_confirm_title">"Bevestig upload"</string>
+    <string name="upload_confirmation_dialog_message">"Weet u zeker dat u de foto's wilt uploaden?"</string>
+    <string name="transfer_confirm_title">"Bevestig doorzetting"</string>
+
+    <!-- make sure to keep ( %s ) in 3 places ,  this will be replaced by the following :
+1- first ( %s ) will be dynamically replaced by machine fleet number
+2- second ( %s ) will be dynamically replaced by to customer name
+3- third ( %s )will be dynamically replaced by to contact name -->
+    <string name="transfer_confirmation_dialog_message">"U heeft aangevraagd om over te boeken de %s naar %s. %s zal een bericht ontvangen om de overboeking te accepteren. Als de overboeking geaccepteerd en verwerkt is in ons systeem, zal de status van de machine veranderen naar overgeboekt."</string>
+    <string name="transfer">"Doorzetten"</string>
+    <string name="request_reject_transfer_failed">"Weigering is niet correct verstuurd. Probeer het later nog een keer."</string>
+    <string name="reject_transfer_requested">"De aanvraag om de machine door te zetten is geweigerd. Wij zullen deze weigering zo snel mogelijk verwerken."</string>
+    <string name="request_transfer_failed">"De aanvraag om de machine door te zetten is niet gelukt. Probeer het later nog een keer."</string>
+    <string name="transfer_requested">"Uw aanvraag is succesvol ontvangen."</string>
+    <string name="reject_confirmation_dialog_message">"Weet u zeker dat u de doorgezette machine niet wilt accepteren?"</string>
+    <string name="reject">"Weiger"</string>
+    <string name="transfer_reject_title">"Bevestig het weigeren van doorgezette machine"</string>
+    <string name="upload_limit_title">"Selecteer tenminste vier foto's"</string>
+    <string name="upload_limit_dialog_message">"Selecteer tenminste vier foto's"</string>
+    <string name="notification_transfer_requested_message">"U heeft een aanvraag gedaan om machine %s door te zetten aar %s %s. Zij zullen een bericht ontvangen om de doorgezette machine te accepteren. Nadat de machine geaccepteerd en verwerkt is in ons systeem, zal u een mail ontvangen met de bevestiging van de doorgezette machine."</string>
+    <string name="notification_transfer_received_message">"%s van %s heeft een aanvraag gedaan om machine %s door te zetten. Voordat wij de doorzetting van de machine bevestigen, willen wij de bevestiging ontvangen, dat de machine geen beschadigingen heeft. Daarom willen wij u vragen om foto's te nemen van alle vier de kanten van de machine."</string>
+    <string name="notification_transfer_accepted_message">"Het doorzetten van %s van %s is aangevraagd. Onze Rental Desk zal de aanvraag zo snel mogelijk verwerken. Om veiligheid te garanderen, zal er een first check van de machine uitgevoerd worden voordat u de machine kunt gebruiken."</string>
+    <string name="notification_transfer_declined_message">"%s heeft de aanvraag om de machine door te zetten "</string>
+    <string name="no_transactions">"Geen transactie gevonden"</string>
+    <string name="transfer_machine">"Doorzetten machine"</string>
+    <string name="request_transfer">"Aanvraag doorzetten"</string>
+    <string name="minimum_limit_of_image_dialog_message">"Selecteer minimaal vier foto's"</string>
+
+    <!-- Accept machine transfer request -->
+    <string name="accept_button">"Accepteer"</string>
+
+    <!-- Upload machine images before accepting the transfer -->
+    <string name="upload_buttton">"Uploaden"</string>
+
+    <!-- Off rent -->
+    <string name="off_rent">"Afmelden huur"</string>
+
+    <!-- The transfer of %s from %s at %s has accepted. Our rental desk will process the request as soon as possible. To guarantee safety, a First Check will be carried out on the machine before you can use it. -->
+    <string name="notification_transfer_accepted_acknowledgement_message">"Het doorzetten van %s van %s op %s is geaccepteerd. Onze Rental Desk zal de aanvraag zo snel mogelijk verwerken. Om de veiligheid te kunnen garanderen, zal er een First Check van de machine uitgevoerd worden voordat u de machine kunt gebruiken. "</string>
+
+    <!-- Pending Transfer -->
+    <string name="pending_transfer">"Openstaande doorzetting"</string>
+
+    <!-- Decline -->
+    <string name="decline">"Afwijzen"</string>
+
+    <!-- Accept transfer requested, We will process it as soon as possible -->
+    <string name="accept_transfer_succeeded">"Accepteer aanvraag doorzetting, we zullen deze doorzetting zo snel mogelijk verwerken"</string>
+
+    <!-- Accept transfer failed. Please try again later. -->
+    <string name="accept_transfer_failed">"Doorzetting niet goed gegaan. Probeer het later nog een keer."</string>
+
+    <!-- Camera permission request to show QR code scanner -->
+    <string name="scan_machine_camera_permission_message">"Toegang tot camera nodig om QR scanner te gebruiken"</string>
+
+    <!-- Password request failed warning message title -->
+    <string name="reset_password_failed_title">"Aanvraag nieuw wachtwoord niet gelukt"</string>
+
+    <!-- Notification -->
+    <string name="notification">"Mail"</string>
+
+    <!-- Title to show before selecting the customer to transfer (eg: Transfer machine(Rental type) to (a customer)) -->
+    <string name="transfer_machine_bottom_sheet_discription">"Zet %s door naar"</string>
+
+    <!-- Select transfer date -->
+    <string name="key_select_transfer_date">"Selecteer datum dat de machine doorgezet zal worden"</string>
+
+    <!-- Please add images for the machines that is going to be transferred. -->
+    <string name="add_image_prompt">"Voeg foto's toe van de machine die doorgezet zal worden"</string>
+
+    <!-- Please wait -->
+    <string name="please_wait">"Wacht alstublieft"</string>
+    <string name="training_types">"Type trainingen"</string>
+    <string name="dialog_new_feature_title">"Nieuwe features beschikbaar"</string>
+    <string name="key_course">"Opleiding:"</string>
+    <string name="key_duration">"Duur"</string>
+    <string name="key_certification">"Certificaat"</string>
+    <string name="key_location">"Locatie"</string>
+    <string name="key_participant">"Deelnemer"</string>
+    <string name="key_price">"Prijs"</string>
+    <string name="button_details">"Details"</string>
+    <string name="button_send_request">"Stuur aanvraag"</string>
+    <string name="start_date">"Startdatum"</string>
+    <string name="request_quote_button">"Vraag een offerte aan"</string>
+    <string name="dialog_confirm_training_request_title">"Vraag opleidingsofferte aan"</string>
+    <string name="dialog_confirm_training_request_message">"De aangevraagd opleidingsofferte wordt zo snel mogelijk verwerkt"</string>
+    <string name="training_request_succeed">"Opleidingsofferte aangevraagd. We zullen zo snel mogelijk contact met u opnemen."</string>
+    <string name="check_other_training">"Check een andere opleiding"</string>
+    <string name="booking">"Boeking"</string>
+    <string name="page_home">"Home"</string>
+    <string name="no_training_found">"Geen trainingen gevonden"</string>
+    <string name="error_loading_training_message">"Laden mislukt"</string>
+    <string name="no_invoice_found">"Geen factuur gevonden"</string>
+
+    <!-- make sure to keep %s in the translation, it will be replaced with dynamic values.
+
+Example -> 10 invoices are overdue, Overdue amount is 123.89 -->
+    <string name="invoices_overview">"%s facturen zijn achterstallig, totaal bedrag is %s"</string>
+
+    <!-- make sure to keep %s in the translation. It will be replaced with dynamic values.
+
+
+
+example -> 10 days -->
+    <string name="invoice_due_days">"%s dagen"</string>
+    <string name="filter_invoice_type_title">"Factuur type"</string>
+    <string name="contact_person">"Contactpersoon"</string>
+
+    <!-- Could you explain the context of this term? -->
+    <string name="venue">"Werklocatie"</string>
+
+    <!-- https://s3.eu-west-1.amazonaws.com/po-pub/i/S9y9sovCN6kW0gAZPBoZFQqI.jpg -->
+    <string name="overdue">"Achterstallig"</string>
+    <string name="paid">"Betaald"</string>
+
+    <!-- Inv Date :
+
+(inv) is used instead of (invoice ) to look better in the design.
+so it would be great if it's possible to use shortcut in your translation to fit in place -->
+    <string name="inv_date">"Factuur datum"</string>
+
+    <!-- Due Date : -->
+    <string name="due_date">"Betaal datum"</string>
+
+    <!-- https://s3.eu-west-1.amazonaws.com/po-pub/i/S3BXXATtblq9vbkU6IpMj81S.jpg -->
+    <string name="invoice_type">"Type factuur"</string>
+
+    <!-- https://s3.eu-west-1.amazonaws.com/po-pub/i/IiILiEpWW974IhL6WF0WJbyy.jpg -->
+    <string name="rental_order_number">"Ordernummer"</string>
+
+    <!-- https://s3.eu-west-1.amazonaws.com/po-pub/i/I2YsjAP264SYkHHUIYdSBt15.jpg -->
+    <string name="amount">"Bedrag"</string>
+    <string name="sales">"Verkoop"</string>
+    <string name="maintenance">"Onderhoud"</string>
+    <string name="damage">"Schade"</string>
+    <string name="participant_validation">"Voer een cijfer in tussen %s en %s"</string>
+    <string name="location">"Lokatie"</string>
+    <string name="participants">"Aanwezigen"</string>
+
+    <!-- This is the title to to be displayed on the Calendar to pick a starting date for filtering the invoice date -->
+    <string name="invoice_start_date_title">"Facturatieperiode start op"</string>
+
+    <!-- This is the title to to be displayed on the Calendar to pick a end date for filtering the invoice date -->
+    <string name="invoice_end_date_title">"Facturatieperiode eindigt op"</string>
+
+    <!-- Title to be displayed on training detail page -->
+    <string name="training_details_title">"Opleidingsdetails"</string>
+
+    <!-- One fo the invoices types. will be shown inside the invoices filter under invoice types.  -->
+    <string name="credit">"Credit"</string>
+
+    <!-- One fo the invoices types. will be shown inside the invoices filter under invoice types.  -->
+    <string name="hire_credit">"Huur credit"</string>
+
+    <!-- One fo the invoices types. will be shown inside the invoices filter under invoice types.  -->
+    <string name="repair">"Reparatie"</string>
+
+    <!-- One fo the invoices types. will be shown inside the invoices filter under invoice types.  -->
+    <string name="loss">"Verlies"</string>
+
+    <!-- if the invoices type is unknown or not defined we use this. will be shown inside the invoices filter under invoice types.  -->
+    <string name="other">"Andere"</string>
+    <string name="pick_up_location">"Ophaal locatie"</string>
+
+    <!-- Only for danish customers. To be displayed in the home page with an icon to load the Advent calendar game -->
+    <string name="game">"Game"</string>
+
+    <!-- Only for danish customers. To be displayed as the title in the webview page for the Advent calendar game -->
+    <string name="game_webview_title">"Advent calendar"</string>
+    <string name="empty_field_message">"Het veld mag niet leeg zijn"</string>
+    <string name="string_new">"Nieuw"</string>
+    <string name="vat_number">"BTW-nummer"</string>
+    <string name="next_button_title">"Volgende"</string>
+    <string name="new_feature_alert">"Nieuwe feature alert!"</string>
+    <string name="training_tutorial_message_home">"Wist u dat het nu mogelijk is om via de app een opleiding te boeken. Klik op OKE en zie de mogelijkheden"</string>
+    <string name="tutorial_message_training_category">"Selecteer de categorie van de opleiding waar u geïnteresseerd in bent"</string>
+    <string name="tutorial_message_training_list">"Klik op de button om de details van de opleiding te zien"</string>
+    <string name="tutorial_message_training_detail">"Selecteer de button om een offerte voor de opleiding aan te vragen"</string>
+    <string name="tutorial_message_training_request_form">"Vul uw details van uw aanvraag in"</string>
+    <string name="tutorial_message_training_request_send">"Klik op de button Verstuur om uw aanvraag te versturen. Riwal zal op korte termijn contact met u opnemen"</string>
+    <string name="skip_tutorial_label">"Overslaan"</string>
+    <string name="hide_tutorial_label">"Verbergen"</string>
+    <string name="my_quotations">"Mijn aanvragen"</string>
+    <string name="quotation_date">"Datum van aanvraag :"</string>
+    <string name="on_hire_date">"Start huurdatum :"</string>
+    <string name="off_hire_date">"Einde huurdatum :"</string>
+    <string name="venue_city">"Plaats : "</string>
+
+    <!-- Message to be displayed in the quotation view if there is no quotation for the specified date range -->
+    <string name="no_quotation_found">"Geen aanvraag gevonden"</string>
+
+    <!-- Title to be shown on the calendar to select the quotation start date -->
+    <string name="quotation_start_date_title">"Huurperiode start op"</string>
+
+    <!-- Title to be shown on the calendar to select the quotation end date -->
+    <string name="quotation_end_date_title">"Huurperiode eindigt op"</string>
+
+    <!-- Message to shown if the file try to download is not available  -->
+    <string name="file_not_available">"Het bestand dat u heeft opgevraagd is niet beschikbaar"</string>
+
+    <!-- confirmation question to ask to the customer before off renting "is the machine is available for pickup by our driver? -->
+    <string name="pickup_location_confirmation_title">"Is de machine beschikbaar om door onze chauffeur opgehaald te worden?"</string>
+    <string name="training_tutorial_message_home_from_url">"Wist u dat het nu mogelijk is om via de app een opleiding te boeken?"</string>
+    <string name="refresh">"Ververs"</string>
+    <string name="machine_location">"Locatie van de machine"</string>
+
+    <!-- Text field to describe the location of a machine when a breakdown is reported. -->
+    <string name="machine_location_description">"Beschrijf waar de machines staat"</string>
+    <string name="apply">"Aanvraag"</string>
+    <string name="clear_filters">"Verwijder filters"</string>
+    <string name="browse_machine">"Doorzoek machines"</string>
+    <string name="end_date">"Einddatum"</string>
+    <string name="remove">"Verwijder"</string>
+    <string name="place_order">"Order plaatsen"</string>
+    <string name="validation_message_for_start_renting_on">"Selecteer start huurdatum en tijd eerst "</string>
+    <string name="order_request_delivery_message_check_box_two">"Het kan dat de machine(s) de dag voor gevraagde leverdatum al geleverd worden"</string>
+    <string name="order_request_delivery_message_check_box_three">"We kunnen uw machine(s) gedurende de nacht leveren"</string>
+    <string name="order_request_delivery_message_check_box_one">"Het kan dat wij een grotere machine leveren op de locatie"</string>
+    <string name="hint_fleet_number">"Vloot nummer"</string>
+    <string name="delivery_option_button">"Leverings opties"</string>
+
+    <!-- invoice type name for inter company invoice -->
+    <string name="inter_company_invoice">"Intercompany"</string>
+
+    <!-- What is the context of the word 'workshop'?
+
+Thanks! -->
+    <!-- Invoices related to workshop -->
+    <string name="workshop_invoice">"Werkplaats factuur"</string>
+
+    <!-- invoice for upfront payment -->
+    <string name="upfront_payment_invoice">"Vooruitbetaling"</string>
+    <string name="page_product">"Producten"</string>
+    <string name="rental_status_allocated">"Toegewezen"</string>
+
+    <!-- will be shown when a machine is exchanged in my rentals -->
+    <string name="rental_status_exchanged">"Vervangen"</string>
+    <string name="rental_status_off_hire_not_confirmed">"Niet bevestigd"</string>
+    <string name="rental_status_wait_invoicing">"Nog te factureren"</string>
+    <string name="machine_type">"Machine type"</string>
+    <string name="change_on_rent_date">"Pas start huurdatum aan"</string>
+    <string name="change_off_rent_date">"Pas einde huurdatum aan"</string>
+    <string name="to">"naar"</string>
+
+    <!-- Hydrostatic machine propulsion  -->
+    <string name="hydrostatic">"Hydrostatisch
+"</string>
+    <string name="hydraulic">"Hydrauliek"</string>
+    <string name="lpg">"LPG"</string>
+    <string name="none">"Geen"</string>
+    <string name="petrol">"Benzine"</string>
+    <string name="help_me_choose_liftcapacity_section_title">"Minimale hefvermogen"</string>
+    <string name="machine_unavailable">"Deze machine is niet beschikbaar"</string>
+
+    <!-- Will be asked to the customer while adding to the cart, whether it is possible to deliver larger machines at your location? -->
+    <string name="order_panel_larger_machine_consent_request">"Mogen we een grotere machine op uw locatie leveren?"</string>
+
+    <!-- Will be asked to the customer while adding to the cart, whether it is possible to deliver the day before requested day? -->
+    <string name="order_panel_early_delivery_consent_request">"Mogen we de machine een dag eerder leveren dan gevraagde huurdatum?"</string>
+
+    <!-- Will be asked to the customer while adding to the cart, whether it is possible to deliver machines during night? -->
+    <string name="order_panel_night_delivery_consent_request">"Mogen we de machine(s) gedurende de nacht leveren?"</string>
+    <string name="edit_accessories_title">"Toevoegen accessoires"</string>
+    <string name="delivery_options">"Leveringsopties"</string>
+    <string name="rental_status_cancelled">"Geannuleerd"</string>
+    <string name="key_rental_codes">"Verhuurcode"</string>
+</resources>

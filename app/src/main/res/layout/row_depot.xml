@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/list_item_marginStart"
+    android:paddingTop="@dimen/list_item_marginTop"
+    android:paddingEnd="@dimen/list_item_marginEnd"
+    android:paddingBottom="@dimen/list_item_marginBottom">
+
+    <TextView
+        android:id="@+id/depotNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@color/material_text_high_emphasis"
+        tools:text="Depot Dordrecht" />
+
+    <com.riwal.rentalapp.common.ui.IconTextView
+        android:id="@+id/depotAddressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="?attr/selectableItemBackground"
+        android:drawableStart="@drawable/ic_location"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:paddingStart="0dp"
+        android:paddingEnd="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/material_text_high_emphasis"
+        app:drawableTint="@color/material_icon_active"
+        tools:text="Maxwellstraat 27, 3316 GP Dordrecht" />
+
+    <com.riwal.rentalapp.common.ui.IconTextView
+        android:id="@+id/depotPhoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="?attr/selectableItemBackground"
+        android:drawableStart="@drawable/ic_phone"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:paddingStart="0dp"
+        android:paddingEnd="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/material_text_high_emphasis"
+        app:drawableTint="@color/material_icon_active"
+        tools:text="+31 (0)78 654 39 22" />
+
+    <com.riwal.rentalapp.common.ui.IconTextView
+        android:id="@+id/depotMailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:drawableStart="@drawable/ic_mail"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:paddingStart="0dp"
+        android:paddingEnd="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/material_text_high_emphasis"
+        app:drawableTint="@color/material_icon_active"
+        tools:text="verhuurdordrecht@riwal.com" />
+
+</LinearLayout>

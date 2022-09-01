@@ -1,0 +1,131 @@
+{
+  "project_info": {
+    "project_number": "240550659495",
+    "firebase_url": "https://customer-app-8c658.firebaseio.com",
+    "project_id": "customer-app-8c658",
+    "storage_bucket": "customer-app-8c658.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240550659495:android:397c03fff02fefb4",
+        "android_client_info": {
+          "package_name": "com.manlift.rentalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240550659495-gd228jqf08ms5iaqn6gf9d7aobndr5ne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manlift.rentalapp",
+            "certificate_hash": "a4b33aa14c79fe1fa676524dd1d7022ff4495e63"
+          }
+        },
+        {
+          "client_id": "240550659495-t2ts7p5kor1jgsh8loi1t9jakqb0baor.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manlift.rentalapp",
+            "certificate_hash": "5119af8844fd748a6c39557c710944ef05265281"
+          }
+        },
+        {
+          "client_id": "240550659495-ne1dj7bni2gdgivpdv19fus8huigebq2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manlift.rentalapp",
+            "certificate_hash": "4823894dcb506bc358470e872f9f6990444cd188"
+          }
+        },
+        {
+          "client_id": "240550659495-nn568a7bmqkqmqounlkrkr4t99ofv2pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChqdoW2DtbBtL7rEJPEjeiRvWNBOSGFT8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240550659495-nn568a7bmqkqmqounlkrkr4t99ofv2pg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240550659495:android:695c19bd4e98e4be",
+        "android_client_info": {
+          "package_name": "com.riwal.rentalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240550659495-bgmondknhapr12ev645a860na7lrf842.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riwal.rentalapp",
+            "certificate_hash": "4823894dcb506bc358470e872f9f6990444cd188"
+          }
+        },
+        {
+          "client_id": "240550659495-ad0mbu8243t7vkbueu5ii53bte0d8cl7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riwal.rentalapp",
+            "certificate_hash": "5119af8844fd748a6c39557c710944ef05265281"
+          }
+        },
+        {
+          "client_id": "240550659495-0ia8i0lq9aog6avrimqgf8p4i4aaqh8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riwal.rentalapp",
+            "certificate_hash": "a4b33aa14c79fe1fa676524dd1d7022ff4495e63"
+          }
+        },
+        {
+          "client_id": "240550659495-nn568a7bmqkqmqounlkrkr4t99ofv2pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChqdoW2DtbBtL7rEJPEjeiRvWNBOSGFT8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240550659495-nn568a7bmqkqmqounlkrkr4t99ofv2pg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

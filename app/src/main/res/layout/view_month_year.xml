@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout root has to be a RelativeLayout, else the dialog size is messed up T_T -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/monthYearPicker"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_bar_default_height"
+            android:background="@color/colorPrimary"
+            android:elevation="@dimen/top_app_bar_elevation"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/selectionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+                android:textColor="@color/material_text_high_emphasis_on_dark"
+                tools:text="August 2018" />
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/previousYearButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_navigate_before"
+            android:tint="@color/material_text_high_emphasis"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+        <TextView
+            android:id="@+id/yearTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintBottom_toBottomOf="@id/nextYearButton"
+            app:layout_constraintEnd_toStartOf="@id/nextYearButton"
+            app:layout_constraintStart_toEndOf="@id/previousYearButton"
+            app:layout_constraintTop_toTopOf="@id/previousYearButton"
+            tools:text="2018" />
+
+        <ImageButton
+            android:id="@+id/nextYearButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_navigate_next"
+            android:tint="@color/material_text_high_emphasis"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+        <Button
+            android:id="@+id/jan"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintBottom_toTopOf="@id/apr"
+            app:layout_constraintEnd_toStartOf="@+id/feb"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/previousYearButton"
+            tools:text="Jan" />
+
+        <Button
+            android:id="@+id/feb"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintBottom_toTopOf="@id/may"
+            app:layout_constraintEnd_toStartOf="@+id/mar"
+            app:layout_constraintStart_toEndOf="@+id/jan"
+            app:layout_constraintTop_toBottomOf="@id/previousYearButton"
+            tools:text="Feb" />
+
+        <Button
+            android:id="@+id/mar"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintBottom_toTopOf="@id/jun"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/feb"
+            app:layout_constraintTop_toBottomOf="@id/previousYearButton"
+            tools:text="Mar" />
+
+        <Button
+            android:id="@+id/apr"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintBottom_toTopOf="@id/jul"
+            app:layout_constraintEnd_toStartOf="@+id/may"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/jan"
+            tools:text="Apr" />
+
+        <Button
+            android:id="@+id/may"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintBottom_toTopOf="@id/aug"
+            app:layout_constraintEnd_toStartOf="@+id/jun"
+            app:layout_constraintStart_toEndOf="@+id/apr"
+            app:layout_constraintTop_toBottomOf="@id/feb"
+            tools:text="May" />
+
+        <Button
+            android:id="@+id/jun"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintBottom_toTopOf="@id/sep"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/may"
+            app:layout_constraintTop_toBottomOf="@id/mar"
+            tools:text="Jun" />
+
+        <Button
+            android:id="@+id/jul"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintBottom_toTopOf="@id/okt"
+            app:layout_constraintEnd_toStartOf="@+id/aug"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/apr"
+            tools:text="Jul" />
+
+        <Button
+            android:id="@+id/aug"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintBottom_toTopOf="@id/nov"
+            app:layout_constraintEnd_toStartOf="@+id/sep"
+            app:layout_constraintStart_toEndOf="@+id/jul"
+            app:layout_constraintTop_toBottomOf="@id/may"
+            tools:text="Aug" />
+
+        <Button
+            android:id="@+id/sep"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintBottom_toTopOf="@id/dec"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/aug"
+            app:layout_constraintTop_toBottomOf="@id/jun"
+            tools:text="Sep" />
+
+        <Button
+            android:id="@+id/okt"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/nov"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/jul"
+            tools:text="Oct" />
+
+        <Button
+            android:id="@+id/nov"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/dec"
+            app:layout_constraintStart_toEndOf="@+id/okt"
+            app:layout_constraintTop_toBottomOf="@id/aug"
+            tools:text="Nov" />
+
+        <Button
+            android:id="@+id/dec"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@color/material_text_high_emphasis"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/nov"
+            app:layout_constraintTop_toBottomOf="@id/sep"
+            tools:text="Dec" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_background"
+    android:orientation="vertical"
+    tools:context=".depot.DepotViewImpl">
+
+    <include layout="@layout/toolbar" />
+
+    <com.riwal.rentalapp.common.ui.IconTextView
+        android:id="@+id/emptyDepotView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableTop="@drawable/ic_depot"
+        android:text="@string/empty_depot"
+        android:textColor="@color/material_grey_600"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <com.riwal.rentalapp.common.ui.easyrecyclerview.EasyRecyclerView
+        android:id="@+id/depotRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/white"
+        app:dividerLeftInset="16dp"
+        app:dividerStyle="basic" />
+
+</RelativeLayout>

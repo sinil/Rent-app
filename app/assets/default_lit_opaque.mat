@@ -1,0 +1,43 @@
+material {
+    parameters : [
+        {
+            name: baseColor,
+            type: float4
+        },
+        {
+            name: emissive,
+            type: float4
+        },
+        {
+            name: roughness,
+            type: float
+        },
+        {
+            name: metallic,
+            type: float
+        },
+        {
+            name: reflectance,
+            type: float
+        },
+        {
+            name: ambientOcclusion,
+            type: float
+        }
+    ],
+    shadingModel: lit,
+    blending: opaque,
+    doubleSided: true
+}
+
+fragment {
+    void material(inout MaterialInputs material) {
+        prepareMaterial(material);
+        material.baseColor = materialParams.baseColor;
+        material.emissive = materialParams.emissive;
+        material.roughness = materialParams.roughness;
+        material.metallic = materialParams.metallic;
+        material.reflectance = materialParams.reflectance;
+        material.ambientOcclusion = materialParams.ambientOcclusion;
+    }
+}

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context=".requestchangesform.ChangeRequestFormViewImpl">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.riwal.rentalapp.common.ui.EditTextView
+                android:id="@+id/projectNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/change_request_form_project_name_field_label"
+                android:imeOptions="actionDone"
+                android:inputType="textPersonName|textCapWords"
+                android:src="@drawable/ic_project" />
+
+            <com.riwal.rentalapp.common.ui.EditTextView
+                android:id="@+id/projectAddressEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/change_request_form_project_address_field_label"
+                android:imeOptions="actionNext"
+                android:inputType="textMultiLine|textPostalAddress|textCapWords"
+                android:src="@drawable/ic_location" />
+
+            <com.riwal.rentalapp.common.ui.EditTextView
+                android:id="@+id/projectContactNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/change_request_form_project_contact_field_label"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName|textCapWords"
+                android:src="@drawable/ic_person" />
+
+            <com.riwal.rentalapp.common.ui.EditTextView
+                android:id="@+id/projectContactPhoneNumberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/change_request_form_project_contact_phone_number_field_label"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:src="@drawable/ic_phone"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/onRentSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.riwal.rentalapp.common.ui.EditTextView
+                    android:id="@+id/onRentDateEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/change_request_form_on_rent_date_field_label"
+                    android:inputType="date"
+                    android:src="@drawable/ic_calendar" />
+
+                <com.riwal.rentalapp.common.ui.EditTextView
+                    android:id="@+id/deliveryTimeEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/change_request_form_on_rent_time_field_label"
+                    android:inputType="time"
+                    android:src="@drawable/ic_time" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/offRentSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.riwal.rentalapp.common.ui.EditTextView
+                    android:id="@+id/offRentDateEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/change_request_form_off_rent_date_field_label"
+                    android:inputType="date"
+                    android:src="@drawable/ic_calendar" />
+
+                <com.riwal.rentalapp.common.ui.EditTextView
+                    android:id="@+id/offRentTimeEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/change_request_form_off_rent_time_field_label"
+                    android:inputType="time"
+                    android:src="@drawable/ic_time" />
+
+            </LinearLayout>
+
+            <com.riwal.rentalapp.common.ui.EditTextView
+                android:id="@+id/purchaseOrderEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/change_request_form_purchase_order_field_label"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:src="@drawable/ic_purchase_order" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

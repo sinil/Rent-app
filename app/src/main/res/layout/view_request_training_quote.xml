@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".training.requesttrainingform.RequestTrainingFormViewImpl">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include layout="@layout/toolbar" />
+
+
+        <ScrollView
+            android:id="@+id/contentCoordinator"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/contentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- LOCATION -->
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/iconImageView"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/ic_location"
+                        android:tint="@color/material_grey_600"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:background="@drawable/spinner_background"
+                        android:padding="3dp"
+                        app:layout_constraintBottom_toBottomOf="@id/iconImageView"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/iconImageView"
+                        app:layout_constraintTop_toTopOf="@id/iconImageView">
+
+                        <com.jaredrummler.materialspinner.MaterialSpinner
+                            android:id="@+id/locationSpinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:overlapAnchor="false"
+                            android:spinnerMode="dropdown"
+                            android:textSize="16sp"
+                            app:ms_arrow_tint="@color/material_grey_600"
+                            app:ms_padding_left="16dp"
+                            app:ms_text_color="@color/default_grey" />
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <!-- START DATE -->
+
+                <!-- PARTICIPANT -->
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <com.riwal.rentalapp.common.ui.EditTextView
+                        android:id="@+id/startDateEditTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:hint="@string/start_date"
+                        android:imeOptions="actionNext"
+                        android:inputType="date"
+                        android:src="@drawable/ic_calendar" />
+
+                    <LinearLayout
+                        android:id="@+id/startDateLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:orientation="vertical" />
+
+                </FrameLayout>
+
+
+                <!-- Participant -->
+
+                <com.riwal.rentalapp.common.ui.EditTextView
+                    android:id="@+id/participantEditTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="@string/participants"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:src="@drawable/ic_people" />
+
+                <!-- COMPANY NAME -->
+
+                <com.riwal.rentalapp.common.ui.EditTextView
+                    android:id="@+id/companyNameEditTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="@string/company"
+                    android:imeOptions="actionNext"
+                    android:inputType="text|textCapWords"
+                    android:src="@drawable/ic_company" />
+
+                <!-- NAME -->
+
+                <com.riwal.rentalapp.common.ui.EditTextView
+                    android:id="@+id/nameEditTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="@string/name"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPersonName|textCapWords"
+                    android:src="@drawable/ic_person" />
+
+                <!-- PHONE -->
+
+                <com.riwal.rentalapp.common.ui.EditTextView
+                    android:id="@+id/phoneEditTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="@string/phone"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:src="@drawable/ic_phone" />
+
+
+                <!-- EMAIL -->
+
+                <com.riwal.rentalapp.common.ui.EditTextView
+                    android:id="@+id/emailEditTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="@string/email"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:src="@drawable/ic_mail" />
+
+                <!-- GENERAL COMMENTS -->
+
+                <com.riwal.rentalapp.common.ui.EditTextView
+                    android:id="@+id/commentsEditTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="@string/comments"
+                    android:imeOptions="actionDone"
+                    android:inputType="textMultiLine"
+                    android:src="@drawable/ic_chat"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/privacyPolicyLink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <androidx.appcompat.widget.AppCompatCheckBox
+                        android:id="@+id/privacyPolicyCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:textColor="@color/material_icon_inactive" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/privacyPolicyText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/privacy_policy_message"
+                        android:textColor="@color/material_icon_inactive" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/bottomToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:elevation="@dimen/bottom_app_bar_elevation"
+            android:outlineProvider="bounds">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sendRequestButton"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="16dp"
+                android:enabled="false"
+                android:text="@string/button_send_request" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/activityIndicator"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white_transparent"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/tutorialLayer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

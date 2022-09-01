@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- COMMON -->
+    <string name="categories">"Kategorier"</string>
+    <string name="riwal_slogan">"Above all. Riwal"</string>
+    <string name="password">"Lösenord"</string>
+
+    <!-- PAGES -->
+    <string name="page_search">"Sök"</string>
+
+    <!-- alt inköpskorg -->
+    <string name="page_cart">"Kundvagn"</string>
+    <string name="page_account">"Konto"</string>
+    <string name="page_contact">"Kontakta"</string>
+    <string name="page_my_rentals">"Mina hyror"</string>
+    <string name="page_country">"Välj ett land"</string>
+    <string name="page_project">"Projekt"</string>
+    <string name="page_create_project">"Skapa projekt"</string>
+    <string name="page_summary">"Sammenfattning"</string>
+
+    <!-- HINTS -->
+    <string name="hint_search">"Sök"</string>
+    <string name="rental_period">"Hyresperiod"</string>
+
+    <!-- BUTTONS -->
+    <string name="button_all_categories">"Alla kategorier"</string>
+    <string name="filter">"Filtrera"</string>
+    <string name="clear">"Rensa"</string>
+
+    <!-- Färdig -->
+    <string name="done">"Klar"</string>
+    <string name="delete">"Radera"</string>
+    <string name="cancel">"Annullera"</string>
+    <string name="submit">"Gå vidare"</string>
+    <string name="request_rental">"Begär uthyrning"</string>
+    <string name="button_continue">"Fortsätta"</string>
+    <string name="pick_a_location">"Välj en plats"</string>
+    <string name="send_request">"Skicka förfrågan"</string>
+    <string name="rent_again">"Hyr igen"</string>
+    <string name="option_expected">"Förväntad"</string>
+
+    <!-- Slutgiltig or sista can be used, depending on context -->
+    <string name="option_final">"Slutlig"</string>
+    <string name="machine">"Maskin"</string>
+    <string name="working">"Arbetssätt"</string>
+    <string name="add_to_order">"Lägg till hyra"</string>
+    <string name="pictures">"Bilder"</string>
+
+    <!-- alt. inköpskorg -->
+    <string name="cart">"Kundvagn"</string>
+    <string name="delivery_time">"Leveranstid"</string>
+    <string name="machine_order_added">"Maskinen läggs i kundvagnen"</string>
+    <string name="project">"Projekt"</string>
+    <string name="rental">"Uthyrning"</string>
+
+    <!-- KEYS -->
+    <string name="key_brand">"Märke:"</string>
+    <string name="key_model">"Modell:"</string>
+    <string name="key_weight">"Vikt:"</string>
+    <string name="key_dimensions">"Mått (l × b × h):"</string>
+    <string name="key_platform_dimensions">"Plattform (l × b):"</string>
+    <string name="key_working_height">"Arbetshöjd:"</string>
+    <string name="key_working_outreach">"Räckvidd:"</string>
+    <string name="key_lift_capacity">"Lyftkapacitet"</string>
+    <string name="key_propulsion">"Bränsle:"</string>
+    <string name="key_order_number">"Ordernummer:"</string>
+    <string name="key_price_rate">"Prisnivå:"</string>
+    <string name="key_project_city">"Projektstad:"</string>
+    <string name="key_contact_person">"Kontaktperson:"</string>
+    <string name="key_project_name">"Projektnamn:"</string>
+    <string name="key_operator_name">"Operatörnamn:"</string>
+    <string name="key_purchase_order">"Inköpsorder"</string>
+    <string name="key_period">"Period"</string>
+    <string name="key_delivery_time">"Leveranstid"</string>
+    <string name="key_quantity">"Kvantitet"</string>
+
+    <!-- VALUES -->
+    <string name="value_in_meters">"%s meter"</string>
+
+    <!-- CONTACT INFO -->
+    <string name="company">"Företag"</string>
+    <string name="name">"Namn"</string>
+    <string name="phone">"Telefon"</string>
+    <string name="email">"Email"</string>
+
+    <!-- PROJECT -->
+    <string name="project_name">"Projektnamn"</string>
+    <string name="project_contact_name">"Kontakt på plats"</string>
+    <string name="project_contact_phone_number">"Telefonnummer"</string>
+    <string name="address">"Adress"</string>
+    <string name="zip_code">"Postnummer"</string>
+    <string name="city">"Stad"</string>
+
+    <!-- SUMMARY -->
+    <string name="machines">"Maskiner"</string>
+    <string name="contact_information">"Kontaktinformation"</string>
+    <string name="project_information">"Projektinformation"</string>
+    <string name="general">"Allmän"</string>
+    <string name="purchase_order">"Din inköpsorder"</string>
+    <string name="notes">"Anteckningar"</string>
+
+    <!-- EMPTY STATES -->
+    <string name="no_machines_found">"Inga maskiner hittades"</string>
+    <string name="empty_cart">"Inga maskiner har lagts till "</string>
+    <string name="empty_project">"Du har inga projekt.
+Tryck på \"+\" knappen för att lägga till."</string>
+
+    <!-- ERRORS -->
+    <string name="error_invalid_mail_address">"Skriv en giltig emailadress"</string>
+    <string name="error_invalid_password">"Skriv in ett lösenord"</string>
+
+    <!-- DIALOGS -->
+    <string name="dialog_delete_machine_order_title">"Radera från kundvagn?"</string>
+    <string name="dialog_delete_machine_order_message">"Denna maskin kommer at tas bort från kundvagnen. "</string>
+    <string name="dialog_delete_project_title">"Radera projekt?"</string>
+    <string name="dialog_delete_project_message">"Detta projekt kommer inte att vara tillgängligt längre."</string>
+
+    <!-- ORDER -->
+    <string name="option_contact_person">"Jag är kontaktpersonen"</string>
+    <string name="place_this_order">"Lägg denna order?"</string>
+
+    <!-- ACCOUNT -->
+    <string name="account_manager">"Säljare"</string>
+    <string name="any_questions">"Några frågor?"</string>
+    <string name="my_rentals">"Mina hyror"</string>
+    <string name="my_invoices">"Mina fakturor"</string>
+    <string name="training">"Utbildning"</string>
+    <string name="log_out">"Logga ut"</string>
+    <string name="log_in">"Logga in"</string>
+
+    <!-- MACHINE TYPES -->
+    <string name="scissor_lift">"Saxlift"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="vertical_lift">"Pelarlift"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="crawler_lift">"Bandburen lift"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="articulated_boom_lift">"Vikbomslift"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="spider_lift">"Spindellift"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="telescopic_boom_lift">"Rakbomslift"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="trailer_mounted_lift">"Släpvagnslift"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="truck_mounted_lift">"Billift"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="forklift">"Gaffeltruckar"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="telehandler_standard">"Teleskoplastare"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="telehandler_rotating">"Roterande teleskoplastare"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="crane">"Minikran"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="glass_lift">"Glaslyft"</string>
+
+    <!-- ORDER STATUSSES -->
+    <string name="order_status_unknown">"Okänd"</string>
+    <string name="order_status_pending_deliveries">"Avvaktande hyra"</string>
+    <string name="order_status_current_rentals">"Nuvarande uthyrning"</string>
+    <string name="order_status_closed_rentals">"Avslutad"</string>
+
+    <!-- COUNTRIES -->
+    <string name="country_belgium">"Belgien"</string>
+    <string name="country_croatia">"Kroatien"</string>
+    <string name="country_denmark">"Danmark"</string>
+    <string name="country_france">"Frankrike"</string>
+    <string name="country_germany">"Tyskland"</string>
+    <string name="country_kazakhstan">"Kazakstan"</string>
+    <string name="country_norway">"Norge"</string>
+    <string name="country_poland">"Polen"</string>
+    <string name="country_slovenia">"Slovenien"</string>
+    <string name="country_spain">"Spanien"</string>
+    <string name="country_sweden">"Sverige"</string>
+    <string name="country_netherlands">"Holland"</string>
+    <string name="country_united_kingdom">"Storbritannien"</string>
+    <string name="no_rentals_found">"Inga hyror hittades"</string>
+    <string name="unknown">"Okända"</string>
+    <string name="request_changes">"Begär ändringar"</string>
+    <string name="order_request_succeeded">"Tack. Din forfrågan har skickats."</string>
+    <string name="order_request_failed">"Något gick fel. Försök igen."</string>
+    <string name="login_failed">"Inloggningen misslyckades"</string>
+    <string name="unknown_username_password_combination">"Denna kombination av användarnam och lösenord är obekant för oss"</string>
+    <string name="confirm">"Bekräfta"</string>
+    <string name="off_rent_date">"Avslutat hyresdatum"</string>
+    <string name="off_rent_time">"Avslut hyrtiden"</string>
+    <string name="comments">"Kommentarer"</string>
+    <string name="dialog_confirm_off_hire_title">"Avslutad hyra %s"</string>
+    <string name="dialog_confirm_off_hire_message">"Sluta hyra denna maskin på %s."</string>
+    <string name="dialog_confirm_request_change_title">"Begär ändring"</string>
+    <string name="dialog_confirm_request_change_message">"Denna ändringsbegäran behandlas så snart som möjligt."</string>
+    <string name="request_off_rent_failed">"Begäran om hyran misslyckades, försök igen."</string>
+    <string name="off_rent_requested">"Hyra begärd avslutad"</string>
+    <string name="change_request_failed">"Ändring misslyckades, försök igen."</string>
+    <string name="changes_requested_message">"Ändring begärd. Vi kommer att behandla dem så snart som möjligt."</string>
+
+    <!-- PROPULSION -->
+    <string name="electric">"Elektrisk"</string>
+    <string name="diesel">"Diesel"</string>
+    <string name="hybrid_gasoline">"Hybrid (bensin)"</string>
+    <string name="hybrid_diesel">"Hybrid (diesel)"</string>
+    <string name="hybrid">"Hybrid"</string>
+    <string name="gasoline">"Bensin"</string>
+    <string name="natural_gas">"Naturgas"</string>
+    <string name="propulsion">"Bränsle"</string>
+    <string name="off_rent_button">"Avsluta hyra"</string>
+    <string name="on_rent">"På hyra"</string>
+    <string name="country_international">"Riwal International"</string>
+
+    <!-- REQUEST CHANGES SCREEN -->
+    <string name="change_expected_off_rent_date_edit_text_hint">"Avsluta hyra (förväntat)"</string>
+    <string name="change_final_off_rent_date_edit_text_hint">"Avsluta hyra (slutlig)"</string>
+    <string name="dialog_clear_machine_orders_title">"Är du säker?"</string>
+    <string name="dialog_clear_machine_orders_message">"Du kan inte beställa maskiner från olika länder. Din kundvagn kommer tömmas."</string>
+    <string name="update">"Uppdatering"</string>
+    <string name="feedback">"Åsikt"</string>
+    <string name="send">"Skicka"</string>
+    <string name="page_depot">"Depåer"</string>
+    <string name="page_feedback">"Åsikt"</string>
+    <string name="page_edit_project">"Redigera projektet"</string>
+
+    <!-- SETTINGS -->
+    <string name="setting_depots">"Depåer"</string>
+    <string name="setting_contact">"Kontakta"</string>
+    <string name="setting_country">"Land"</string>
+
+    <!-- or "varning" -->
+    <string name="setting_disclaimer">"ansvarsfriskrivning"</string>
+    <string name="setting_privacy_policy">"Integritetspolicy"</string>
+    <string name="setting_feedback">"Åsikt"</string>
+    <string name="search_menu_item">"Sök"</string>
+    <string name="filter_period_title">"Period"</string>
+    <string name="filter_rental_status_title">"Hyra status"</string>
+
+    <!-- Fuzzy -->
+    <string name="search_results">"%s resultat"</string>
+
+    <!-- RATING -->
+    <string name="rating_terrible">"Mycket dåligt"</string>
+    <string name="rating_bad">"Dåligt"</string>
+    <string name="rating_okay">"Okej"</string>
+    <string name="rating_good">"Bra"</string>
+    <string name="rating_great">"Rigtig bra"</string>
+    <string name="empty_depot">"Der finns inga depåer."</string>
+    <string name="dialog_update_app_title">"Uppdatering tilgänglig"</string>
+    <string name="dialog_update_app_message">"Der finns en ny version av appen som är tilgänglig!"</string>
+    <string name="dialog_update_app_required_message">"Du måste uppdatera appen innan du kan fortsätta"</string>
+    <string name="dialog_update_app_cancel_button">"Jag är nöjd"</string>
+    <string name="message_send_feedback_succeeded">"Tack för din feedback"</string>
+    <string name="message_send_feedback_failed">"Något gick fel när vi skickade din feedback, försök igen senare."</string>
+    <string name="order_status_pending_pickup">"Avvaktande uppsamling"</string>
+    <string name="setting_inventory">"Lager"</string>
+
+    <!-- LABELS -->
+    <string name="key_minimum_working_height">"Minsta arbetshöjd:"</string>
+    <string name="key_minimum_working_outreach">"Minsta räckvidd:"</string>
+    <string name="key_minimum_lift_capacity">"Minsta lyftkapacitet:"</string>
+    <string name="electric_hybdrid_filter">"Endast elektriskt/hybrid"</string>
+    <string name="no_internet_connection">"Ingen internetanslutning"</string>
+    <string name="help_title_standard">"Behöver du hjälp"</string>
+    <string name="help_subtitle_chat">"Chatta med oss"</string>
+    <string name="help_title_search">"Behöver du hjälp med att välja?"</string>
+    <string name="yes">"Ja"</string>
+    <string name="no">"Nej"</string>
+    <string name="page_more">"Mer"</string>
+
+    <!-- HINTS -->
+    <string name="hint_search_example">"Sök t.ex. %s"</string>
+    <string name="settings">"Inställningar"</string>
+    <string name="information">"Information"</string>
+    <string name="key_project_address">"Projektadress"</string>
+    <string name="value_in_m">"%s m"</string>
+    <string name="value_in_kg">"%s kg"</string>
+    <string name="value_in_dimensions_m3">"%s × %s × %s m"</string>
+    <string name="value_in_dimensions_m2">"%s × %s m"</string>
+
+    <!-- WELCOME SCREEN -->
+    <string name="welcome_screen_done_button">"Vidare"</string>
+    <string name="welcome_screen_country_selection_hint">"Välj land"</string>
+    <string name="welcome_screen_country_selection_note">"*Du kan alltid ändra inställningen senare"</string>
+
+    <!-- MACHINE DETAILS SCREEN -->
+    <string name="machine_detail_screen_specifications_title">"Specifikationer"</string>
+    <string name="machine_availability_direct">"På lager"</string>
+    <string name="add_to_order_button">"Lägg till beställning"</string>
+
+    <!-- MACHINE TYPE DESCRIPTIONS -->
+    <string name="scissor_lift_description">"En saxlift är en typ av lift som endast kan flyttas vertikalt. Den elektriska eller dieseldrivna plattformen som är monterad på vikarmar används för att ge upphöjda arbetsytor eller för att höja eller sänka enhetsbelastningen."</string>
+    <string name="vertical_lift_description">"En vertikal lift är en typ av arbetsplattform som bara kan rör sig vertikalt. Vertikala liftar är den bästa lösningen när du behöver göra underhåll eller reparera arbete i höjder i trånga utrymmen."</string>
+    <string name="crawler_lift_description">"En bandburen lift är en teleskopbom eller saxlift med speciella bandburna bälte. Dessa bandburna liftar ger bra manöverbarhet på grov terräng och gör bandburna liftar lämpliga för en mängd olika jobb på utmanande ytor."</string>
+    <string name="spider_lift_description">"En spindellift är en mycket kompakt bomlift. Oavsett om du arbetar inomhus eller utomhus, har spindelliftar ditt jobb täckt. Med ökad manövrerbarhet och bättre tillgång har du möjlighet att nå fler ställen tack vare dess låga profil, utan att lämna spår och kompakta dimensioner."</string>
+    <string name="telescopic_boom_lift_description">"Rakbomsliftar är lift med större horisontell utsträckning än någon annan typ av liftar. Rakbomsliftar förlänger teleskopiskt och är idealiska när du står inför stora utmaningar (upp till 58 meter)."</string>
+    <string name="trailer_mounted_lift_description">"En släpvagnslift är en typ av liftar som kan bogseras av ett fordon, perfekt för dem som är på farten. De elektriskt drivna släpvagnsliftarna är perfekt lämpade både för inomhus eller utomhus. "</string>
+    <string name="truck_mounted_lift_description">"En billift är en typ av arbetsplattform där bom och korg är monterad på ett fordon. Därför är billiften ett bra val för dem som alltid är i farten och ska upp till många ställen på ett större område."</string>
+    <string name="telehandler_standard_description">"En teleskoplastare är en kraftfull maskin som lyfter tunga material. Teleskopbommen kan sträcka sig flera meter framåt och uppåt. Tillbehör som materialkorg, kranarm, pallgafflar och smarta plattformar är tillgängliga för att förlänga teleskoplastarens mångsidighet och prestanda."</string>
+    <string name="telehandler_rotating_description">"En roterande teleskoplastare är en kraftfull maskin som lyfter tunga material. Tack vare den roterande bommen kan de roterande teleskoplastare användas på platser som är svåra att nå. Tillbehör som materialkorg, kranarm, pallgafflar och smarta plattformar är tillgängliga för att förlänga teleskophandlarens mångsidighet och prestanda."</string>
+    <string name="crane_description">"Minikranar är kranar byggda för relativt lätt lyftning. När lyftkraven är på plats med snäva områden, begränsat utrymme eller hinder, kommer en minikran att vara perfekt för jobbet. Minikranar är utformade för att gå på platser där vanliga eller stora kranar inte kan gå."</string>
+    <string name="glass_lift_description">"En SmartLift är konstruerad för att säkert och enkelt placera glaspaneler. Dessa revolutionerande nya glashanteringsmaskiner lyfter och placerar både raka och krökta rutor med precision, så att du kan placera ditt glas exakt var du behöver det."</string>
+    <string name="retry">"Försök igen"</string>
+    <string name="error">"Fel"</string>
+    <string name="key_fleet_number">"Maskinnummer"</string>
+    <string name="order_confirmation_dialog_message">"Beställningen är endast giltig efter mottagande av orderbekräftelse"</string>
+
+    <!-- RENTAL PANEL -->
+    <string name="order_panel_on_rent_date_title">"Börja hyr"</string>
+
+    <!-- Fuzzy -->
+    <string name="order_panel_off_rent_date_strictness_title">"Har du ett exakt slutdatum?"</string>
+    <string name="order_panel_off_rent_date_estimate_title">"Förväntas sluta hyra i"</string>
+    <string name="rental_panel_off_rent_date_title">"Avsluta hyra den"</string>
+    <string name="rental_panel_date_button_placeholder">"Datum"</string>
+    <string name="rental_panel_time_button_placeholder">"Tid"</string>
+    <string name="order_panel_earliest_delivery_day_notice">"Den tidigaste leveransdagen är %s. Er behovet en tidigare dag? Vänligen ring oss."</string>
+
+    <!-- Fuzzy -->
+    <string name="off_rent_panel_same_day_off_rent_cutoff_notice">"Begära avslutning av hyra för samma dag är endast möjligt före %s."</string>
+    <string name="machine_order_key_from">"Från"</string>
+    <string name="machine_order_key_to">"Till"</string>
+    <string name="dialog_comments_title">"Kommentarer"</string>
+    <string name="dialog_comments_message">"Eventuella kommentarer till Riwals uthyrare?"</string>
+
+    <!-- COMMON -->
+    <string name="riwal_app_name">"Riwal Rental"</string>
+    <string name="manlift_app_name">"Manlift Rental"</string>
+    <string name="manlift_slogan">"Tar dig säkert till nya höjder!"</string>
+
+    <!-- COUNTRIES -->
+    <string name="country_none">"inget val"</string>
+    <string name="country_india">"Indien"</string>
+    <string name="country_qatar">"Quatar"</string>
+    <string name="country_uae">"Förenade Arabemiraten"</string>
+    <string name="riwal_disclaimer_url">"https://www.riwal.com/about-riwal/disclaimer?strip=1"</string>
+    <string name="riwal_privacy_policy_url">"https://www.riwal.com/corporate/en/about-riwal/privacy-en-cookieverklaring-rental-app?strip=1"</string>
+    <string name="manlift_disclaimer_url">"https://www.manliftgroup.com/en/disclaimer?strip=1"</string>
+    <string name="manlift_privacy_policy_url">"https://www.manliftgroup.com/en/privacy-statement?strip=1"</string>
+
+    <!-- FEEDBACK SCREEN -->
+    <string name="riwal_feedback_how_satisfied_are_you">"Hur nöjd är du med Riwal Rental App?"</string>
+    <string name="manlift_feedback_how_satisfied_are_you">"Hur nöjd är du med Manlift Rental App?"</string>
+    <string name="riwal_feedback_how_can_we_improve">"Vad tycker du vi kan förbättra med Riwal Rental App?"</string>
+    <string name="manlift_feedback_how_can_we_improve">"Vad tycker du vi kan förbättra med Manlift Rental App?"</string>
+
+    <!-- WELCOME SCREEN -->
+    <string name="riwal_welcome_screen_title">"Välkommen till Riwal"</string>
+    <string name="manlift_welcome_screen_title">"Välkommen till Manlift"</string>
+    <string name="riwal_articulated_boom_lift_description">"Vikbomsliftar har flera bomsektioner som viker sig så att du får tillgång till svåråtkomliga områden. Riwal vikbommar ger dig arbetshöjd, ut och över positioneringsstället."</string>
+    <string name="manlift_articulated_boom_lift_description">"Vikbomsliftar har flera bomsektioner som viker sig så att du får tillgång till svåråtkomliga områden. Manlift vikbommar ger dig arbetshöjd, ut och över positioneringsstället."</string>
+    <string name="riwal_forklift_description">"En gaffeltruck är en dieseldriven truck som används för att lyfta och flytta material. Riwal erbjuder olika typer av gaffeltruckar från kända varumärken som Jungheinrich."</string>
+    <string name="manlift_forklift_description">"En gaffeltruck är en dieseldriven truck som används för att lyfta och flytta material. Manlift erbjuder olika typer av gaffeltruckar från kända varumärken som Jungheinrich."</string>
+
+    <!-- On rental screen -->
+    <string name="button_machine_details">"Maskindetaljer"</string>
+
+    <!-- E.g. in the Rental Detail screen, the button to show more detailed information about your rental -->
+    <string name="button_more">"Mer"</string>
+
+    <!-- E.g. in the Rental Detail screen, the button to show less detailed information about your rental -->
+    <string name="button_less">"Mindre"</string>
+    <string name="call">"Ring"</string>
+
+    <!-- Displayed e.g. when in the details of a Rental that cannot be ordered via the app, after clicking on the asset -->
+    <string name="contact_us">"Kontakta oss"</string>
+
+    <!-- Message displayed in rental details when an asset cannot be ordered via the app -->
+    <string name="rental_asset_not_available_in_app">"Det är inte möjligt att hyra %s via appen för önskad tid"</string>
+
+    <!-- Displayed on standard buttons that just need the user to acknowledge a message -->
+    <string name="button_ok">"Ok"</string>
+
+    <!-- Message displayed when app asks permission for using the user's location -->
+    <string name="location_when_in_use_description">"Vi använder detta för att visa din plats på kartan"</string>
+    <string name="error_invalid_phone_number">"Ange ett giltigt telefonnummer"</string>
+
+    <!-- Fuzzy -->
+    <string name="order_panel_off_rent_exact_explanation">"Hyresperiod slutar på %s. Maskinen kommer då att hämtas av oss så snart som möjligt. Du kan ändra detta senare i Mina uthyrning på din kontosida, eller genom att kontakta oss."</string>
+    <string name="order_panel_off_rent_approximate_explanation">"Du har möjlighet att fortsätta använda maskinen efter %s. Hyresperiod fortsätter tills du ber om att avsluta din hyra i Mina uthyrning på din kontosida eller när du kontaktar oss."</string>
+    <string name="order_panel_off_rent_exact_explanation_no_access4u">"Hyresperiod slutar på %s. Maskinen kommer då att hämtas av oss så snart som möjligt. Du kan ändra detta senare genom att kontakta oss."</string>
+    <string name="order_panel_off_rent_approximate_explanation_no_access4u">"Du har möjlighet att fortsätta använda maskinen efter %s. Hyresperiod fortsätter tills du kontaktar oss för att sluta hyra."</string>
+    <string name="approximate_value">"~ %s"</string>
+    <string name="change_request_form_project_name_field_label">"Projektnamn"</string>
+    <string name="change_request_form_project_address_field_label">"Adress"</string>
+    <string name="change_request_form_project_contact_field_label">"Kontaktperson på projektet"</string>
+    <string name="change_request_form_project_contact_phone_number_field_label">"Telefonnummer"</string>
+    <string name="change_request_form_on_rent_date_field_label">"Hyresperiod startdatum"</string>
+    <string name="change_request_form_on_rent_time_field_label">"Leveranstid"</string>
+    <string name="change_request_form_off_rent_date_field_label">"Hyresperiod slutdatum"</string>
+    <string name="change_request_form_off_rent_time_field_label">"Hyresperiod stopptid"</string>
+    <string name="change_request_form_purchase_order_field_label">"Inköpsorder"</string>
+
+    <!-- Title on button to show the search results in My Rentals as a list -->
+    <string name="my_rentals_result_format_list_button_title">"Lista"</string>
+
+    <!-- Title on button to show the search results in My Rentals on a map -->
+    <string name="my_rentals_result_format_map_button_title">"Karta"</string>
+
+    <!-- Message displayed to indicate only machines with a GPS module are displayed on the Map in My Rentals -->
+    <string name="my_rentals_map_displays_only_gps_machines_message">"Endast maskiner med GPS visas"</string>
+
+    <!-- Text preceding the project name in My Rentals and the detail page of a Rental -->
+    <string name="key_rental_order_project">"Projekt"</string>
+
+    <!-- Text preceding the status of the rental in My Rentals and the detail page of a rental -->
+    <string name="key_rental_order_status">"Status"</string>
+
+    <!-- Text preceding the off rent date in My Rentals and the detail page of a Rental -->
+    <string name="key_rental_order_stop_renting">"Avsluta hyra"</string>
+
+    <!-- Text preceding the on rent date in My Rentals and the detail page of a Rental -->
+    <string name="key_rental_order_start_renting">"Påbörja hyra"</string>
+
+    <!-- Text displayed in My Rentals when a rental has no fixed off rent date -->
+    <string name="rental_order_stop_renting_date_tbd">"Beslut kommer senare"</string>
+    <string name="my_rentals_select_rental_order">"Välj"</string>
+    <string name="my_rentals_one_rental_order_selected">"Vald %s hyra"</string>
+    <string name="my_rentals_multiple_rental_orders_selected">"Valda %s hyror"</string>
+    <string name="off_rent_panel_off_rent_multiple_machines_explanation">"Hyresperioden slutar på %s. Maskinerna kommer då att hämtas av oss så snart som möjligt."</string>
+    <string name="off_rent_panel_off_rent_single_machine_explanation">"The rental period will end on %s. The machine will then be picked up by us as soon as possible."</string>
+    <string name="help_me_choose_what_to_lift_section_title">"Jag behöver en lift"</string>
+    <string name="help_me_choose_lift_people_option_title">"Personer"</string>
+    <string name="help_me_choose_lift_materials_option_title">"Material"</string>
+    <string name="help_me_choose_location_section_title">"Arbetet är"</string>
+    <string name="help_me_choose_location_outdoors_option_title">"Utomhus"</string>
+    <string name="help_me_choose_location_indoors_option_title">"Inomhus"</string>
+    <string name="help_me_choose_reachability_section_title">"Arbetet kan nås ..."</string>
+    <string name="help_me_choose_reach_vertical_option_title">"Vertikalt"</string>
+    <string name="help_me_choose_reach_angled_option_title">"I en vinke"</string>
+    <string name="help_me_choose_reach_multi_angled_option_title">"Vid komplicerade vinklar"</string>
+    <string name="help_me_choose_show_results_button_title">"Visa %s resultat"</string>
+    <string name="help_me_choose_slider_zero_placeholder">"Jag bestämmer mig senare"</string>
+    <string name="help_me_choose_wizard_title">"Hjälp mig att välja"</string>
+    <string name="help_me_choose_working_height_section_title">"Arbetshöjd på minst ..."</string>
+    <string name="help_me_choose_working_outreach_section_title">"Räckvidd på minst ..."</string>
+
+    <!-- Text displayed when the user selects options in "Help me choose" that we have no available machines for, e.g. for telehandlers in Manlift countries -->
+    <string name="help_me_choose_no_results_message">"Tyvärr finns det inga maskiner i ditt land som vi omedelbart kunde rekommendera, baserat på dina kriterier. Kontakta oss för att hitta ett alternativ."</string>
+
+    <!-- Button displayed in the Machine Detail screen, when there is an 3D augmented reality (AR) model available for the machine. Clicking it will navigate to the AR view. -->
+    <string name="machine_detail_button_view_in_ar">"Visa i AR"</string>
+    <string name="notification_channel_off_rent">"Alarm när uthyrningsperioden slutar"</string>
+    <string name="notification_off_rent_will_expire_title">"Uthyrningsperioden kommer snart att löpa ut"</string>
+    <string name="notification_off_rent_will_expire_message">"Uthyrningsperioden för maskin %s slutar inom %s dag(er)."</string>
+
+    <!-- In the summary page, if the purchase order is not entered it will show an error message -->
+    <string name="purchase_order_required">"Vänligen fyll i en inköpsorder"</string>
+
+    <!-- Message displayed when the user can place the machine in AR -->
+    <string name="machine_in_ar_onboarding_message">"Tryck på skärmen för att placera maskinen"</string>
+
+    <!-- Loading progress percentage displayed when AR model of machine is loading -->
+    <string name="machine_in_ar_loading_progress">"Laddar: %s%%"</string>
+
+    <!-- Message displayed when the user is not connected to Wifi or cellular data -->
+    <string name="error_no_internet_connection_try_again">"Ingen internetanslutning. Vänligen anslut till internet och försök igen"</string>
+
+    <!-- Message displayed when it takes too long to get data from the backend -->
+    <string name="error_timeout">"Anslutningen slutade. Var god försök igen."</string>
+
+    <!-- please translate the full text as it is in the English translation( "Code: %s") the "%s" symbol needs to be there with the translated string -->
+    <!-- Generic error message, when we don't have a better message to display. The code is something users can tell to the service desk, as a start for further investigation. -->
+    <string name="error_something_went_wrong">"Något gick fel.
+Kod: %s"</string>
+
+    <!-- Error displayed when we really have no idea what went wrong. -->
+    <string name="error_unknown">"Något gick fel. Vänligen försök igen senare, eller kontakta servicetjänsten om problemet uppstår igen"</string>
+
+    <!-- Message to show when server is down -->
+    <string name="server_not_reachable">"Servern är nere, försök igen senare."</string>
+
+    <!-- "Last inspection date" string which is shown in the order details page -->
+    <string name="last_inspection_date">"Senast inspekterad:"</string>
+
+    <!-- Title displayed when preparing for Augmented Reality, while the app is scanning the floor -->
+    <string name="ar_tutorial_title_floor_detection">"Rör på telefonen för att starta"</string>
+
+    <!-- Title displayed in Augmented Reality, when the app has detected a floor and the user can place a machine on it -->
+    <string name="ar_tutorial_title_machine_movement">"Flytta maskinen"</string>
+
+    <!-- Title displayed in Augmented Reality, when the user has selected the Measure mode and still needs to detect a wall -->
+    <string name="ar_tutorial_title_wall_detection">"Placera telefonen framför väggen"</string>
+
+    <!-- Title displayed in Augmented Reality, when the app has detected a wall and the user can display the machine dimensions on it -->
+    <string name="ar_tutorial_title_machine_dimensions_movement">"Flytta maskinens mått"</string>
+
+    <!-- Button displayed in Augmented Reality. Selecting it will switch to a mode where the user can see and move a 3D model of the machine. -->
+    <string name="ar_mode_3d">"3D"</string>
+
+    <!-- Button displayed in Augmented Reality. Selecting it will switch to a mode where the user can see the machine's dimensions projected on a real-world wall. -->
+    <string name="ar_mode_measure">"Mäta"</string>
+
+    <!-- Message displayed in Augmented Reality, when the loading of the selected machine's 3D model has failed for some reason. -->
+    <string name="ar_machine_model_loading_failed">"Loading misslyckades, försök igen senare"</string>
+
+    <!-- One of the help items displayed when the user presses the "Help" button in Augmented Reality -->
+    <string name="ar_help_item_lighting">"Se till att ljusförhållandena är optimala."</string>
+
+    <!-- The title of the page displayed when the user presses the "Help" button in Augmented Reality -->
+    <string name="ar_help_title">"Hjälp"</string>
+
+    <!-- One of the help items displayed when the user presses the "Help" button in Augmented Reality -->
+    <string name="ar_help_item_floor_reflectivity">"Se till att golvet och / eller väggen inte är reflekterande. AR fungerar inte så bra på t.ex. glänsande golv eller glasväggar."</string>
+
+    <!-- One of the help items displayed when the user presses the \"Help\" button in Augmented Reality -->
+    <string name="ar_help_item_open_area">"Placera maskinen i ett område där det skulle passa fysiskt. Detta förhindrar optiska illusioner så att maskinen verkar vara \"flytande\" när den överlappar med verkliga världsobjekt."</string>
+
+    <!-- One of the help items displayed when the user presses the \"Help\" button in Augmented Reality -->
+    <string name="ar_help_item_movement_speed">"Flytta kameran i en långsam till medelsnabb takt"</string>
+
+    <!-- Button the user can press to dismiss the help view in Augmented Reality -->
+    <string name="ar_help_dismiss_button">"Uppfattat!"</string>
+
+    <!-- Button displayed in Augmented Reality. Tapping it will bring up a help view with tips for using Augmented Reality. -->
+    <string name="ar_help_button">"Hjälp"</string>
+
+    <!-- Message displayed in the main screen when loading machines has failed (e.g. because of a problem with the internet connection) -->
+    <string name="error_loading_machines_failed_message">"Loading misslyckades"</string>
+    <string name="augmented_reality_not_supported_message">"AR stöds endast på iPhone 6s och nya enheter som körs på iOS 11.3 eller senare"</string>
+
+    <!-- Message displayed in a popup on the AR screen, to explain the buttons to rotate the machine -->
+    <string name="ar_onboarding_message_rotate_machine">"Tryck ner vänster eller höger knapp för att rotera maskinen"</string>
+
+    <!-- Message displayed in a popup on the AR screen, to explain the buttons to change the machine positions -->
+    <string name="ar_onboarding_message_change_machine_position">"Ändra maskinens position"</string>
+
+    <!-- Message displayed in a popup on the AR screen, to explain the button to switch to the measure mode -->
+    <string name="ar_onboarding_message_measure_mode">"Tips: Mät om maskinen passar ditt projekt"</string>
+
+    <!-- Extra hint displayed when scanning a wall -->
+    <string name="ar_tutorial_subtitle_wall_detection">"Stå ± 2 meter bort"</string>
+    <string name="error_loading_machines_message">"Laddningen misslyckades."</string>
+    <string name="request_an_account">"Begär ett konto"</string>
+    <string name="request_account_message">"Vänligen fyll i informationen nedan. Du får en bekräftelse på mail när du har skickat formuläret."</string>
+    <string name="riwal_login_message_title">"Kolla in Min Riwal"</string>
+    <string name="login_message">"Vill du se dina nuvarande hyror? Enkelt hyra maskiner eller göra några ändringar i nuvarande hyror?"</string>
+    <string name="account_request_succeeded">"Konto begärt. Vi kommer att behandla det så snart som möjligt."</string>
+    <string name="account_request_failed">"Kontobegäran misslyckades. Försök igen senare."</string>
+
+    <!-- Description text for alert dialog shown before logging out from the application -->
+    <string name="logout_confirmation_dialog_message">"Är du säker på att du vill logga ut?"</string>
+
+    <!-- Title text shown for Alert Dialog before Logging out from Application -->
+    <string name="logout_confirm_title">"Bekräfta utloggning"</string>
+    <string name="notification_for_delivery_is_not_available_in_weekend">"Leverans på helgen är inte möjlig via appen. Kontakta kontoret per telefon. Vi beklagar besväret."</string>
+    <string name="select_this_location">"Välj den här platsen"</string>
+    <string name="search_place">"Sök plats"</string>
+    <string name="no_location_selected">"Ingen plats vald ..."</string>
+    <string name="download_pdf_button">"Ladda ner PDF"</string>
+    <string name="rental_detail_report_breakdown_button">"Rapportera uppdelningen"</string>
+    <string name="breakdown_report_message">"Driftstörning rapporterad. Vi kommer att behandla det så snart som möjligt."</string>
+    <string name="breakdown_report_failed">"Rapporteringen misslyckades. Försök igen senare."</string>
+    <string name="breakdown_text_field_hint">"Vad är problemet?"</string>
+    <string name="breakdown_explanation_text">"Vår tekniska avdelning kommer att kontakta dig så snart som möjligt med en lösning"</string>
+
+    <!-- To explain to the user for which reason we need to use their camera  -->
+    <string name="camera_permission_reason">"Denna app använder kameran för QR-kodskanning och virtuel förstärkt verklighet"</string>
+    <string name="breakdown_title">"Haveri"</string>
+
+    <!-- Message displayed after the QR code on the machine was successfully scanned, and the information about the current rental order is being loaded -->
+    <string name="scan_machine_qr_loading_rental_message">"Laddar information"</string>
+
+    <!-- Hint displayed in the QR code scanning screen to help the user figure out what to do -->
+    <string name="scan_machine_qr_hint">"Skanna QR-koden på maskinen"</string>
+
+    <!-- Error message displayed when scanning a QR code that was not a valid Riwal machine QR code -->
+    <string name="scan_machine_qr_error_invalid_qr_code_message">"QR-kod inte igenkänd"</string>
+
+    <!-- Error message displayed when looking up the current rental order for the scanned machine has failed -->
+    <string name="scan_machine_qr_error_rental_not_found_message">"Det gick inte att hitta hyresorder för den här maskinen"</string>
+
+    <!-- Title of the popup displayed when asking the user for permission to access the camera, after the user had initially denied that permission. The %s is a placeholder for the app name (e.g. "My Riwal"), keep it in the translated string! -->
+    <string name="camera_permission_after_deny_ios_popup_title">"%s vill komma åt kameran"</string>
+
+    <!-- Message of the popup displayed when asking the user for permission to access the camera, after the user had initially denied that permission -->
+    <string name="camera_permission_after_deny_ios_popup_message">"Aktivera kameratillgång i Inställningar för att använda den här funktionen."</string>
+
+    <!-- Title of the popup displayed when notifying the user that the app cannot use the camera, because the device administrator has disabled access to the camera -->
+    <string name="camera_usage_restricted_popup_title">"Kameratillgång begränsad"</string>
+
+    <!-- Message in the popup displayed when notifying the user that the app cannot use the camera, because the device administrator has disabled access to the camera -->
+    <string name="camera_usage_restricted_popup_message">"Användningen av kameran är begränsad. Kontakta din enhetsadministratör."</string>
+
+    <!-- Machine QR code scanning button in the account screen -->
+    <string name="account_scan_machine_option">"Skanna maskin"</string>
+
+    <!-- Title for the error popup that is displayed when access to the camera is blocked for an unknown reason -->
+    <string name="camera_usage_failed_unknown_error_popup_title">"Kameraproblem"</string>
+
+    <!-- Message in the error popup that is displayed when access to the camera is blocked for an unknown reason -->
+    <string name="camera_usage_failed_unknown_error_popup_message">"Kan inte använda kameran av ett okänt skäl. Appens utvecklingsteam har meddelats."</string>
+    <string name="breakdown_contact_phone_number">"Kontaktnummer"</string>
+    <string name="item_received_title">"Mottagen maskin"</string>
+    <string name="item_requested_title">"Begärd maskin"</string>
+    <string name="forgot_password_button_title">"Glömt ditt lösenord?"</string>
+    <string name="forgot_password_explanation">"Vi skickar ett e-postmeddelande med ditt nya lösenord när du skickar in begäran."</string>
+    <string name="reset_password_button_title">"Återställ lösenord"</string>
+    <string name="reset_password__success_message">"Ditt lösenord har återställts. Kontrollera det nya lösenordet på din e-post"</string>
+    <string name="reset_password_failed">"Du har angett en felaktig e-postadress, ange den registrerade e-postadressen."</string>
+    <string name="privacy_policy_message">"Jag har läst och accepterar sekretesspolicyn"</string>
+    <string name="quantity_dialog_title">"Välj kvantitet"</string>
+    <string name="add_accessories_title">"Lägg till tillbehör"</string>
+    <string name="accessories_title">"Tillbehör"</string>
+    <string name="no_customers_found">"För närvarande finns det inga kunder för den här användaren. Lägg till kunder för att logga in"</string>
+    <string name="cancel_rent_button">"Avbeställa hyra"</string>
+    <string name="request_cancel_rent_failed">"Avslutningen av hyra misslyckades. Vänligen försök igen senare."</string>
+    <string name="cancel_rent_requested">"Avslutning av hyran begärd. Vi kommer att behandla det så snart som möjligt."</string>
+
+    <!-- select a customer from a list of customers. -->
+    <string name="select_customer_title">"Välj kund"</string>
+
+    <!-- Please choose a time before %s, or call us if you need to stop renting at this time. -->
+    <string name="invalid_off_rent_time">"Välj en tid före %s, eller ring oss om du behöver avsluta hyra just nu."</string>
+
+    <!-- Please choose a time before %s, or call us if you need to start renting at this time. -->
+    <string name="invalid_on_rent_time">"Välj en tid före %s, eller ring oss om du behöver börja hyra just nu."</string>
+    <string name="open_rental">"Igångvarande hyra"</string>
+    <string name="accessories_on_rent">"Tillbehör på hyra"</string>
+    <string name="no_accessories_found">"Inga tillbehör hittades"</string>
+    <string name="error_loading_accessories_message">"Laddningen misslyckades."</string>
+    <string name="no_accessories_on_rent_found">"Inga tillbehör på hyra hittades"</string>
+    <string name="my_projects">"Mina projekt"</string>
+    <string name="book_training">"Boka utbildning"</string>
+    <string name="upload_image">"Ladda upp bokning"</string>
+    <string name="contact_dialog_title">"Välj kontakt"</string>
+    <string name="project_dialog_title">"Välj projekt"</string>
+    <string name="upload_confirm_title">"Bekräfta överföring"</string>
+    <string name="upload_confirmation_dialog_message">"Är du säker på att du vill ladda upp bilderna?"</string>
+    <string name="transfer_confirm_title">"Bekräfta överföringen"</string>
+
+    <!-- make sure to keep ( %s ) in 3 places ,  this will be replaced by the following :
+1- first ( %s ) will be dynamically replaced by machine fleet number
+2- second ( %s ) will be dynamically replaced by to customer name
+3- third ( %s )will be dynamically replaced by to contact name -->
+    <string name="transfer_confirmation_dialog_message">"Du begärde att överföra %s till% s. %s kommer att få ett meddelande om att acceptera överföringen. När det väl godkänts och bearbetats i vårt system ändras status till maskinöverförd."</string>
+    <string name="transfer">"överförd"</string>
+    <string name="request_reject_transfer_failed">"avvisad begäran misslyckades. Vänligen försök igen senare."</string>
+    <string name="reject_transfer_requested">"Överföringsbegäran avvisades. Vi kommer att behandla det så snart som möjligt."</string>
+    <string name="request_transfer_failed">"Överföringsbegäran misslyckades. Vänligen försök igen senare."</string>
+    <string name="transfer_requested">"Din förfrågan har skickats."</string>
+    <string name="reject_confirmation_dialog_message">"Är du säker på att du vill avboka överföringen av maskin?"</string>
+    <string name="reject">"Avvisa"</string>
+    <string name="transfer_reject_title">"Bekräfta avvisning"</string>
+    <string name="upload_limit_title">"Välj minst fyra bilder"</string>
+    <string name="upload_limit_dialog_message">"Välj minst fyra bilder"</string>
+    <string name="notification_transfer_requested_message">"Du bad om att överföra %s till %s %s. De kommer att få ett meddelande om att acceptera de överförda maskinerna. När du väl godkänt och behandlat i vårt system kommer du att få ett e-postmeddelande som bekräftar överföringen."</string>
+    <string name="notification_transfer_received_message">"%s från %s har begärt %s. Innan vi överför maskinen vill vi bekräfta att det inte finns några skador. Vi ber dig därför ta bilder av alla sidor på maskinen."</string>
+    <string name="notification_transfer_accepted_message">"Överföringen av %s från %s till %s har begärts. Vi kommer att behandla begäran så snart som möjligt. För att garantera säkerheten kommer en returkontroll att utföras på maskinen innan du kan använda den igen. Intill denna kontroll är klar och maskinen godkänd kan maskinen inte användas."</string>
+    <string name="notification_transfer_declined_message">"%s har avvisat din begäran om överföring av %s."</string>
+    <string name="no_transactions">"Ingen transaktion hittades"</string>
+    <string name="transfer_machine">"Överför maskin"</string>
+    <string name="request_transfer">"Begär överföring"</string>
+    <string name="minimum_limit_of_image_dialog_message">"Välj minst 4 bilder"</string>
+
+    <!-- Accept machine transfer request -->
+    <string name="accept_button">"Acceptera"</string>
+
+    <!-- Upload machine images before accepting the transfer -->
+    <string name="upload_buttton">"Ladda upp"</string>
+
+    <!-- Off rent -->
+    <string name="off_rent">"Avbokad hyra"</string>
+
+    <!-- The transfer of %s from %s at %s has accepted. Our rental desk will process the request as soon as possible. To guarantee safety, a First Check will be carried out on the machine before you can use it. -->
+    <string name="notification_transfer_accepted_acknowledgement_message">"Överföringen av %s från %s till %s har accepterat. Vår hyrespersonal kommer att behandla begäran så snart som möjligt. För att garantera säkerheten kommer en första kontroll att utföras på maskinen innan du kan använda den."</string>
+
+    <!-- Pending Transfer -->
+    <string name="pending_transfer">"Väntande överföring"</string>
+
+    <!-- Decline -->
+    <string name="decline">"Avböja"</string>
+
+    <!-- Accept transfer requested, We will process it as soon as possible -->
+    <string name="accept_transfer_succeeded">"Acceptera överföring som begärs. Vi kommer att behandla den så snart som möjligt"</string>
+
+    <!-- Accept transfer failed. Please try again later. -->
+    <string name="accept_transfer_failed">"Accept av överföringen misslyckades. Vänligen försök igen senare."</string>
+
+    <!-- Camera permission request to show QR code scanner -->
+    <string name="scan_machine_camera_permission_message">"Kameratillstånd behövs för att använda QR-skanner"</string>
+
+    <!-- Password request failed warning message title -->
+    <string name="reset_password_failed_title">"Återställning av lösenord misslyckades"</string>
+
+    <!-- Notification -->
+    <string name="notification">"anmälan"</string>
+
+    <!-- Title to show before selecting the customer to transfer (eg: Transfer machine(Rental type) to (a customer)) -->
+    <string name="transfer_machine_bottom_sheet_discription">"Överför %s till"</string>
+
+    <!-- Select transfer date -->
+    <string name="key_select_transfer_date">"Välj överföringsdatum"</string>
+
+    <!-- Please add images for the machines that is going to be transferred. -->
+    <string name="add_image_prompt">"Lägg till bilder för maskinerna som kommer att överföras."</string>
+
+    <!-- Please wait -->
+    <string name="please_wait">"var god dröj"</string>
+    <string name="training_types">"Utbildningsalternativ"</string>
+    <string name="dialog_new_feature_title">"Ny funktion tillgänglig"</string>
+    <string name="key_course">"Kurs:"</string>
+    <string name="key_duration">"Varaktighet"</string>
+    <string name="key_certification">"Certifiering"</string>
+    <string name="key_location">"Plats"</string>
+    <string name="key_participant">"Deltagare"</string>
+    <string name="key_price">"Pris"</string>
+    <string name="button_details">"Detaljer"</string>
+    <string name="button_send_request">"Skicka förfrågan"</string>
+    <string name="start_date">"Start datum"</string>
+    <string name="request_quote_button">"Begär offert"</string>
+    <string name="dialog_confirm_training_request_title">"Begär utbildningsoffert"</string>
+    <string name="dialog_confirm_training_request_message">"De begärda utbildningsofferten behandlas så snart som möjligt."</string>
+    <string name="training_request_succeed">"Utbildningsoffert begärs. Vi kommer att kontakta dig så snart som möjligt"</string>
+    <string name="check_other_training">"Sök annan utbildning"</string>
+    <string name="booking">"Bokning"</string>
+    <string name="page_home">"Hem"</string>
+    <string name="no_training_found">"Inga utbildningar hittades"</string>
+    <string name="error_loading_training_message">"Laddningen misslyckades"</string>
+    <string name="no_invoice_found">"Ingen faktura hittades"</string>
+
+    <!-- make sure to keep %s in the translation, it will be replaced with dynamic values.
+
+Example -> 10 invoices are overdue, Overdue amount is 123.89 -->
+    <string name="invoices_overview">"%s fakturor är förfallna, förfallet belopp är %s"</string>
+
+    <!-- make sure to keep %s in the translation. It will be replaced with dynamic values.
+
+
+
+example -> 10 days -->
+    <string name="invoice_due_days">"%s dagar"</string>
+    <string name="filter_invoice_type_title">"Fakturatyp"</string>
+    <string name="contact_person">"Kontaktperson"</string>
+    <string name="venue">"omsättning"</string>
+
+    <!-- https://s3.eu-west-1.amazonaws.com/po-pub/i/S9y9sovCN6kW0gAZPBoZFQqI.jpg -->
+    <string name="overdue">"Förfallen"</string>
+    <string name="paid">"Betald"</string>
+
+    <!-- Inv Date :
+
+(inv) is used instead of (invoice ) to look better in the design.
+so it would be great if it's possible to use shortcut in your translation to fit in place -->
+    <string name="inv_date">"Fakturadatum"</string>
+
+    <!-- Due Date : -->
+    <string name="due_date">"förfallodatum"</string>
+
+    <!-- https://s3.eu-west-1.amazonaws.com/po-pub/i/S3BXXATtblq9vbkU6IpMj81S.jpg -->
+    <string name="invoice_type">"Fakturatyp"</string>
+
+    <!-- https://s3.eu-west-1.amazonaws.com/po-pub/i/IiILiEpWW974IhL6WF0WJbyy.jpg -->
+    <string name="rental_order_number">"Hyresorder nr:"</string>
+
+    <!-- https://s3.eu-west-1.amazonaws.com/po-pub/i/I2YsjAP264SYkHHUIYdSBt15.jpg -->
+    <string name="amount">"Belopp"</string>
+    <string name="sales">"Försäljning"</string>
+    <string name="maintenance">"Upprätthållande"</string>
+    <string name="damage">"Skada"</string>
+    <string name="participant_validation">"Ange ett värde mellan %s och %s"</string>
+    <string name="location">"Plats"</string>
+    <string name="participants">"Deltagare"</string>
+
+    <!-- This is the title to to be displayed on the Calendar to pick a starting date for filtering the invoice date -->
+    <string name="invoice_start_date_title">"Fakturatiden börjar"</string>
+
+    <!-- This is the title to to be displayed on the Calendar to pick a end date for filtering the invoice date -->
+    <string name="invoice_end_date_title">"Fakturatiden slutar"</string>
+
+    <!-- Title to be displayed on training detail page -->
+    <string name="training_details_title">"Utbildningsdetaljer"</string>
+
+    <!-- One fo the invoices types. will be shown inside the invoices filter under invoice types.  -->
+    <string name="credit">"kredit"</string>
+
+    <!-- One fo the invoices types. will be shown inside the invoices filter under invoice types.  -->
+    <string name="hire_credit">"Kredit på hyra"</string>
+
+    <!-- One fo the invoices types. will be shown inside the invoices filter under invoice types.  -->
+    <string name="repair">"Reparation"</string>
+
+    <!-- One fo the invoices types. will be shown inside the invoices filter under invoice types.  -->
+    <string name="loss">"Förlust"</string>
+
+    <!-- if the invoices type is unknown or not defined we use this. will be shown inside the invoices filter under invoice types.  -->
+    <string name="other">"Övrigt"</string>
+    <string name="pick_up_location">"Plats för upphämtning"</string>
+
+    <!-- Only for danish customers. To be displayed in the home page with an icon to load the Advent calendar game -->
+    <string name="game">"Game"</string>
+
+    <!-- Only for danish customers. To be displayed as the title in the webview page for the Advent calendar game -->
+    <string name="game_webview_title">"Advent calendar"</string>
+    <string name="empty_field_message">"Obligatoriskt fält"</string>
+    <string name="string_new">"Ny"</string>
+    <string name="vat_number">"Moms nummer"</string>
+    <string name="next_button_title">"Nästa"</string>
+    <string name="new_feature_alert">"Ny funktion"</string>
+    <string name="training_tutorial_message_home">"Visste du att du nu kan boka utbildning via appen. Klicka på OK för att se självstudien."</string>
+    <string name="tutorial_message_training_category">"Välj den träningskategori du är intresserad av."</string>
+    <string name="tutorial_message_training_list">"Klicka på informationsknappen för att välja en specifik utbildning."</string>
+    <string name="tutorial_message_training_detail">"Välj knappen Begär offert för välj en offert för en specifik utbildning."</string>
+    <string name="tutorial_message_training_request_form">"Fyll i uppgifter om din begäran."</string>
+    <string name="tutorial_message_training_request_send">"Tryck på skicka-knappen för att begära träning. En av våra anställda kommer att kontakta dig inom kort."</string>
+    <string name="skip_tutorial_label">"Hoppa över"</string>
+    <string name="hide_tutorial_label">"Dölj"</string>
+    <string name="my_quotations">"Mina offerter"</string>
+    <string name="quotation_date">"Offertdatum"</string>
+    <string name="on_hire_date">"Datum för hyrstart"</string>
+    <string name="off_hire_date">"Datum för avbokad hyra"</string>
+    <string name="venue_city">"Plats stad"</string>
+
+    <!-- Message to be displayed in the quotation view if there is no quotation for the specified date range -->
+    <string name="no_quotation_found">"Ingen offert hittades"</string>
+
+    <!-- Title to be shown on the calendar to select the quotation start date -->
+    <string name="quotation_start_date_title">"Offertperiod börjar"</string>
+
+    <!-- Title to be shown on the calendar to select the quotation end date -->
+    <string name="quotation_end_date_title">"Offertperiod slutar"</string>
+
+    <!-- Message to shown if the file try to download is not available  -->
+    <string name="file_not_available">"Filen du har begärt är inte tillgänglig"</string>
+
+    <!-- confirmation question to ask to the customer before off renting "is the machine is available for pickup by our driver? -->
+    <string name="pickup_location_confirmation_title">"Er maskin tillgänglig till afhentning av vår chaufför"</string>
+    <string name="training_tutorial_message_home_from_url">"Visste du att du nu kan boka utbildning via appen?"</string>
+    <string name="refresh">"Uppdatera"</string>
+    <string name="machine_location">"Maskinens plats"</string>
+
+    <!-- Text field to describe the location of a machine when a breakdown is reported. -->
+    <string name="machine_location_description">"Beskriv var maskinen är placerad"</string>
+    <string name="apply">"Använd"</string>
+    <string name="clear_filters">"Rensa filter"</string>
+    <string name="browse_machine">"Välj maskiner"</string>
+    <string name="end_date">"slutdatum"</string>
+    <string name="remove">"Ta bort"</string>
+    <string name="place_order">"Beställ"</string>
+    <string name="validation_message_for_start_renting_on">"Välj först hyrdatum och starttid."</string>
+    <string name="order_request_delivery_message_check_box_two">"Vi kan leverera dina maskiner dagen före din begärda hyrdag"</string>
+
+    <!-- Nothing we do in Sweden -->
+    <string name="order_request_delivery_message_check_box_three">"Vi kan leverera dina maskiner under natten"</string>
+    <string name="order_request_delivery_message_check_box_one">"Vi kan leverera större maskiner på din plats"</string>
+    <string name="hint_fleet_number">"Maskinens nummer (fleet)"</string>
+    <string name="delivery_option_button">"Leveransalternativ"</string>
+
+    <!-- invoice type name for inter company invoice -->
+    <string name="inter_company_invoice">"Intern"</string>
+
+    <!-- Invoices related to workshop -->
+    <string name="workshop_invoice">"Verkstad"</string>
+
+    <!-- invoice for upfront payment -->
+    <string name="upfront_payment_invoice">"Förskottsbetalning"</string>
+    <string name="page_product">"Produkter"</string>
+    <string name="rental_status_allocated">"Tilldelad"</string>
+
+    <!-- will be shown when a machine is exchanged in my rentals -->
+    <string name="rental_status_exchanged">"Utbytt"</string>
+    <string name="rental_status_off_hire_not_confirmed">"inte bekräftat"</string>
+    <string name="rental_status_wait_invoicing">"Vänta fakturering"</string>
+    <string name="machine_type">"Maskintyp"</string>
+    <string name="change_on_rent_date">"Ändring på hyresdatum"</string>
+    <string name="change_off_rent_date">"Ändra hyresdatum"</string>
+    <string name="to">"till"</string>
+
+    <!-- Hydrostatic machine propulsion  -->
+    <string name="hydrostatic">"Hydrostatisk"</string>
+    <string name="hydraulic">"Hydraulisk"</string>
+    <string name="lpg">"LPG bränsle"</string>
+    <string name="none">"Ingen"</string>
+    <string name="petrol">"Diesel"</string>
+    <string name="help_me_choose_liftcapacity_section_title">"Lyftkapacitet på minst ..."</string>
+    <string name="machine_unavailable">"Denna maskin är inte tillgänglig"</string>
+
+    <!-- Will be asked to the customer while adding to the cart, whether it is possible to deliver larger machines at your location? -->
+    <string name="order_panel_larger_machine_consent_request">"Kan vi leverera större maskiner hos dig?"</string>
+
+    <!-- Will be asked to the customer while adding to the cart, whether it is possible to deliver the day before requested day? -->
+    <string name="order_panel_early_delivery_consent_request">"Kan vi leverera maskinerna en dag tidigare än den begärda dagen?"</string>
+
+    <!-- Will be asked to the customer while adding to the cart, whether it is possible to deliver machines during night? -->
+    <string name="order_panel_night_delivery_consent_request">"Kan vi leverera maskinerna under natten?"</string>
+    <string name="edit_accessories_title">"Redigera tillbehör"</string>
+    <string name="delivery_options">"Leveransalternativ"</string>
+    <string name="rental_status_cancelled">"Avbokad"</string>
+    <string name="title_guest">"Gäst"</string>
+    <string name="order_status_canceled">"Avbokad"</string>
+    <string name="order_status_pending_collections">"Avvaktande hämtning"</string>
+    <string name="machine_documents_screen_manuals_title">"handböcker"</string>
+
+    <string name="key_ordered_by">"Beställd av"</string>
+    <string name="dialog_install_app_title">"Ny app tillgänglig"</string>
+    <string name="dialog_install_app_required_message">"Vi har ersatt den här appen med den nya My Riwal-appen och du måste installera den nya appen innan du kan fortsätta!. När du har installerat den kan du radera den gamla versionen."</string>
+    <string name="install_title">"Installera"</string>
+</resources>

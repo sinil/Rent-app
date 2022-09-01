@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="EasyRecyclerView">
+        <attr name="dividerStyle" format="enum">
+            <enum name="basic" value="0" />
+            <enum name="none" value="1" />
+        </attr>
+        <attr name="dividerLeftInset" format="dimension" />
+        <attr name="dividerRightInset" format="dimension" />
+        <attr name="aggressiveRecycling" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="EasyGridRecyclerView">
+        <attr name="numberOfColumns" format="integer" />
+        <attr name="interItemSpacing" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="MapView">
+        <attr name="useLiteMode" format="boolean" />
+        <attr name="showUserLocation" format="boolean" />
+        <attr name="contentInsetLeft" format="dimension" />
+        <attr name="contentInsetTop" format="dimension" />
+        <attr name="contentInsetRight" format="dimension" />
+        <attr name="contentInsetBottom" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="EasyViewPager">
+        <attr name="android:enabled" />
+    </declare-styleable>
+
+    <declare-styleable name="FractionSlider">
+        <attr name="value" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="DiscreteSlider">
+        <attr name="value" />
+        <attr name="max" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="EditTextView">
+        <attr name="android:hint" />
+        <attr name="android:src" />
+        <attr name="android:inputType" />
+        <attr name="android:imeOptions" />
+        <attr name="android:focusable" />
+        <attr name="android:focusableInTouchMode" />
+        <attr name="android:enabled" />
+    </declare-styleable>
+
+    <declare-styleable name="IconTextView">
+        <attr name="drawableTint" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="KeyValueView">
+        <attr name="keyLabel" format="string" />
+        <attr name="valueLabel" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="HelpMeChooseOptionCard">
+        <attr name="android:text" />
+        <attr name="android:src" />
+        <attr name="android:foreground" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+</resources>

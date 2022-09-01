@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="8dp"
+    android:fitsSystemWindows="true"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/quotationNumberTextView"
+            style="@style/TextAppearance.MaterialComponents.Headline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="100034527" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/downloadPdfImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_download"
+            android:tint="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="@id/quotationNumberTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/quotationNumberTextView" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/invDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/quotation_date"
+            app:layout_constraintStart_toStartOf="@id/quotationNumberTextView"
+            app:layout_constraintTop_toBottomOf="@id/quotationNumberTextView" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/quotationDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/downloadPdfImageView"
+            app:layout_constraintTop_toTopOf="@id/invDateTextView"
+            tools:text="10/08/2020" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/dueDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/on_hire_date"
+            app:layout_constraintStart_toStartOf="@id/quotationNumberTextView"
+            app:layout_constraintTop_toBottomOf="@id/invDateTextView" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/onHireDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/downloadPdfImageView"
+            app:layout_constraintTop_toTopOf="@id/dueDateTextView"
+            tools:text="10/08/2020" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/invoiceTypeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/off_hire_date"
+            app:layout_constraintStart_toStartOf="@id/quotationNumberTextView"
+            app:layout_constraintTop_toBottomOf="@id/dueDateTextView" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/offHireDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/downloadPdfImageView"
+            app:layout_constraintTop_toTopOf="@id/invoiceTypeTextView"
+            tools:text="Damage" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/rentalOrderNumberTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/contact_person"
+            app:layout_constraintStart_toStartOf="@id/quotationNumberTextView"
+            app:layout_constraintTop_toBottomOf="@id/invoiceTypeTextView" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/contactPersonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/downloadPdfImageView"
+            app:layout_constraintTop_toTopOf="@id/rentalOrderNumberTextView"
+            tools:text="100034527" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/purchaseOrderTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/venue_city"
+            app:layout_constraintStart_toStartOf="@id/quotationNumberTextView"
+            app:layout_constraintTop_toBottomOf="@id/rentalOrderNumberTextView" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/venueCityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="4dp"
+            app:layout_constraintEnd_toEndOf="@id/downloadPdfImageView"
+            app:layout_constraintTop_toTopOf="@id/purchaseOrderTextView"
+            tools:text="19004" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/amountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/amount"
+            app:layout_constraintStart_toStartOf="@id/quotationNumberTextView"
+            app:layout_constraintTop_toBottomOf="@id/purchaseOrderTextView" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/amountQuotationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/downloadPdfImageView"
+            app:layout_constraintTop_toTopOf="@id/amountTextView"
+            tools:text="19004" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

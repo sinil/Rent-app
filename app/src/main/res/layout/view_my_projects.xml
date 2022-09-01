@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/material_background"
+    >
+
+    <!-- RETRY LOADING MY PROJECTS -->
+
+    <LinearLayout
+        android:id="@+id/retryLoadingMyProjectsContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/error_loading_machines_message"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+            android:textColor="@color/material_text_medium_emphasis" />
+
+        <Button
+            android:id="@+id/retryLoadingMyProjectsButton"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/retry" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="@dimen/top_app_bar_elevation"
+        android:theme="@style/AppTheme.Toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/menu_notification"
+        app:popupTheme="@style/PopupTheme"
+        app:titleTextColor="@color/app_bar_text" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/projectNameSpinnerCardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:elevation="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/projectNameSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:overlapAnchor="false"
+            android:spinnerMode="dropdown"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:ms_arrow_tint="@color/colorPrimary"
+            app:ms_background_color="@color/white"
+            app:ms_padding_left="16dp"
+            app:ms_text_color="@color/colorPrimary" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/customerNameSpinnerCardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:elevation="1dp"
+        app:layout_constraintEnd_toStartOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/customersNameSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:overlapAnchor="false"
+            android:spinnerMode="dropdown"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:ms_arrow_tint="@color/colorPrimary"
+            app:ms_background_color="@color/white"
+            app:ms_padding_left="16dp"
+            app:ms_text_color="@color/colorPrimary" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <com.riwal.rentalapp.common.ui.easyrecyclerview.EasyGridRecyclerView
+        android:id="@+id/myProjectsRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        app:dividerStyle="none"
+        app:interItemSpacing="8dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/customerNameSpinnerCardView"
+        app:numberOfColumns="2"
+        tools:listitem="@layout/row_machine" />
+
+
+
+    <!-- EMPTY VIEW -->
+
+    <LinearLayout
+        android:id="@+id/emptyMyRentalsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="128dp"
+            android:layout_height="88dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/img_machines_contour"
+            android:tint="@color/material_text_disabled"
+            android:tintMode="src_in"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_rentals_found"
+            android:textColor="@color/material_text_disabled" />
+
+    </LinearLayout>
+
+    <!-- ACTIVITY INDICATOR -->
+
+    <FrameLayout
+        android:id="@+id/activityIndicator"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white_transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

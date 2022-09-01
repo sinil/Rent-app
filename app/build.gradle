@@ -1,0 +1,287 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'com.google.firebase.firebase-perf'
+
+androidExtensions {
+    experimental = true
+}
+
+android {
+
+    compileSdkVersion 30
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 217
+        versionName '1.43.0'
+        multiDexEnabled true
+    }
+
+
+    signingConfigs {
+        release {
+            def keystoreProperties = new Properties()
+            def keystorePropertiesFile = rootProject.file("keystore.properties")
+            if (keystorePropertiesFile.exists()) {
+                keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+            } else {
+//                keystoreProperties["keyAlias"] = System.getenv("KEY_ALIAS")
+//                keystoreProperties["keyPassword"] = System.getenv("KEY_PASSWORD")
+//                keystoreProperties["storePassword"] = System.getenv("STORE_PASSWORD")
+            }
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file("$project.rootDir/keystore.jks")
+            storePassword keystoreProperties['storePassword']
+        }
+
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    flavorDimensions "environment", "brand"
+
+    productFlavors {
+
+        riwal {
+            dimension "brand"
+            applicationId "com.riwal.rentalapp"
+            buildConfigField "com.riwal.rentalapp.model.Company", "COMPANY", "com.riwal.rentalapp.model.Company.RIWAL"
+        }
+        manlift {
+            dimension "brand"
+            applicationId "com.manlift.rentalapp"
+            buildConfigField "com.riwal.rentalapp.model.Company", "COMPANY", "com.riwal.rentalapp.model.Company.MANLIFT"
+        }
+
+        development {
+            dimension "environment"
+            applicationIdSuffix ".development"
+            buildConfigField "boolean", "CRASH_REPORTING_ENABLED", "false"
+            buildConfigField "String", "ACCESS4U_URL", "\"https://test-api.myriwal.com/api\""
+            buildConfigField "String", "RENTAL_APP_SERVER_URL", "\"https://us-central1-customer-app-dev.cloudfunctions.net/api\""
+            buildConfigField "String", "MY_RIWAL_URL", "\"https://myriwal.com\""
+            buildConfigField("String", "MIXPANEL_API_KEY", "\"6c77dfc0a13c54237dfacfce6ad325fc\"")
+            manifestPlaceholders = [GOOGLE_GEO_API_KEY: "AIzaSyDPYCBWw0D-kOWRCB-httZoYVPtEU7Tbas"]
+        }
+        acceptance {
+            dimension "environment"
+            applicationIdSuffix ".acceptance"
+            buildConfigField "boolean", "CRASH_REPORTING_ENABLED", "true"
+            buildConfigField "String", "ACCESS4U_URL", "\"https://test-api.myriwal.com/api\""
+            buildConfigField "String", "RENTAL_APP_SERVER_URL", "\"https://us-central1-customer-app-acceptance.cloudfunctions.net/api\""
+            buildConfigField "String", "MY_RIWAL_URL", "\"https://myriwal.com\""
+            buildConfigField("String", "MIXPANEL_API_KEY", "\"2ae91b44fc909d3a7b24495957515c70\"")
+            manifestPlaceholders = [GOOGLE_GEO_API_KEY: "AIzaSyCzArqR5FSwxR069M8vlT2nElygUSHImPc"]
+        }
+        production {
+            dimension "environment"
+            buildConfigField "boolean", "CRASH_REPORTING_ENABLED", "true"
+            buildConfigField "String", "ACCESS4U_URL", "\"https://www.riwalaccess4u.com/api\""
+            buildConfigField "String", "RENTAL_APP_SERVER_URL", "\"https://us-central1-customer-app-8c658.cloudfunctions.net/api\""
+            buildConfigField "String", "MY_RIWAL_URL", "\"https://myriwal.com\""
+            buildConfigField("String", "MIXPANEL_API_KEY", "\"5150ec4da5dbabb731d31a9a60881cef\"")
+            manifestPlaceholders = [GOOGLE_GEO_API_KEY: "AIzaSyCtHEJuN02JqSVRJb-JqyOgP3QfzPk4ZyQ"]
+        }
+    }
+
+    applicationVariants.all { variant ->
+        variant.resValue "string", "freshchat_file_provider_authority", variant.applicationId + ".provider"
+    }
+
+    variantFilter { variant ->
+        if (variant.name.contains("development") && variant.name.contains("Release")) {
+            setIgnore(true)
+        }
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+// Code in sharedTest folder can be used in both test and androidTest
+android.sourceSets {
+    String sharedTestDir = 'src/sharedTest/java'
+    test {
+        java.srcDirs += sharedTestDir
+    }
+    androidTest {
+        java.srcDirs += sharedTestDir
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':materialintro')
+
+    // AR
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.11.0'
+    implementation 'com.google.ar.sceneform:assets:1.11.0'
+
+    // Kotlin
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.50'
+    implementation 'org.jetbrains.kotlin:kotlin-reflect:1.3.50'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.2.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-rx2:1.2.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.2.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.2.1'
+
+    // RxJava
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.9'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+
+    // Eventbus
+    implementation 'org.greenrobot:eventbus:3.1.1'
+
+    // HTTP client
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+    implementation 'com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2'
+
+    // Joda Time
+    implementation 'net.danlew:android.joda:2.9.9'
+
+    // Freshchat
+    implementation 'com.github.freshdesk:freshchat-android:2.9.0'
+
+    // Image library
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    kapt 'com.github.bumptech.glide:compiler:4.9.0'
+
+    // DateTime picker
+    implementation 'com.wdullaer:materialdatetimepicker:4.2.0'
+
+    // https://github.com/sujithkanna/SmileyRating
+    implementation 'com.github.sujithkanna:smileyrating:1.6.8'
+
+    // Moshi (https://github.com/square/moshi)
+    implementation 'com.squareup.moshi:moshi:1.6.0'
+    implementation 'com.squareup.moshi:moshi-kotlin:1.6.0'
+
+    // zxing Qr codes reader
+    implementation 'com.journeyapps:zxing-android-embedded:3.6.0@aar'
+    implementation 'com.google.zxing:core:3.3.3'
+
+    // Firebase
+    implementation 'com.google.firebase:firebase-auth:18.1.0'
+    implementation 'com.google.firebase:firebase-messaging:20.2.3'
+    implementation 'com.google.firebase:firebase-storage:18.1.1'
+    implementation 'com.google.firebase:firebase-perf:19.0.8'
+
+    // Rx network change observing
+    implementation 'com.github.pwittchen:reactivenetwork-rx2:3.0.2'
+
+    // Support library
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+
+    // Google play
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+
+    // Google maps
+    implementation 'com.google.maps.android:android-maps-utils:0.5'
+
+    // Google places
+    implementation 'com.google.android.libraries.places:places-compat:2.0.0'
+
+    // Segmented control
+    implementation 'info.hoang8f:android-segmented:1.0.6'
+
+    // Tooltip
+    implementation 'com.github.vihtarb:tooltip:0.2.0'
+
+    // Material Spinner
+    implementation 'com.jaredrummler:material-spinner:1.3.1'
+
+    // Firebase Crashlytics SDK.
+    implementation 'com.google.firebase:firebase-crashlytics:17.0.1'
+
+    // Google Analytics SDK.
+    implementation 'com.google.firebase:firebase-analytics:17.4.3'
+
+    // Permission
+    implementation 'com.karumi:dexter:6.0.0'
+
+    // Mixpanel
+    implementation 'com.mixpanel.android:mixpanel-android:5.9.1'
+
+    // Gligar image picker
+    implementation 'com.opensooq.supernova:gligar:1.0.0'
+
+    // Circle imageView
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+
+    implementation 'androidx.security:security-crypto:1.1.0-alpha02'
+
+
+    /*---------------------------------------- Unit tests ----------------------------------------*/
+
+    // JodaTime
+    testImplementation 'joda-time:joda-time:2.9.9'
+
+    // JUnit
+    testImplementation 'junit:junit:4.12'
+
+    // Fluent asserts
+    testImplementation 'org.assertj:assertj-core:3.8.0'
+
+    // Mocking
+    testImplementation "io.mockk:mockk:1.9.3"
+
+    // kotlintest
+    testImplementation 'io.kotlintest:kotlintest-runner-junit5:3.1.11'
+
+    // Robolectric
+    testImplementation "org.robolectric:robolectric:3.8"
+}
+
+repositories {
+    google()
+    mavenCentral()
+    maven { url "https://kotlin.bintray.com/kotlinx" }
+}
+
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+sceneform.asset('assets/dummy_lit_opaque.obj',
+        'assets/default_lit_opaque.mat',
+        'assets/dummy_lit_opaque.sfa',
+        'src/main/res/raw/dummy_lit_opaque')
+
+sceneform.asset('assets/dummy_unlit_transparent.obj',
+        'assets/default_unlit_transparent.mat',
+        'assets/dummy_unlit_transparent.sfa',
+        'src/main/res/raw/dummy_unlit_transparent')

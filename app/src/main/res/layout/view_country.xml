@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".country.CountryViewImpl">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:includeFontPadding="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Select country" />
+
+    <com.riwal.rentalapp.common.ui.easyrecyclerview.EasyRecyclerView
+        android:id="@+id/countryRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:dividerStyle="none"
+        tools:listitem="@layout/row_country" />
+
+</LinearLayout>

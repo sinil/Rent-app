@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- FreshChat -->
+
+    <style name="Theme.Freshchat.SelectedTheme" parent="Theme.Freshchat.Light">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorError">@color/red</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <item name="freshchatSendIcon">@drawable/ic_send</item>
+        <item name="freshchatAttachIcon">@drawable/ic_attach</item>
+
+    </style>
+
+
+</resources>

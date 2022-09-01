@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- COMMON -->
+    <string name="categories">"Catégories"</string>
+    <string name="riwal_slogan">"Above all. Riwal"</string>
+    <string name="password">"Mot de passe"</string>
+
+    <!-- PAGES -->
+    <string name="page_search">"Rechercher"</string>
+    <string name="page_cart">"Panier"</string>
+    <string name="page_account">"Compte"</string>
+    <string name="page_contact">"Contact"</string>
+    <string name="page_my_rentals">"Mes locations"</string>
+    <string name="page_country">"Sélectionner un pays"</string>
+    <string name="page_project">"Projet"</string>
+    <string name="page_create_project">"Créer un projet"</string>
+    <string name="page_summary">"Résumé"</string>
+
+    <!-- HINTS -->
+    <string name="hint_search">"Rechercher"</string>
+    <string name="rental_period">"Période de location"</string>
+
+    <!-- BUTTONS -->
+    <string name="button_all_categories">"Toutes les catégories"</string>
+    <string name="filter">"Filtrer"</string>
+    <string name="clear">"Effacer"</string>
+    <string name="done">"Fait"</string>
+    <string name="delete">"Supprimer"</string>
+    <string name="cancel">"Annuler"</string>
+    <string name="submit">"Valider"</string>
+    <string name="request_rental">"Demander une location"</string>
+    <string name="button_continue">"Continuer"</string>
+    <string name="pick_a_location">"Choisir une localisation"</string>
+    <string name="send_request">"Envoyer la demande"</string>
+    <string name="rent_again">"Renouveler la location"</string>
+    <string name="option_expected">"Estimée"</string>
+    <string name="option_final">"Définitive"</string>
+    <string name="machine">"Machine"</string>
+    <string name="working">"Fonctionnement"</string>
+    <string name="add_to_order">"Ajouter à la commande"</string>
+    <string name="pictures">"Photos"</string>
+    <string name="cart">"Panier"</string>
+    <string name="delivery_time">"Heure de livraison"</string>
+    <string name="machine_order_added">"Machine ajoutée au panier"</string>
+    <string name="project">"Projet"</string>
+    <string name="rental">"Location"</string>
+
+    <!-- KEYS -->
+    <string name="key_brand">"Marque"</string>
+    <string name="key_model">"Modèle"</string>
+    <string name="key_weight">"Poids"</string>
+    <string name="key_dimensions">"Dimensions (L x l x h)"</string>
+    <string name="key_platform_dimensions">"Plateforme (L x l)"</string>
+    <string name="key_working_height">"Hauteur de travail"</string>
+    <string name="key_working_outreach">"Déport"</string>
+    <string name="key_lift_capacity">"Capacité de charge"</string>
+    <string name="key_propulsion">"Motorisation"</string>
+    <string name="key_order_number">"Numéro de commande"</string>
+    <string name="key_price_rate">"Remise"</string>
+    <string name="key_project_city">"Ville du projet"</string>
+    <string name="key_contact_person">"Personne à contacter"</string>
+    <string name="key_project_name">"Nom du projet"</string>
+    <string name="key_operator_name">"Nom de l'opérateur"</string>
+    <string name="key_purchase_order">"Numéro de commande"</string>
+    <string name="key_period">"Période"</string>
+    <string name="key_delivery_time">"Heure de livraison"</string>
+    <string name="key_quantity">"Quantité"</string>
+
+    <!-- VALUES -->
+    <string name="value_in_meters">"%s mètres"</string>
+
+    <!-- CONTACT INFO -->
+    <string name="company">"Entreprise"</string>
+    <string name="name">"Nom"</string>
+    <string name="phone">"Téléphone"</string>
+    <string name="email">"Email"</string>
+
+    <!-- PROJECT -->
+    <string name="project_name">"Nom du projet"</string>
+    <string name="project_contact_name">"Personne à contacter sur chantier"</string>
+    <string name="project_contact_phone_number">"Téléphone"</string>
+    <string name="address">"Adresse"</string>
+    <string name="zip_code">"Code postal"</string>
+    <string name="city">"Ville"</string>
+
+    <!-- SUMMARY -->
+    <string name="machines">"Machines"</string>
+    <string name="contact_information">"Informations sur le contact"</string>
+    <string name="project_information">"Informations sur le projet"</string>
+    <string name="general">"Général"</string>
+    <string name="purchase_order">"Votre numéro de commande"</string>
+    <string name="notes">"Notes"</string>
+
+    <!-- EMPTY STATES -->
+    <string name="no_machines_found">"Aucune machine trouvée"</string>
+    <string name="empty_cart">"Aucune machine ajoutée"</string>
+    <string name="empty_project">"Vous n'avez aucun projet.
+Cliquez sur \"+\" pour créer un projet"</string>
+
+    <!-- ERRORS -->
+    <string name="error_invalid_mail_address">"Veuillez entrer une adresse valide"</string>
+    <string name="error_invalid_password">"Entrez un mot de passe"</string>
+
+    <!-- DIALOGS -->
+    <string name="dialog_delete_machine_order_title">"Supprimer du panier ?"</string>
+    <string name="dialog_delete_machine_order_message">"Cette machine sera supprimée du panier"</string>
+    <string name="dialog_delete_project_title">"Supprimer le projet ?"</string>
+    <string name="dialog_delete_project_message">"Ce projet n'est pas disponible pour le moment"</string>
+
+    <!-- ORDER -->
+    <string name="option_contact_person">"Je suis la personne à contacter"</string>
+    <string name="place_this_order">"Confirmer cette commande ?"</string>
+
+    <!-- ACCOUNT -->
+    <string name="account_manager">"Commercial"</string>
+    <string name="any_questions">"Des questions ?"</string>
+    <string name="my_rentals">"Mes locations"</string>
+    <string name="my_invoices">"Mes factures"</string>
+    <string name="training">"Formation"</string>
+    <string name="log_out">"Se déconnecter"</string>
+    <string name="log_in">"Se connecter"</string>
+
+    <!-- MACHINE TYPES -->
+    <string name="scissor_lift">"Plateforme ciseaux"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="vertical_lift">"Mat vertical"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="crawler_lift">"Nacelle sur chenilles"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="articulated_boom_lift">"Nacelle articulée"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="spider_lift">"Nacelle araignée"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="telescopic_boom_lift">"Nacelle à flèche télescopique"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="trailer_mounted_lift">"Nacelle tractable"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="truck_mounted_lift">"Camion nacelle"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="forklift">"Chariot élévateur"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="telehandler_standard">"Chariot télescopique"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="telehandler_rotating">"Chariot rotatif télescopique"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="crane">"Grue"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="glass_lift">"Ventouse Vitres"</string>
+
+    <!-- ORDER STATUSSES -->
+    <string name="order_status_unknown">"Inconnu"</string>
+    <string name="order_status_pending_deliveries">"Livraisons en attente"</string>
+    <string name="order_status_current_rentals">"Location en cours"</string>
+    <string name="order_status_closed_rentals">"Locations terminées"</string>
+
+    <!-- COUNTRIES -->
+    <string name="country_belgium">"Belgique"</string>
+    <string name="country_croatia">"Croatie"</string>
+    <string name="country_denmark">"Danemark"</string>
+    <string name="country_france">"France"</string>
+    <string name="country_germany">"Allemagne"</string>
+    <string name="country_kazakhstan">"Kazakhstan"</string>
+    <string name="country_norway">"Norvège"</string>
+    <string name="country_poland">"Pologne"</string>
+    <string name="country_slovenia">"Slovénie"</string>
+    <string name="country_spain">"Espagne"</string>
+    <string name="country_sweden">"Suède"</string>
+    <string name="country_netherlands">"Pays-Bas"</string>
+    <string name="country_united_kingdom">"Royaume-Uni"</string>
+    <string name="no_rentals_found">"Aucune location trouvée"</string>
+    <string name="unknown">"Inconnu"</string>
+    <string name="request_changes">"Demander des modifications"</string>
+    <string name="order_request_succeeded">"Merci. Votre demande a été envoyée."</string>
+    <string name="order_request_failed">"L'opération a échoué. Veuillez réessayer."</string>
+    <string name="login_failed">"Connexion échouée"</string>
+    <string name="unknown_username_password_combination">"Identifiant ou mot de passe incorrect"</string>
+    <string name="confirm">"Confirmer"</string>
+    <string name="off_rent_date">"Date de fin de location"</string>
+    <string name="off_rent_time">"Heure de fin de location"</string>
+    <string name="comments">"Commentaires"</string>
+    <string name="dialog_confirm_off_hire_title">"Fin de location %s"</string>
+    <string name="dialog_confirm_off_hire_message">"Arrêter la location de cette machine le %s"</string>
+    <string name="dialog_confirm_request_change_title">"Demander une modification"</string>
+    <string name="dialog_confirm_request_change_message">"Cette demande sera confirmée dans les meilleurs délais."</string>
+    <string name="request_off_rent_failed">"Échec demande arrêt de location. Veuillez réessayer."</string>
+    <string name="off_rent_requested">"Demande arrêt de location envoyée. Celle-ci sera traitée dans les meilleurs délais"</string>
+    <string name="change_request_failed">"Échec demande de modification. Veuillez réessayer."</string>
+    <string name="changes_requested_message">"Modifications envoyées. Nous reviendrons vers vous dans les meilleurs délais."</string>
+
+    <!-- PROPULSION -->
+    <string name="electric">"Électrique"</string>
+    <string name="diesel">"Diesel"</string>
+    <string name="hybrid_gasoline">"Hybride (essence)"</string>
+    <string name="hybrid_diesel">"Hybride (diesel)"</string>
+    <string name="hybrid">"Hybride"</string>
+    <string name="gasoline">"Essence"</string>
+    <string name="natural_gas">"Gaz naturel"</string>
+    <string name="propulsion">"Motorisation"</string>
+    <string name="off_rent_button">"Arrêter la location"</string>
+    <string name="on_rent">"En location"</string>
+    <string name="country_international">"Riwal International"</string>
+
+    <!-- REQUEST CHANGES SCREEN -->
+    <string name="change_expected_off_rent_date_edit_text_hint">"Fin de location (estimée)"</string>
+    <string name="change_final_off_rent_date_edit_text_hint">"Fin de location (définitive)"</string>
+    <string name="dialog_clear_machine_orders_title">"Êtes-vous sûr ?"</string>
+    <string name="dialog_clear_machine_orders_message">"Vous ne pouvez pas louer de machines de pays différents. Cette sélection sera supprimée de votre panier."</string>
+    <string name="update">"Mise à jour"</string>
+    <string name="feedback">"Commentaires"</string>
+    <string name="send">"Envoyer"</string>
+    <string name="page_depot">"Agences"</string>
+    <string name="page_feedback">"Commentaires"</string>
+    <string name="page_edit_project">"Créer un projet"</string>
+
+    <!-- SETTINGS -->
+    <string name="setting_depots">"Agences"</string>
+    <string name="setting_contact">"Contact"</string>
+    <string name="setting_country">"Pays"</string>
+    <string name="setting_disclaimer">"Mentions légales"</string>
+    <string name="setting_privacy_policy">"Politique de confidentialité"</string>
+    <string name="setting_feedback">"Commentaires"</string>
+    <string name="search_menu_item">"Rechercher"</string>
+    <string name="filter_period_title">"Période"</string>
+    <string name="filter_rental_status_title">"Statut des locations"</string>
+    <string name="search_results">"%s résultats"</string>
+
+    <!-- RATING -->
+    <string name="rating_terrible">"Terrible"</string>
+    <string name="rating_bad">"Mauvais"</string>
+    <string name="rating_okay">"Moyen"</string>
+    <string name="rating_good">"Bien"</string>
+    <string name="rating_great">"Parfait"</string>
+    <string name="empty_depot">"Aucun dépôt"</string>
+    <string name="dialog_update_app_title">"Mise à jour disponible"</string>
+    <string name="dialog_update_app_message">"Une nouvelle version de l'application est disponible"</string>
+    <string name="dialog_update_app_required_message">"Vous devez mettre à jour l'application avant de continuer !"</string>
+    <string name="dialog_update_app_cancel_button">"C'est parfait"</string>
+    <string name="message_send_feedback_succeeded">"Merci pour votre retour !"</string>
+    <string name="message_send_feedback_failed">"Une erreur est survenue. Merci de réessayer ultérieurement."</string>
+    <string name="order_status_pending_pickup">"En attente de reprise"</string>
+    <string name="setting_inventory">"Stock"</string>
+
+    <!-- LABELS -->
+    <string name="key_minimum_working_height">"Hauteur de travail (Min)"</string>
+    <string name="key_minimum_working_outreach">"Hauteur de travail (Max)"</string>
+    <string name="key_minimum_lift_capacity">"Capacité de charge (Min)"</string>
+    <string name="electric_hybdrid_filter">"Uniquement Électrique / Hybride"</string>
+    <string name="no_internet_connection">"Aucune connexion internet"</string>
+    <string name="help_title_standard">"Besoin d'aide ?"</string>
+    <string name="help_subtitle_chat">"Discutez avec nous"</string>
+    <string name="help_title_search">"Besoin d'aide pour choisir ?"</string>
+    <string name="yes">"Oui"</string>
+    <string name="no">"Non"</string>
+    <string name="page_more">"Plus"</string>
+
+    <!-- HINTS -->
+    <string name="hint_search_example">"Rechercher exemple %s"</string>
+    <string name="settings">"Paramètres"</string>
+    <string name="information">"Informations"</string>
+    <string name="key_project_address">"Adresse du projet"</string>
+    <string name="value_in_m">"%s m"</string>
+    <string name="value_in_kg">"%s kg"</string>
+    <string name="value_in_dimensions_m3">"%s x %s x %s m"</string>
+    <string name="value_in_dimensions_m2">"%s x %s m"</string>
+
+    <!-- WELCOME SCREEN -->
+    <string name="welcome_screen_done_button">"C'est parti !"</string>
+    <string name="welcome_screen_country_selection_hint">"Merci de choisir votre pays"</string>
+    <string name="welcome_screen_country_selection_note">"*Vous pourrez modifier ce paramètre plus tard"</string>
+
+    <!-- MACHINE DETAILS SCREEN -->
+    <string name="machine_detail_screen_specifications_title">"Caractéristiques"</string>
+    <string name="machine_availability_direct">"En stock"</string>
+    <string name="add_to_order_button">"Ajouter à la commande"</string>
+
+    <!-- MACHINE TYPE DESCRIPTIONS -->
+    <string name="scissor_lift_description">"Une plateforme ciseaux est une machine à élévation verticale uniquement. Ce type de plateforme est utilisé pour effectuer un travail en hauteur, monter ou descendre des charges."</string>
+    <string name="vertical_lift_description">"Une nacelle à mât vertical est une machine à élévation verticale uniquement. Les mâts verticaux apportent une solution optimale lorsque vous devez effectuer des travaux de maintenance ou de réparation en hauteur dans des espaces étroits."</string>
+    <string name="crawler_lift_description">"La gamme de nacelles élévatrices sur chenilles propose des flèches télescopiques ou des plateformes ciseaux sur chenilles. Ce type de nacelles permet un déplacement aisé sur les chantiers même difficiles et pentus."</string>
+    <string name="spider_lift_description">"La nacelle araignée est un moyen d’élévation à la fois compact, léger et performant permettant de travailler en intérieur et extérieur. Ses performances techniques vous permettront d'atteindre les zones de travail les plus difficiles et les plus exigeantes."</string>
+    <string name="telescopic_boom_lift_description">"Les nacelles à flèche télescopique sont des nacelles à portée importante. Les nacelles à flèche télescopique, dont les hauteurs de travail peuvent atteindre 58 mètres, sont idéales pour les projets les plus audacieux."</string>
+    <string name="trailer_mounted_lift_description">"La nacelle élévatrice tractable est une nacelle élévatrice robuste et polyvalente. Le pack batteries donne à la nacelle élévatrice tractable une grande souplesse de travail à l’intérieur comme à l’extérieur."</string>
+    <string name="truck_mounted_lift_description">"Le camion nacelle est un modèle de nacelle télescopique sur châssis VL offrant une grande polyvalence et une excellente maniabilité."</string>
+    <string name="telehandler_standard_description">"Les chariots télescopiques sont des équipements permettant de lever de lourdes charges et dont les capacités de déport ou d'élévation sont importantes. Des accessoires tels que des godets, des potences, des fourches, nacelles... sont disponibles pour accroître la polyvalence et les performances du chariot télescopique."</string>
+    <string name="telehandler_rotating_description">"Les chariots rotatifs télescopiques sont des équipements permettant de lever de lourdes charges. La rotation permet de travailler en totalité flexibilité dans des endroits difficiles. Des accessoires tels que des godets, potences, fourches, nacelles sont disponibles pour accroître la polyvalence et les performances du chariot télescopique."</string>
+    <string name="crane_description">"Les mini-grues sont des grues conçues pour un levage relativement léger. Lorsque les exigences de levage s'effectuent dans un endroit avec un espace restreint ou des obstacles, une mini-grue sera parfaite pour le travail. Les mini-grues sont conçues pour évoluer dans des endroits où les grues conventionnelles ne peuvent pas aller."</string>
+    <string name="glass_lift_description">"Un SmartLift est conçu pour placer en toute sécurité et facilement des panneaux de verre. Ces nouvelles machines révolutionnaires de manutention du verre soulèvent et positionnent les vitres droites et courbes avec précision, vous permettant de placer votre verre exactement là où vous en avez besoin."</string>
+    <string name="retry">"Réessayer"</string>
+    <string name="error">"Erreur"</string>
+    <string name="key_fleet_number">"Numéro de flotte :"</string>
+    <string name="order_confirmation_dialog_message">"La commande ne sera effective qu'après réception de la confirmation de commande."</string>
+
+    <!-- RENTAL PANEL -->
+    <string name="order_panel_on_rent_date_title">"Début de location le"</string>
+    <string name="order_panel_off_rent_date_strictness_title">"Avez-vous une date de fin de location exacte ?"</string>
+    <string name="order_panel_off_rent_date_estimate_title">"Fin de location estimée le"</string>
+    <string name="rental_panel_off_rent_date_title">"Fin de location le"</string>
+    <string name="rental_panel_date_button_placeholder">"Date"</string>
+    <string name="rental_panel_time_button_placeholder">"Heure"</string>
+    <string name="order_panel_earliest_delivery_day_notice">"La date de livraison la plus proche est %s. Vous souhaitez être livré plus tôt ? Merci de nous appeler."</string>
+    <string name="off_rent_panel_same_day_off_rent_cutoff_notice">"L'arrêt de location en date d'aujourd'hui n'était possible qu'avant %s via l'application. Veuillez nous appeler si vous devez arrêter la location aujourd'hui."</string>
+    <string name="machine_order_key_from">"De :"</string>
+    <string name="machine_order_key_to">"A :"</string>
+    <string name="dialog_comments_title">"Commentaires"</string>
+    <string name="dialog_comments_message">"Avez vous d'autres commentaires pour nos équipes commerciales ?"</string>
+
+    <!-- COMMON -->
+    <string name="riwal_app_name">"Riwal Rental"</string>
+    <string name="manlift_app_name">"Manlift Rental"</string>
+    <string name="manlift_slogan">"L'élévation en toute sécurité !"</string>
+
+    <!-- COUNTRIES -->
+    <string name="country_none">"Aucune sélection"</string>
+    <string name="country_india">"Inde"</string>
+    <string name="country_qatar">"Qatar"</string>
+    <string name="country_uae">"Emirats Arabes Unis"</string>
+    <string name="riwal_disclaimer_url">"https://www.riwal.com/france/fr-fr/riwal/mentions-legales"</string>
+    <string name="riwal_privacy_policy_url">"https://www.riwal.com/france/fr-fr/riwal/politique-de-confidentialite-et-de-cookies"</string>
+    <string name="manlift_disclaimer_url">"https://www.manliftgroup.com/en/disclaimer?strip=1"</string>
+    <string name="manlift_privacy_policy_url">"https://www.manliftgroup.com/en/privacy-statement?strip=1"</string>
+
+    <!-- FEEDBACK SCREEN -->
+    <string name="riwal_feedback_how_satisfied_are_you">"Comment évaluez-vous la performance de l'application Riwal Rental ?"</string>
+    <string name="manlift_feedback_how_satisfied_are_you">"Comment évaluez-vous la performance de l'application Manlift Rental ?"</string>
+    <string name="riwal_feedback_how_can_we_improve">"Comment pouvons-nous améliorer l'application Riwal Rental ?"</string>
+    <string name="manlift_feedback_how_can_we_improve">"Comment pouvons-nous améliorer l'application Manlift Rental ?"</string>
+
+    <!-- WELCOME SCREEN -->
+    <string name="riwal_welcome_screen_title">"Bienvenue"</string>
+    <string name="manlift_welcome_screen_title">"Bienvenue"</string>
+    <string name="riwal_articulated_boom_lift_description">"Les nacelles articulées proposent différentes sections d'articulation permettant l'accès à des zones de travail difficiles. Les nacelles articulées Riwal offrent des capacités exceptionnelles de levage et de déport."</string>
+    <string name="manlift_articulated_boom_lift_description">"Les nacelles articulées proposent différentes sections d'articulation permettant l'accès à des zones de travail difficiles. Les nacelles articulées Manlift offrent des capacités exceptionnelles de levage et de déport."</string>
+    <string name="riwal_forklift_description">"Un chariot élévateur est utilisé pour soulever et déplacer des matériaux. Riwal propose différents types de chariots élévateurs de marques renommées telles que Jungheinrich."</string>
+    <string name="manlift_forklift_description">"Un chariot élévateur est utilisé pour soulever et déplacer des matériaux. Manlift propose différents types de chariots élévateurs de marques renommées telles que Jungheinrich."</string>
+
+    <!-- On rental screen -->
+    <string name="button_machine_details">"Détails"</string>
+
+    <!-- E.g. in the Rental Detail screen, the button to show more detailed information about your rental -->
+    <string name="button_more">"En savoir plus"</string>
+
+    <!-- E.g. in the Rental Detail screen, the button to show less detailed information about your rental -->
+    <string name="button_less">"Moins"</string>
+    <string name="call">"Appeler"</string>
+
+    <!-- Displayed e.g. when in the details of a Rental that cannot be ordered via the app, after clicking on the asset -->
+    <string name="contact_us">"Nous contacter"</string>
+
+    <!-- Message displayed in rental details when an asset cannot be ordered via the app -->
+    <string name="rental_asset_not_available_in_app">"Il n'est pas possible de commander %s à partir de l'application."</string>
+
+    <!-- Displayed on standard buttons that just need the user to acknowledge a message -->
+    <string name="button_ok">"Ok"</string>
+
+    <!-- Message displayed when app asks permission for using the user's location -->
+    <string name="location_when_in_use_description">"Nous utilisons cet outil pour visualiser le lieu du projet sur la carte"</string>
+    <string name="error_invalid_phone_number">"Veuillez entrer un téléphone valide"</string>
+    <string name="order_panel_off_rent_exact_explanation">"La location prendra fin le %s. La machine sera ensuite reprise dans les meilleurs délais. Vous pourrez toutefois modifier la date de fin de location ultérieurement dans votre espace client My Riwal Rental ou en nous contactant."</string>
+    <string name="order_panel_off_rent_approximate_explanation">"Vous avez la possibilité de conserver la machine après le %s. La période de location ne prendra fin qu'après confirmation de votre part dans votre espace client My Riwal Rental ou en nous contactant."</string>
+    <string name="order_panel_off_rent_exact_explanation_no_access4u">"La location prendra fin le %s. La machine sera ensuite reprise dans les meilleurs délais. Vous pourrez toutefois modifier la date de fin de location ultérieurement en nous contactant."</string>
+    <string name="order_panel_off_rent_approximate_explanation_no_access4u">"Vous avez la possibilité de conserver la machine après le %s. La période de location ne prendra fin qu'après confirmation de votre part en contactant nos services."</string>
+    <string name="approximate_value">"~ %s"</string>
+    <string name="change_request_form_project_name_field_label">"Nom du projet"</string>
+    <string name="change_request_form_project_address_field_label">"Adresse"</string>
+    <string name="change_request_form_project_contact_field_label">"Personne à contacter sur site"</string>
+    <string name="change_request_form_project_contact_phone_number_field_label">"Numéro de téléphone"</string>
+    <string name="change_request_form_on_rent_date_field_label">"Date de début de location"</string>
+    <string name="change_request_form_on_rent_time_field_label">"Heure de livraison"</string>
+    <string name="change_request_form_off_rent_date_field_label">"Date de fin de location"</string>
+    <string name="change_request_form_off_rent_time_field_label">"Heure de fin de location"</string>
+    <string name="change_request_form_purchase_order_field_label">"Numéro de commande"</string>
+
+    <!-- Title on button to show the search results in My Rentals as a list -->
+    <string name="my_rentals_result_format_list_button_title">"Liste"</string>
+
+    <!-- Title on button to show the search results in My Rentals on a map -->
+    <string name="my_rentals_result_format_map_button_title">"Carte"</string>
+
+    <!-- Message displayed to indicate only machines with a GPS module are displayed on the Map in My Rentals -->
+    <string name="my_rentals_map_displays_only_gps_machines_message">"Seules les machines équipées d'un GPS sont visibles"</string>
+
+    <!-- Text preceding the project name in My Rentals and the detail page of a Rental -->
+    <string name="key_rental_order_project">"Projet"</string>
+
+    <!-- Text preceding the status of the rental in My Rentals and the detail page of a rental -->
+    <string name="key_rental_order_status">"Statut"</string>
+
+    <!-- Text preceding the off rent date in My Rentals and the detail page of a Rental -->
+    <string name="key_rental_order_stop_renting">"Fin de location"</string>
+
+    <!-- Text preceding the on rent date in My Rentals and the detail page of a Rental -->
+    <string name="key_rental_order_start_renting">"Début de location"</string>
+
+    <!-- Text displayed in My Rentals when a rental has no fixed off rent date -->
+    <string name="rental_order_stop_renting_date_tbd">"À confirmer"</string>
+    <string name="my_rentals_select_rental_order">"Sélectionner"</string>
+    <string name="my_rentals_one_rental_order_selected">"Location %s sélectionnée"</string>
+    <string name="my_rentals_multiple_rental_orders_selected">"Locations %s sélectionnées"</string>
+    <string name="off_rent_panel_off_rent_multiple_machines_explanation">"La fin de location est prévue le %s. Les machines seront reprises dans les meilleurs délais."</string>
+    <string name="off_rent_panel_off_rent_single_machine_explanation">"La fin de location est prévue le %s. La machine sera reprise dans les meilleurs délais."</string>
+    <string name="help_me_choose_what_to_lift_section_title">"J'ai besoin de lever..."</string>
+    <string name="help_me_choose_lift_people_option_title">"Personnes"</string>
+    <string name="help_me_choose_lift_materials_option_title">"Matériel"</string>
+    <string name="help_me_choose_location_section_title">"Le travail à effectuer est..."</string>
+    <string name="help_me_choose_location_outdoors_option_title">"En extérieur"</string>
+    <string name="help_me_choose_location_indoors_option_title">"En intérieur"</string>
+    <string name="help_me_choose_reachability_section_title">"Le travail peut être effectué..."</string>
+    <string name="help_me_choose_reach_vertical_option_title">"Verticalement"</string>
+    <string name="help_me_choose_reach_angled_option_title">"En accès direct"</string>
+    <string name="help_me_choose_reach_multi_angled_option_title">"Au-delà de plusieurs obstacles"</string>
+    <string name="help_me_choose_show_results_button_title">"Voir les %s résultats"</string>
+    <string name="help_me_choose_slider_zero_placeholder">"Je déciderai plus tard"</string>
+    <string name="help_me_choose_wizard_title">"Aidez-moi à choisir"</string>
+    <string name="help_me_choose_working_height_section_title">"Hauteur de travail minimale de"</string>
+    <string name="help_me_choose_working_outreach_section_title">"Déport maximum de"</string>
+
+    <!-- Text displayed when the user selects options in "Help me choose" that we have no available machines for, e.g. for telehandlers in Manlift countries -->
+    <string name="help_me_choose_no_results_message">"Malheureusement, selon vos critères, aucune machine n'est disponible immédiatement en France. Nos équipes pourront néanmoins trouver une alternative."</string>
+
+    <!-- Button displayed in the Machine Detail screen, when there is an 3D augmented reality (AR) model available for the machine. Clicking it will navigate to the AR view. -->
+    <string name="machine_detail_button_view_in_ar">"Voir en 3D"</string>
+    <string name="notification_channel_off_rent">"Notification fin de location"</string>
+    <string name="notification_off_rent_will_expire_title">"La période de location arrive bientôt à son terme"</string>
+    <string name="notification_off_rent_will_expire_message">"La location de la machine %s prendra fin dans %s jour(s)"</string>
+
+    <!-- In the summary page, if the purchase order is not entered it will show an error message -->
+    <string name="purchase_order_required">"Veuillez remplir un bon de commande"</string>
+
+    <!-- Message displayed when the user can place the machine in AR -->
+    <string name="machine_in_ar_onboarding_message">"Touchez l'écran pour positionner la machine"</string>
+
+    <!-- Loading progress percentage displayed when AR model of machine is loading -->
+    <string name="machine_in_ar_loading_progress">"En cours : %s%%"</string>
+
+    <!-- Message displayed when the user is not connected to Wifi or cellular data -->
+    <string name="error_no_internet_connection_try_again">"Pas de connexion Internet. Veuillez vérifier votre connexion et réessayer."</string>
+
+    <!-- Message displayed when it takes too long to get data from the backend -->
+    <string name="error_timeout">"La session a expiré. Veuillez réessayer."</string>
+
+    <!-- Generic error message, when we don't have a better message to display. The code is something users can tell to the service desk, as a start for further investigation. -->
+    <string name="error_something_went_wrong">"Une erreur est survenue.
+Code : %s"</string>
+
+    <!-- Error displayed when we really have no idea what went wrong. -->
+    <string name="error_unknown">"Une erreur est survenue. Veuillez réessayer ultérieurement ou contacter le service assistance si ce problème persiste."</string>
+
+    <!-- Message to show when server is down -->
+    <string name="server_not_reachable">"Le serveur est en panne. Veuillez réessayer plus tard."</string>
+
+    <!-- "Last inspection date" string which is shown in the order details page -->
+    <string name="last_inspection_date">"Date de dernière inspection"</string>
+
+    <!-- Title displayed when preparing for Augmented Reality, while the app is scanning the floor -->
+    <string name="ar_tutorial_title_floor_detection">"Bouger votre téléphone pour démarrer"</string>
+
+    <!-- Title displayed in Augmented Reality, when the app has detected a floor and the user can place a machine on it -->
+    <string name="ar_tutorial_title_machine_movement">"Déplacer la machine"</string>
+
+    <!-- Title displayed in Augmented Reality, when the user has selected the Measure mode and still needs to detect a wall -->
+    <string name="ar_tutorial_title_wall_detection">"Déplacer le téléphone devant le mur"</string>
+
+    <!-- Title displayed in Augmented Reality, when the app has detected a wall and the user can display the machine dimensions on it -->
+    <string name="ar_tutorial_title_machine_dimensions_movement">"Modifier les dimensions de la machine"</string>
+
+    <!-- Button displayed in Augmented Reality. Selecting it will switch to a mode where the user can see and move a 3D model of the machine. -->
+    <string name="ar_mode_3d">"3D"</string>
+
+    <!-- Button displayed in Augmented Reality. Selecting it will switch to a mode where the user can see the machine's dimensions projected on a real-world wall. -->
+    <string name="ar_mode_measure">"Dimensions"</string>
+
+    <!-- Message displayed in Augmented Reality, when the loading of the selected machine's 3D model has failed for some reason. -->
+    <string name="ar_machine_model_loading_failed">"Le chargement a échoué. Veuillez réessayer plus tard."</string>
+
+    <!-- One of the help items displayed when the user presses the "Help" button in Augmented Reality -->
+    <string name="ar_help_item_lighting">"Assurez-vous que la pièce soit correctement éclairée."</string>
+
+    <!-- The title of the page displayed when the user presses the "Help" button in Augmented Reality -->
+    <string name="ar_help_title">"Aide"</string>
+
+    <!-- One of the help items displayed when the user presses the "Help" button in Augmented Reality -->
+    <string name="ar_help_item_floor_reflectivity">"Assurez-vous que le sol et/ou le mur soit non réfléchissant. La réalité augmentée ne fonctionne pas sur des sols brillants ou sur du verre."</string>
+
+    <!-- One of the help items displayed when the user presses the \"Help\" button in Augmented Reality -->
+    <string name="ar_help_item_open_area">"Placez votre machine dans un endroit adapté à sa taille réelle. Cela permettra d'éviter les illusions d'optique et de flottement."</string>
+
+    <!-- One of the help items displayed when the user presses the \"Help\" button in Augmented Reality -->
+    <string name="ar_help_item_movement_speed">"Déplacer lentement votre téléphone."</string>
+
+    <!-- Button the user can press to dismiss the help view in Augmented Reality -->
+    <string name="ar_help_dismiss_button">"J'ai compris !"</string>
+
+    <!-- Button displayed in Augmented Reality. Tapping it will bring up a help view with tips for using Augmented Reality. -->
+    <string name="ar_help_button">"Aide"</string>
+
+    <!-- Message displayed in the main screen when loading machines has failed (e.g. because of a problem with the internet connection) -->
+    <string name="error_loading_machines_failed_message">"Échec du chargement"</string>
+    <string name="augmented_reality_not_supported_message">"La fonctionnalité de réalité augmentée n'est disponible qu'à partir des Iphone 6S  et sur les appareils plus récents fonctionnant sur iOS 11.3 ou versions suivantes"</string>
+
+    <!-- Message displayed in a popup on the AR screen, to explain the buttons to rotate the machine -->
+    <string name="ar_onboarding_message_rotate_machine">"Maintenez le bouton gauche ou droit pour faire tourner la machine"</string>
+
+    <!-- Message displayed in a popup on the AR screen, to explain the buttons to change the machine positions -->
+    <string name="ar_onboarding_message_change_machine_position">"Changer la position de la machine"</string>
+
+    <!-- Message displayed in a popup on the AR screen, to explain the button to switch to the measure mode -->
+    <string name="ar_onboarding_message_measure_mode">"Conseil : mesurez pour vérifier si la machine correspond à votre projet"</string>
+
+    <!-- Extra hint displayed when scanning a wall -->
+    <string name="ar_tutorial_subtitle_wall_detection">"Tenez-vous à  ± 2 mètres"</string>
+    <string name="error_loading_machines_message">"Échec du chargement"</string>
+    <string name="request_an_account">"Demander la création de mon compte"</string>
+    <string name="request_account_message">"Merci de bien vouloir renseigner les informations ci-dessous. Vous recevrez ensuite un email de confirmation."</string>
+    <string name="riwal_login_message_title">"Déconnexion"</string>
+    <string name="login_message">"Vous souhaitez accéder à vos locations en cours ? Arrêter vos locations ou modifier vos locations ?
+
+Connectez-vous ou demandez la création de votre compte."</string>
+    <string name="account_request_succeeded">"Demande envoyée. Nous reviendrons vers vous dans les meilleurs délais."</string>
+    <string name="account_request_failed">"La demande a échoué. Veuillez réessayer ultérieurement."</string>
+
+    <!-- Description text for alert dialog shown before logging out from the application -->
+    <string name="logout_confirmation_dialog_message">"Êtes-vous sûr(e) de vouloir vous déconnecter ?"</string>
+
+    <!-- Title text shown for Alert Dialog before Logging out from Application -->
+    <string name="logout_confirm_title">"Confirmer la déconnexion"</string>
+    <string name="notification_for_delivery_is_not_available_in_weekend">"Demander une livraison le weekend n'est pas possible avec l'application. Merci de contacter nos équipes directement pour ce type de demande."</string>
+    <string name="select_this_location">"Sélectionner cette position"</string>
+    <string name="search_place">"Rechercher une position"</string>
+    <string name="no_location_selected">"Aucune localisation sélectionnée"</string>
+    <string name="download_pdf_button">"Télécharger le PDF"</string>
+    <string name="rental_detail_report_breakdown_button">"Demander une assistance"</string>
+    <string name="breakdown_report_message">"Le rapport de panne a été transmis. Nous reviendrons vers vous dans les meilleurs délais."</string>
+    <string name="breakdown_report_failed">"L'envoi du rapport de panne a échoué. Veuillez réessayer ultérieurement."</string>
+    <string name="breakdown_text_field_hint">"Quel est le problème ?"</string>
+    <string name="breakdown_explanation_text">"Notre équipe technique reviendra vers vous dans les meilleurs délais."</string>
+
+    <!-- To explain to the user for which reason we need to use their camera  -->
+    <string name="camera_permission_reason">"Cette application nécessite un appareil photo pour utiliser la fonction QR code et la réalité augmentée."</string>
+    <string name="breakdown_title">"Panne"</string>
+
+    <!-- Message displayed after the QR code on the machine was successfully scanned, and the information about the current rental order is being loaded -->
+    <string name="scan_machine_qr_loading_rental_message">"Chargement des informations en cours"</string>
+
+    <!-- Hint displayed in the QR code scanning screen to help the user figure out what to do -->
+    <string name="scan_machine_qr_hint">"Scannez le QR code sur la machine"</string>
+
+    <!-- Error message displayed when scanning a QR code that was not a valid Riwal machine QR code -->
+    <string name="scan_machine_qr_error_invalid_qr_code_message">"Le QR code n'est pas reconnu"</string>
+
+    <!-- Error message displayed when looking up the current rental order for the scanned machine has failed -->
+    <string name="scan_machine_qr_error_rental_not_found_message">"Impossible de trouver le contrat de location pour cette machine"</string>
+
+    <!-- Title of the popup displayed when asking the user for permission to access the camera, after the user had initially denied that permission. The %s is a placeholder for the app name (e.g. "My Riwal"), keep it in the translated string! -->
+    <string name="camera_permission_after_deny_ios_popup_title">"%s souhaite accéder à l'appareil photo"</string>
+
+    <!-- Message of the popup displayed when asking the user for permission to access the camera, after the user had initially denied that permission -->
+    <string name="camera_permission_after_deny_ios_popup_message">"Activez l'accès à l'appareil photo dans les paramètres pour utiliser cette fonctionnalité."</string>
+
+    <!-- Title of the popup displayed when notifying the user that the app cannot use the camera, because the device administrator has disabled access to the camera -->
+    <string name="camera_usage_restricted_popup_title">"Accès à l'appareil photo limité"</string>
+
+    <!-- Message in the popup displayed when notifying the user that the app cannot use the camera, because the device administrator has disabled access to the camera -->
+    <string name="camera_usage_restricted_popup_message">"L'utilisation de l'appareil photo est limitée. Veuillez contacter l'administrateur de votre appareil."</string>
+
+    <!-- Machine QR code scanning button in the account screen -->
+    <string name="account_scan_machine_option">"Scannez la machine"</string>
+
+    <!-- Title for the error popup that is displayed when access to the camera is blocked for an unknown reason -->
+    <string name="camera_usage_failed_unknown_error_popup_title">"Problème lié à l'appareil photo"</string>
+
+    <!-- Message in the error popup that is displayed when access to the camera is blocked for an unknown reason -->
+    <string name="camera_usage_failed_unknown_error_popup_message">"Impossible d'utiliser l'appareil photo pour une raison inconnue. L'équipe de développement de l'application a été informée."</string>
+    <string name="breakdown_contact_phone_number">"Numéro de téléphone du contact"</string>
+    <string name="item_received_title">"Machine livrée"</string>
+    <string name="item_requested_title">"Machine demandée"</string>
+    <string name="forgot_password_button_title">"Mot de passe oublié ?"</string>
+    <string name="forgot_password_explanation">"Nous vous enverrons un email avec votre nouveau mot de passe une fois que vous aurez envoyé la demande."</string>
+    <string name="reset_password_button_title">"Réinitialiser le mot de passe"</string>
+    <string name="reset_password__success_message">"Votre mot de passe a été réinitialisé avec succès. Veuillez vérifier votre email avec le nouveau mot de passe"</string>
+    <string name="reset_password_failed">"Vous avez entré une adresse email incorrecte, veuillez vérifier l'adresse email enregistrée."</string>
+    <string name="privacy_policy_message">"J'ai lu et j'accepte votre politique de confidentialité"</string>
+    <string name="quantity_dialog_title">"Sélectionner une quantité"</string>
+    <string name="add_accessories_title">"Ajouter des accessoires"</string>
+    <string name="accessories_title">"Accessoires"</string>
+    <string name="no_customers_found">"Il n'y a actuellement aucun client affecté à cet utilisateur. Veuillez ajouter des clients pour vous connecter."</string>
+    <string name="cancel_rent_button">"Annuler la location"</string>
+    <string name="request_cancel_rent_failed">"L'annulation de la location a échoué. Veuillez réessayer ultérieurement."</string>
+    <string name="cancel_rent_requested">"La demande d'annulation de location a été envoyée. Nous reviendrons vers vous dans les meilleurs délais."</string>
+
+    <!-- select a customer from a list of customers. -->
+    <string name="select_customer_title">"Sélectionner un client"</string>
+
+    <!-- Please choose a time before %s, or call us if you need to stop renting at this time. -->
+    <string name="invalid_off_rent_time">"Veuillez choisir une heure avant %s, ou contactez-nous."</string>
+
+    <!-- Please choose a time before %s, or call us if you need to start renting at this time. -->
+    <string name="invalid_on_rent_time">"Veuillez choisir une heure avant %s, ou contactez-nous"</string>
+    <string name="open_rental">"Location en cours"</string>
+    <string name="accessories_on_rent">"Accessoires en cours de location"</string>
+    <string name="no_accessories_found">"Aucun accessoire trouvé"</string>
+    <string name="error_loading_accessories_message">"Le chargement a échoué"</string>
+    <string name="no_accessories_on_rent_found">"Aucun accessoire en location trouvé"</string>
+    <string name="my_projects">"Mes projets"</string>
+    <string name="book_training">"Réserver une formation"</string>
+    <string name="upload_image">"Charger les images"</string>
+    <string name="contact_dialog_title">"Sélectionner un contact"</string>
+    <string name="project_dialog_title">"Sélectionner un projet"</string>
+    <string name="upload_confirm_title">"Confirmer le téléchargement"</string>
+    <string name="upload_confirmation_dialog_message">"Voulez-vous vraiment télécharger les images ?"</string>
+    <string name="transfer_confirm_title">"Confirmer le transfert"</string>
+
+    <!-- make sure to keep ( %s ) in 3 places ,  this will be replaced by the following :
+1- first ( %s ) will be dynamically replaced by machine fleet number
+2- second ( %s ) will be dynamically replaced by to customer name
+3- third ( %s )will be dynamically replaced by to contact name -->
+    <string name="transfer_confirmation_dialog_message">"Vous avez demandé le transfert de %s à %s. %s va recevoir une notification pour accepter le transfert. Une fois accepté et traité, le statut passera à machine transférée"</string>
+    <string name="transfer">"Transférer"</string>
+    <string name="request_reject_transfer_failed">"La demande de refus de transfert a échoué. Veuillez réessayer ultérieurement."</string>
+    <string name="reject_transfer_requested">"Demande de transfert rejetée. Nous la traiterons dans les meilleurs délais."</string>
+    <string name="request_transfer_failed">"La demande de transfert a échoué. Veuillez réessayer ultérieurement."</string>
+    <string name="transfer_requested">"Votre demande a été envoyée avec succès."</string>
+    <string name="reject_confirmation_dialog_message">"Voulez-vous vraiment rejeter la demande de transfert de machine(s) ?"</string>
+    <string name="reject">"Rejeter"</string>
+    <string name="transfer_reject_title">"Confirmer le refus du transfert"</string>
+    <string name="upload_limit_title">"Merci de choisir au minimum 4 images"</string>
+    <string name="upload_limit_dialog_message">"Merci de choisir au moins 4 images"</string>
+    <string name="notification_transfer_requested_message">"Vous avez demandé le transfert de %s à %s %s. Ils recevront une notification pour accepter la ou les machines transférées. Dès validation et traitement de la demande dans notre système, vous recevrez un email confirmant le transfert."</string>
+    <string name="notification_transfer_received_message">"%s de %s a demandé la %s. Avant de transférer la machine, nous souhaitons vous confirmer qu'il n'y a aucun dommage. Avant le transfert, nous vous demandons donc de bien vouloir prendre des photos de chaque côté de la machine."</string>
+    <string name="notification_transfer_accepted_message">"Le transfert de %s de %s à %s est demandé. Nos équipes traiteront la demande dans les meilleurs délais. Pour garantir une sécurité optimale, un premier contrôle sera effectué sur la machine avant que vous ne puissiez l'utiliser."</string>
+    <string name="notification_transfer_declined_message">"%s a refusé votre demande de transférer %s."</string>
+    <string name="no_transactions">"Aucune transaction trouvée"</string>
+    <string name="transfer_machine">"Transférer la machine"</string>
+    <string name="request_transfer">"Demander un transfert"</string>
+    <string name="minimum_limit_of_image_dialog_message">"Merci de choisir au minimum 4 images"</string>
+
+    <!-- Accept machine transfer request -->
+    <string name="accept_button">"Accepter"</string>
+
+    <!-- Upload machine images before accepting the transfer -->
+    <string name="upload_buttton">"Charger"</string>
+
+    <!-- Off rent -->
+    <string name="off_rent">"Fin de location"</string>
+
+    <!-- The transfer of %s from %s at %s has accepted. Our rental desk will process the request as soon as possible. To guarantee safety, a First Check will be carried out on the machine before you can use it. -->
+    <string name="notification_transfer_accepted_acknowledgement_message">"Le transfert de %s de %s à %s est accepté. Nous reviendrons vers vous dans les meilleurs délais. Pour garantir une sécurité optimale, un premier contrôle sera effectué sur la machine avant de pouvoir l'utiliser."</string>
+
+    <!-- Pending Transfer -->
+    <string name="pending_transfer">"Transfert en attente"</string>
+
+    <!-- Decline -->
+    <string name="decline">"Refuser"</string>
+
+    <!-- Accept transfer requested, We will process it as soon as possible -->
+    <string name="accept_transfer_succeeded">"Accepter le transfert demandé. Nous traiterons cette demande dans les meilleurs délais"</string>
+
+    <!-- Accept transfer failed. Please try again later. -->
+    <string name="accept_transfer_failed">"L'acceptation du transfert a échoué. Veuillez réessayer ultérieurement."</string>
+
+    <!-- Camera permission request to show QR code scanner -->
+    <string name="scan_machine_camera_permission_message">"Une autorisation est requise pour utiliser l'appareil photo et utiliser le QR code"</string>
+
+    <!-- Password request failed warning message title -->
+    <string name="reset_password_failed_title">"La réinitialisation du mot de passe a échoué"</string>
+
+    <!-- Notification -->
+    <string name="notification">"Notification"</string>
+
+    <!-- Title to show before selecting the customer to transfer (eg: Transfer machine(Rental type) to (a customer)) -->
+    <string name="transfer_machine_bottom_sheet_discription">"Transférer %s à"</string>
+
+    <!-- Select transfer date -->
+    <string name="key_select_transfer_date">"Sélectionner une date de transfert"</string>
+
+    <!-- Please add images for the machines that is going to be transferred. -->
+    <string name="add_image_prompt">"Veuillez ajouter des images pour les machines qui vont être transférées"</string>
+
+    <!-- Please wait -->
+    <string name="please_wait">"Veuillez patienter"</string>
+    <string name="training_types">"Type de formation"</string>
+    <string name="dialog_new_feature_title">"Caractéristiques non disponibles"</string>
+    <string name="key_course">"Formation"</string>
+    <string name="key_duration">"Durée"</string>
+    <string name="key_certification">"Certification"</string>
+    <string name="key_location">"Lieu"</string>
+    <string name="key_participant">"Participant"</string>
+    <string name="key_price">"Tarif"</string>
+    <string name="button_details">"Détails"</string>
+    <string name="button_send_request">"Envoyer la demande"</string>
+    <string name="start_date">"Date de début"</string>
+    <string name="request_quote_button">"Demander un devis"</string>
+    <string name="dialog_confirm_training_request_title">"Demander un devis formation"</string>
+    <string name="dialog_confirm_training_request_message">"Les devis de formation demandés seront traités dès que possible."</string>
+    <string name="training_request_succeed">"Vous avez demandé un devis formation. Nous reviendrons vers vous dès que possible."</string>
+    <string name="check_other_training">"Voir d'autres formations"</string>
+    <string name="booking">"Réserver"</string>
+    <string name="page_home">"Page d'accueil"</string>
+    <string name="no_training_found">"Aucune formation trouvée"</string>
+    <string name="error_loading_training_message">"Erreur de chargement"</string>
+    <string name="no_invoice_found">"Aucune facture trouvée"</string>
+
+    <!-- make sure to keep %s in the translation, it will be replaced with dynamic values.
+
+Example -> 10 invoices are overdue, Overdue amount is 123.89 -->
+    <string name="invoices_overview">"%s factures sont impayées, le montant à payer est de %s"</string>
+
+    <!-- make sure to keep %s in the translation. It will be replaced with dynamic values.
+
+
+
+example -> 10 days -->
+    <string name="invoice_due_days">"%s jours"</string>
+    <string name="filter_invoice_type_title">"Type de facture"</string>
+    <string name="contact_person">"Contact"</string>
+    <string name="venue">"Lieu"</string>
+
+    <!-- https://s3.eu-west-1.amazonaws.com/po-pub/i/S9y9sovCN6kW0gAZPBoZFQqI.jpg -->
+    <string name="overdue">"Impayé"</string>
+    <string name="paid">"Payé"</string>
+
+    <!-- Inv Date :
+
+(inv) is used instead of (invoice ) to look better in the design.
+so it would be great if it's possible to use shortcut in your translation to fit in place -->
+    <string name="inv_date">"Date de facturation"</string>
+
+    <!-- Due Date : -->
+    <string name="due_date">"Date d'échéance"</string>
+
+    <!-- https://s3.eu-west-1.amazonaws.com/po-pub/i/S3BXXATtblq9vbkU6IpMj81S.jpg -->
+    <string name="invoice_type">"Type de facture :"</string>
+
+    <!-- https://s3.eu-west-1.amazonaws.com/po-pub/i/IiILiEpWW974IhL6WF0WJbyy.jpg -->
+    <string name="rental_order_number">"N° de commande :"</string>
+
+    <!-- https://s3.eu-west-1.amazonaws.com/po-pub/i/I2YsjAP264SYkHHUIYdSBt15.jpg -->
+    <string name="amount">"Montant"</string>
+    <string name="sales">"Ventes"</string>
+    <string name="maintenance">"Maintenance"</string>
+    <string name="damage">"Dommage"</string>
+    <string name="participant_validation">"Entrez une valeur entre %s et %s"</string>
+    <string name="location">"Lieu"</string>
+    <string name="participants">"Participants"</string>
+
+    <!-- This is the title to to be displayed on the Calendar to pick a starting date for filtering the invoice date -->
+    <string name="invoice_start_date_title">"La période de facturation débute le"</string>
+
+    <!-- This is the title to to be displayed on the Calendar to pick a end date for filtering the invoice date -->
+    <string name="invoice_end_date_title">"La période de facturation se termine le"</string>
+
+    <!-- Title to be displayed on training detail page -->
+    <string name="training_details_title">"Détails de la formation"</string>
+
+    <!-- One fo the invoices types. will be shown inside the invoices filter under invoice types.  -->
+    <string name="credit">"Avoir"</string>
+
+    <!-- One fo the invoices types. will be shown inside the invoices filter under invoice types.  -->
+    <string name="hire_credit">"Avoir location"</string>
+
+    <!-- One fo the invoices types. will be shown inside the invoices filter under invoice types.  -->
+    <string name="repair">"Réparation"</string>
+
+    <!-- One fo the invoices types. will be shown inside the invoices filter under invoice types.  -->
+    <string name="loss">"Perte"</string>
+
+    <!-- if the invoices type is unknown or not defined we use this. will be shown inside the invoices filter under invoice types.  -->
+    <string name="other">"Autres"</string>
+    <string name="pick_up_location">"Lieu de reprise"</string>
+
+    <!-- Only for danish customers. To be displayed in the home page with an icon to load the Advent calendar game -->
+    <string name="game">"Jeu"</string>
+
+    <!-- Only for danish customers. To be displayed as the title in the webview page for the Advent calendar game -->
+    <string name="game_webview_title">"Calendrier de l'Avent"</string>
+    <string name="empty_field_message">"Le champs ne doit pas être vide"</string>
+    <string name="string_new">"Nouveau"</string>
+    <string name="vat_number">"Numéro de TVA "</string>
+    <string name="next_button_title">"Suivant"</string>
+    <string name="new_feature_alert">"Nouvelle fonctionnalité !"</string>
+    <string name="training_tutorial_message_home">"Le saviez-vous ? Vous pouvez désormais réserver une formation via l'application. Cliquez sur \"OK\" pour voir le tutoriel."</string>
+    <string name="tutorial_message_training_category">"Sélectionnez la catégorie de formation qui vous intéresse."</string>
+    <string name="tutorial_message_training_list">"Cliquez sur le bouton \"Détails\" pour sélectionner un formation."</string>
+    <string name="tutorial_message_training_detail">"Cliquez sur \"Demander un devis\" pour demander un devis sur une formation."</string>
+    <string name="tutorial_message_training_request_form">"Complétez le détail de votre demande."</string>
+    <string name="tutorial_message_training_request_send">"Validez votre demande et nous reviendrons vers vous dans les plus brefs délais."</string>
+    <string name="skip_tutorial_label">"Passer le tutoriel"</string>
+    <string name="hide_tutorial_label">"Cacher"</string>
+    <string name="my_quotations">"Mes devis"</string>
+    <string name="quotation_date">"Date du devis :"</string>
+    <string name="on_hire_date">"Début de location :"</string>
+    <string name="off_hire_date">"Fin de location :"</string>
+    <string name="venue_city">"Lieu :"</string>
+
+    <!-- Message to be displayed in the quotation view if there is no quotation for the specified date range -->
+    <string name="no_quotation_found">"Aucun devis trouvé"</string>
+
+    <!-- Title to be shown on the calendar to select the quotation start date -->
+    <string name="quotation_start_date_title">"Date de début du devis"</string>
+
+    <!-- Title to be shown on the calendar to select the quotation end date -->
+    <string name="quotation_end_date_title">"Date de fin du devis"</string>
+
+    <!-- Message to shown if the file try to download is not available  -->
+    <string name="file_not_available">"Le fichier demandé n'est pas disponible"</string>
+
+    <!-- confirmation question to ask to the customer before off renting "is the machine is available for pickup by our driver? -->
+    <string name="pickup_location_confirmation_title">"La machine est-elle prête à être reprise par notre conducteur ?"</string>
+    <string name="training_tutorial_message_home_from_url">"Le saviez-vous ? Vous pouvez désormais réserver une formation via l'application."</string>
+    <string name="refresh">"Rafraîchir"</string>
+    <string name="machine_location">"Localisation de la machine"</string>
+
+    <!-- Text field to describe the location of a machine when a breakdown is reported. -->
+    <string name="machine_location_description">"Décrire la localisation de la machine"</string>
+    <string name="apply">"Soumettre"</string>
+    <string name="clear_filters">"Effacer les filtres"</string>
+    <string name="browse_machine">"Consulter les machines"</string>
+    <string name="end_date">"Date de fin"</string>
+    <string name="remove">"Supprimer"</string>
+    <string name="place_order">"Commander"</string>
+    <string name="validation_message_for_start_renting_on">"Veuillez d'abord sélectionner la date et l'heure de début de location."</string>
+    <string name="order_request_delivery_message_check_box_two">"Nous pouvons livrer votre machine le jour précédent celui souhaité"</string>
+    <string name="order_request_delivery_message_check_box_three">"Nous pouvons livrer votre machine durant la nuit"</string>
+    <string name="order_request_delivery_message_check_box_one">"Nous pouvons livrer des machines plus grandes sur votre site"</string>
+    <string name="hint_fleet_number">"Numéro de flotte"</string>
+    <string name="delivery_option_button">"Options de livraison"</string>
+
+    <!-- invoice type name for inter company invoice -->
+    <string name="inter_company_invoice">"Inter-sociétés"</string>
+
+    <!-- Invoices related to workshop -->
+    <string name="workshop_invoice">"Atelier"</string>
+
+    <!-- invoice for upfront payment -->
+    <string name="upfront_payment_invoice">"Paiement anticipé"</string>
+    <string name="page_product">"Produits"</string>
+    <string name="rental_status_allocated">"Affecté"</string>
+
+    <!-- will be shown when a machine is exchanged in my rentals -->
+    <string name="rental_status_exchanged">"Remplacé"</string>
+    <string name="rental_status_off_hire_not_confirmed">"Non confirmé"</string>
+    <string name="rental_status_wait_invoicing">"En attente de facturation"</string>
+    <string name="machine_type">"Type de machine"</string>
+    <string name="change_on_rent_date">"Modifier la date de début de location"</string>
+    <string name="change_off_rent_date">"Modifier la date de fin de location"</string>
+
+    <!-- What is the context please? -->
+    <string name="to">"au"</string>
+
+    <!-- Hydrostatic machine propulsion  -->
+    <string name="hydrostatic">"Hydrostatique"</string>
+    <string name="hydraulic">"Hydraulique"</string>
+    <string name="lpg">"GPL"</string>
+    <string name="none">"Aucun"</string>
+    <string name="petrol">"Essence"</string>
+    <string name="help_me_choose_liftcapacity_section_title">"Capacité de levage d'au moins..."</string>
+    <string name="machine_unavailable">"Cette machine n'est pas disponible"</string>
+
+    <!-- Will be asked to the customer while adding to the cart, whether it is possible to deliver larger machines at your location? -->
+    <string name="order_panel_larger_machine_consent_request">"Pouvons-nous livrer de plus grandes machines sur votre site ?"</string>
+
+    <!-- Will be asked to the customer while adding to the cart, whether it is possible to deliver the day before requested day? -->
+    <string name="order_panel_early_delivery_consent_request">"Pouvons-nous livrer les machines un jour plus tôt ?"</string>
+
+    <!-- Will be asked to the customer while adding to the cart, whether it is possible to deliver machines during night? -->
+    <string name="order_panel_night_delivery_consent_request">"Pouvons-nous livrer les machines durant la nuit ?"</string>
+    <string name="edit_accessories_title">"Modifier les accessoires"</string>
+    <string name="delivery_options">"Options de livraison"</string>
+    <string name="rental_status_cancelled">"Annulé"</string>
+    <string name="title_guest">"Invité"</string>
+    <string name="order_status_canceled">"Annulé"</string>
+    <string name="order_status_pending_collections">"En attente de reprise"</string>
+    <string name="machine_documents_screen_manuals_title">"Manuel d'utilisation"</string>
+    <string name="rental_status_current_rental">"Location en cours"</string>
+
+    <!-- Title to describe the maximum machine weight in help me choose -->
+    <string name="help_me_choose_machine_weight_section_title">"Charge jusqu'à..."</string>
+
+    <!-- Title for machine documents download button -->
+    <string name="downloadable_documents_title">"Documents téléchargeables"</string>
+
+    <!-- Tip to show in the forgot password page. -->
+    <string name="forgot_password_tip">"Saviez-vous que 78% des utilisateurs oublient leurs mots de passe ?"</string>
+
+    <string name="key_ordered_by">"Commandé par"</string>
+    <string name="dialog_install_app_title">"Nouvelle appli disponible"</string>
+    <string name="dialog_install_app_required_message">"Nous avons créé une nouvelle version de votre appli My Riwal et vous pouvez l'installer sur votre smartphone ! Après cela, vous pourrez supprimer l'ancienne version."</string>
+    <string name="install_title">"Installer"</string>
+</resources>

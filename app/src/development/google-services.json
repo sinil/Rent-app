@@ -1,0 +1,131 @@
+{
+  "project_info": {
+    "project_number": "662739368530",
+    "firebase_url": "https://customer-app-dev.firebaseio.com",
+    "project_id": "customer-app-dev",
+    "storage_bucket": "customer-app-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662739368530:android:b9ccf6653e6d2c84",
+        "android_client_info": {
+          "package_name": "com.manlift.rentalapp.development"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662739368530-usqacb6akqgmg4sr9ihkpaoh7744pig9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manlift.rentalapp.development",
+            "certificate_hash": "a4b33aa14c79fe1fa676524dd1d7022ff4495e63"
+          }
+        },
+        {
+          "client_id": "662739368530-e0pjh9lqffd9j2h30tgv2ghqs8todf2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manlift.rentalapp.development",
+            "certificate_hash": "5119af8844fd748a6c39557c710944ef05265281"
+          }
+        },
+        {
+          "client_id": "662739368530-ola01pmjmsq2or0ce4fll9e06novavmp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manlift.rentalapp.development",
+            "certificate_hash": "4823894dcb506bc358470e872f9f6990444cd188"
+          }
+        },
+        {
+          "client_id": "662739368530-86d242emfr6g5n8gnsl3111mqie4gqla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiJfqo74wYLdsT0je0AVZkMAY8B9cRaJ8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662739368530-86d242emfr6g5n8gnsl3111mqie4gqla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662739368530:android:03eaddf0097978f1",
+        "android_client_info": {
+          "package_name": "com.riwal.rentalapp.development"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662739368530-hms40t6lupph0tpvhtfmrb5vsk3l75o9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riwal.rentalapp.development",
+            "certificate_hash": "4823894dcb506bc358470e872f9f6990444cd188"
+          }
+        },
+        {
+          "client_id": "662739368530-ohevfi0fakttglnh9fgnlssilprvvkla.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riwal.rentalapp.development",
+            "certificate_hash": "5119af8844fd748a6c39557c710944ef05265281"
+          }
+        },
+        {
+          "client_id": "662739368530-jpeg5oeuqt1n6eri62j8uvna24hacee9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riwal.rentalapp.development",
+            "certificate_hash": "a4b33aa14c79fe1fa676524dd1d7022ff4495e63"
+          }
+        },
+        {
+          "client_id": "662739368530-86d242emfr6g5n8gnsl3111mqie4gqla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiJfqo74wYLdsT0je0AVZkMAY8B9cRaJ8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662739368530-86d242emfr6g5n8gnsl3111mqie4gqla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

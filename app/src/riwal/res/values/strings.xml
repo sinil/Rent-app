@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- COMMON -->
+    <string name="app_name">@string/riwal_app_name</string>
+    <string name="company_slogan">@string/riwal_slogan</string>
+
+    <!-- WELCOME SCREEN -->
+    <string name="welcome_screen_title">@string/riwal_welcome_screen_title</string>
+
+    <!-- FEEDBACK SCREEN -->
+    <string name="feedback_how_satisfied_are_you">@string/riwal_feedback_how_satisfied_are_you</string>
+    <string name="feedback_how_can_we_improve">@string/riwal_feedback_how_can_we_improve</string>
+
+    <!-- MACHINE TYPE DESCRIPTIONS -->
+    <string name="articulated_boom_lift_description">@string/riwal_articulated_boom_lift_description</string>
+    <string name="forklift_description">@string/riwal_forklift_description</string>
+
+    <!-- SETTINGS -->
+    <string name="disclaimer_url">@string/riwal_disclaimer_url</string>
+    <string name="privacy_policy_url">@string/riwal_privacy_policy_url</string>
+
+</resources>

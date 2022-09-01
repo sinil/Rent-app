@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- COMMON -->
+    <string name="categories">"Kategorije"</string>
+    <string name="riwal_slogan">"Above all. Riwal"</string>
+    <string name="password">"Lozinka"</string>
+
+    <!-- PAGES -->
+    <string name="page_search">"Traži"</string>
+    <string name="page_cart">"Košarica"</string>
+    <string name="page_account">"Račun"</string>
+    <string name="page_contact">"Kontakt"</string>
+    <string name="page_my_rentals">"Najam"</string>
+    <string name="page_country">"Izaberite zemlju"</string>
+    <string name="page_project">"Projekt"</string>
+    <string name="page_create_project">"Upiši projekt"</string>
+    <string name="page_summary">"Sažetak"</string>
+
+    <!-- HINTS -->
+    <string name="hint_search">"Traži"</string>
+    <string name="rental_period">"Period najma"</string>
+
+    <!-- BUTTONS -->
+    <string name="button_all_categories">"Sve kategorije"</string>
+    <string name="filter">"Filter"</string>
+    <string name="clear">"Izbriši"</string>
+    <string name="done">"Završeno"</string>
+    <string name="delete">"Obriši"</string>
+    <string name="cancel">"Odustani"</string>
+    <string name="submit">"Potvrdi"</string>
+    <string name="request_rental">"Traži najam"</string>
+    <string name="button_continue">"Nastavi"</string>
+    <string name="pick_a_location">"Izaberi lokaciju"</string>
+    <string name="send_request">"Pošalji zahtjev"</string>
+    <string name="rent_again">"Unajmi opet"</string>
+    <string name="option_expected">"Očekivani"</string>
+    <string name="option_final">"Konačni"</string>
+    <string name="machine">"Platforma"</string>
+    <string name="working">"Radna"</string>
+    <string name="add_to_order">"Dodaj narudžbi"</string>
+    <string name="pictures">"Slike"</string>
+    <string name="cart">"Košarica"</string>
+    <string name="delivery_time">"Vrijeme isporuke"</string>
+    <string name="machine_order_added">"Platforma dodana u košaricu"</string>
+    <string name="project">"Projekt"</string>
+    <string name="rental">"Najam"</string>
+
+    <!-- KEYS -->
+    <string name="key_brand">"Marka:"</string>
+    <string name="key_model">"Model:"</string>
+    <string name="key_weight">"Težina:"</string>
+    <string name="key_dimensions">"Dimenzije (d × š × v):"</string>
+    <string name="key_platform_dimensions">"Platforma (d × š):"</string>
+    <string name="key_working_height">"Radna visina:"</string>
+    <string name="key_working_outreach">"Radni doseg:"</string>
+    <string name="key_lift_capacity">"Kapacitet podizanja:"</string>
+    <string name="key_propulsion">"Pogon:"</string>
+    <string name="key_order_number">"Broj narudžbe:"</string>
+    <string name="key_price_rate">"Raspon cijena:"</string>
+    <string name="key_project_city">"Lokacija projekta:"</string>
+    <string name="key_contact_person">"Kontakt osoba:"</string>
+    <string name="key_project_name">"Naziv projekta:"</string>
+    <string name="key_operator_name">"Ime operatera:"</string>
+    <string name="key_purchase_order">"Narudžbenica:"</string>
+    <string name="key_period">"Period:"</string>
+    <string name="key_delivery_time">"Vrijeme isporuke:"</string>
+    <string name="key_quantity">"Količina:"</string>
+
+    <!-- VALUES -->
+    <string name="value_in_meters">"%s m"</string>
+
+    <!-- CONTACT INFO -->
+    <string name="company">"Tvrtka"</string>
+    <string name="name">"Ime"</string>
+    <string name="phone">"Telefon"</string>
+    <string name="email">"E-mail"</string>
+
+    <!-- PROJECT -->
+    <string name="project_name">"Naziv projekta"</string>
+    <string name="project_contact_name">"Kontakt osoba"</string>
+    <string name="project_contact_phone_number">"Kontakt telefon"</string>
+    <string name="address">"Adresa"</string>
+    <string name="zip_code">"Poštanski broj"</string>
+    <string name="city">"Grad"</string>
+
+    <!-- SUMMARY -->
+    <string name="machines">"Platforme"</string>
+    <string name="contact_information">"Kontakt informacije"</string>
+    <string name="project_information">"Informacije o projektu"</string>
+    <string name="general">"Općenito"</string>
+    <string name="purchase_order">"Vaša narudžba"</string>
+    <string name="notes">"Bilješke"</string>
+
+    <!-- EMPTY STATES -->
+    <string name="no_machines_found">"Platforme nisu pronađene"</string>
+    <string name="empty_cart">"Ni jedna platforma nije dodana"</string>
+    <string name="empty_project">"Nemate upisan projekt.
+Pritisnite \"+\" da bi ga dodali"</string>
+
+    <!-- ERRORS -->
+    <string name="error_invalid_mail_address">"Upišite ispravnu email adresu"</string>
+    <string name="error_invalid_password">"Upišite password"</string>
+
+    <!-- DIALOGS -->
+    <string name="dialog_delete_machine_order_title">"Izbaci iz košarice"</string>
+    <string name="dialog_delete_machine_order_message">"Ova platforma će biti izbačena iz košarice"</string>
+    <string name="dialog_delete_project_title">"Izbriši projekt"</string>
+    <string name="dialog_delete_project_message">"Ovaj projekt više neće biti dostupan"</string>
+
+    <!-- ORDER -->
+    <string name="option_contact_person">"Ja sam kontaktna osoba"</string>
+    <string name="place_this_order">"Naručiti odabrano?"</string>
+
+    <!-- ACCOUNT -->
+    <string name="account_manager">"Korisnik"</string>
+    <string name="any_questions">"Imate li pitanja?"</string>
+    <string name="my_rentals">"Moji najmovi"</string>
+    <string name="my_invoices">"Moji računi"</string>
+    <string name="training">"Trening"</string>
+    <string name="log_out">"Odjavi se"</string>
+    <string name="log_in">"Prijavi se"</string>
+
+    <!-- MACHINE TYPES -->
+    <string name="scissor_lift">"Škarasta platforma"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="vertical_lift">"Vertikalna podizna platforma"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="crawler_lift">"Gusjeničasta platforma"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="articulated_boom_lift">"Zglobna podizna platforma"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="spider_lift">"Pauk"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="telescopic_boom_lift">"Teleskopska podizna platforma"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="trailer_mounted_lift">"Platforma na prikolici"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="truck_mounted_lift">"Autokošara"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="forklift">"Viljuškar"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="telehandler_standard">"Teleskopski viličar"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="telehandler_rotating">"Okretni teleskopski viličar"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="crane">"Dizalica"</string>
+
+    <!-- Can we please update the translation to its plural form. -->
+    <string name="glass_lift">"Podizač stakla"</string>
+
+    <!-- ORDER STATUSSES -->
+    <string name="order_status_unknown">"Nepoznato"</string>
+    <string name="order_status_pending_deliveries">"U tijeku je isporuka"</string>
+    <string name="order_status_current_rentals">"Trenutni najam"</string>
+    <string name="order_status_closed_rentals">"Zatvoreno"</string>
+
+    <!-- COUNTRIES -->
+    <string name="country_belgium">"Belgija"</string>
+    <string name="country_croatia">"Hrvatska"</string>
+    <string name="country_denmark">"Germany"</string>
+    <string name="country_france">"Francuska"</string>
+    <string name="country_germany">"Njemačka"</string>
+    <string name="country_kazakhstan">"Kazakhstan"</string>
+    <string name="country_norway">"Norveška"</string>
+    <string name="country_poland">"Poljska"</string>
+    <string name="country_slovenia">"Slovenia"</string>
+    <string name="country_spain">"Španjolska"</string>
+    <string name="country_sweden">"Švedska"</string>
+    <string name="country_netherlands">"Nizozemska"</string>
+    <string name="country_united_kingdom">"UK"</string>
+    <string name="no_rentals_found">"Najmovi nisu pronađeni"</string>
+    <string name="unknown">"Nepoznato"</string>
+    <string name="request_changes">"Zatraži promjene"</string>
+    <string name="order_request_succeeded">"Hvala, Vaš zahtjev je poslan."</string>
+    <string name="order_request_failed">"Pogrešno, molimo Vas probajte ponovno. "</string>
+    <string name="login_failed">"Prijava nije uspjela"</string>
+    <string name="unknown_username_password_combination">"Ova kombinacija korisničkog imena i lozinke nam nije poznata"</string>
+    <string name="confirm">"Potvrdi"</string>
+    <string name="off_rent_date">"Od datuma najma"</string>
+    <string name="off_rent_time">"Vrijeme najma"</string>
+    <string name="comments">"Komentari"</string>
+    <string name="dialog_confirm_off_hire_title">"%s najam"</string>
+    <string name="dialog_confirm_off_hire_message">"Nemojte više unajmljivati ovaj stroj %s."</string>
+    <string name="dialog_confirm_request_change_title">"Zahtjev promijenjen"</string>
+    <string name="dialog_confirm_request_change_message">"Zahtjev za izmjenom obradit će se što je prije moguće."</string>
+    <string name="request_off_rent_failed">"Zahtjev za otkazivanje najma nije uspio. Pokušajte ponovo."</string>
+    <string name="off_rent_requested">"Nije moguće iznajmiti"</string>
+    <string name="change_request_failed">"Promjena zahtjeva nije uspjela, molimo pokušajte ponovo."</string>
+    <string name="changes_requested_message">"Tražene izmjene. Obradit ćemo ih što je prije moguće."</string>
+
+    <!-- PROPULSION -->
+    <string name="electric">"Električni"</string>
+    <string name="diesel">"Diesel"</string>
+    <string name="hybrid_gasoline">"Hibrid (benzin)"</string>
+    <string name="hybrid_diesel">"Hibrid (diesel)"</string>
+    <string name="hybrid">"Hibrid"</string>
+    <string name="gasoline">"Benzin"</string>
+    <string name="natural_gas">"Zemljani plin"</string>
+    <string name="propulsion">"Pogon"</string>
+    <string name="off_rent_button">"Raspoloživo"</string>
+    <string name="on_rent">"U najmu"</string>
+    <string name="country_international">"Riwal International"</string>
+
+    <!-- REQUEST CHANGES SCREEN -->
+    <string name="change_expected_off_rent_date_edit_text_hint">"Nije u najmu (očekivana raspoloživost)"</string>
+    <string name="change_final_off_rent_date_edit_text_hint">"Nije u najmu"</string>
+    <string name="dialog_clear_machine_orders_title">"Jeste li sigurni?"</string>
+    <string name="dialog_clear_machine_orders_message">"Ne možete naručiti stroj iz druge zemlje. Vaša košarica će se isprazniti."</string>
+    <string name="update">"Ažuriraj"</string>
+    <string name="feedback">"Povratna informacija"</string>
+    <string name="send">"Pošalji"</string>
+    <string name="page_depot">"Skladišta"</string>
+    <string name="page_feedback">"Povratna informacija"</string>
+    <string name="page_edit_project">"Upiši projekt"</string>
+
+    <!-- SETTINGS -->
+    <string name="setting_depots">"Skladišta"</string>
+    <string name="setting_contact">"Kontakt"</string>
+    <string name="setting_country">"Zemlja"</string>
+    <string name="setting_disclaimer">"Odricanje"</string>
+    <string name="setting_privacy_policy">"Pravila privatnosti"</string>
+    <string name="setting_feedback">"Povratna informacija"</string>
+    <string name="search_menu_item">"Traži"</string>
+    <string name="filter_period_title">"Period"</string>
+    <string name="filter_rental_status_title">"Status najma"</string>
+
+    <!-- Fuzzy -->
+    <string name="search_results">"%s rezultati"</string>
+
+    <!-- RATING -->
+    <string name="rating_terrible">"Nezadovoljavajuće"</string>
+    <string name="rating_bad">"Loše"</string>
+    <string name="rating_okay">"U redu"</string>
+    <string name="rating_good">"Dobro"</string>
+    <string name="rating_great">"Odlično"</string>
+    <string name="empty_depot">"Nema skladišta."</string>
+    <string name="dialog_update_app_title">"Ažuriranje dostupno"</string>
+    <string name="dialog_update_app_message">"Dostupna je nova verzija aplikacije!"</string>
+    <string name="dialog_update_app_required_message">"Morate ažurirati aplikaciju prije nego nastavite."</string>
+    <string name="dialog_update_app_cancel_button">"U redu je"</string>
+    <string name="message_send_feedback_succeeded">"Hvala Vam na povratnoj informaciji."</string>
+    <string name="message_send_feedback_failed">"Nešto je otišlo krivo prilikom slanja povratnih informacija. Molimo pokušajte ponovo kasnije."</string>
+    <string name="order_status_pending_pickup">"Čekanje preuzimanja"</string>
+    <string name="setting_inventory">"Inventar"</string>
+
+    <!-- LABELS -->
+    <string name="key_minimum_working_height">"Minimalna radna visina:"</string>
+    <string name="key_minimum_working_outreach">"Minimalni radni doseg:"</string>
+    <string name="key_minimum_lift_capacity">"Minimalni podizni kapacitet:"</string>
+    <string name="electric_hybdrid_filter">"Samo električni/hibrid"</string>
+    <string name="no_internet_connection">"Nema internetske veze"</string>
+    <string name="help_title_standard">"Trebate pomoć?"</string>
+    <string name="help_subtitle_chat">"Razgovarajte sa nama"</string>
+    <string name="help_title_search">"Trebate pomoć pri odabiru?"</string>
+    <string name="yes">"Da"</string>
+    <string name="no">"Ne"</string>
+    <string name="page_more">"Više"</string>
+
+    <!-- HINTS -->
+    <string name="hint_search_example">"Traži, npr %s"</string>
+    <string name="settings">"Postavke"</string>
+    <string name="information">"Informacije"</string>
+    <string name="key_project_address">"Adresa projekta:"</string>
+    <string name="value_in_m">"%s m"</string>
+    <string name="value_in_kg">"%s kg"</string>
+    <string name="value_in_dimensions_m3">"%s × %s × %s m"</string>
+    <string name="value_in_dimensions_m2">"%s × %s m"</string>
+
+    <!-- WELCOME SCREEN -->
+    <string name="welcome_screen_done_button">"Idemo!"</string>
+    <string name="welcome_screen_country_selection_hint">"Molimo izaberite svoju zemlju"</string>
+    <string name="welcome_screen_country_selection_note">"Možete poslije promijeniti ove postavke"</string>
+
+    <!-- MACHINE DETAILS SCREEN -->
+    <string name="machine_detail_screen_specifications_title">"Specifikacije"</string>
+    <string name="machine_availability_direct">"Na lageru"</string>
+    <string name="add_to_order_button">"Nadodaj narudžbi"</string>
+
+    <!-- MACHINE TYPE DESCRIPTIONS -->
+    <string name="scissor_lift_description">"Škarasta platforme je vrsta radne platforme koja se može produžiti vertikalno. Platforma za električnu ili dieselsku opremu koja se montira na sklopive ruke koristi se za osiguranje povišenih radnih površina ili za povećanje ili smanjenje jediničnih opterećenja."</string>
+    <string name="vertical_lift_description">"Vertikalna podizna platforma je vrsta radne platforme koja se može produžiti vertikalno. Vertikalne podizne platforme su najbolje rješenje kada trebate obaviti održavanje ili popravak radova  u uskim prostorima na visinama."</string>
+    <string name="crawler_lift_description">"Gusjeničasta platforma je teleskopski bum ili škarasta platforma s posebnim tračnicama. Ove gusjenice osiguravaju veliku mogućnost upravljanja na neravnomjernim terenima i omogućuju podizanje gusjeničara / alata za rezanje pogodnim za razne poslove na izazovnim površinama."</string>
+    <string name="spider_lift_description">"Pauk je vrlo kompaktna podizna platforma. Bilo da radite u zatvorenom ili vanjskom prostoru, pauk će taj posao obaviti. Uz poboljšano upravljanje i bolji pristup, imate mogućnost dosegnuti više mjesta zahvaljujući niskom profilu, neprekidnim stazama i kompaktnim dimenzijama."</string>
+    <string name="telescopic_boom_lift_description">"Teleskopske podizne platforme su radne platforma s većom horizontalnom površinom nego bilo koja druga vrsta radne platforme. Podizni remeni se pružaju teleskopski i idealni su kada se suočavate s visokim izazovima (do 58 metara)."</string>
+    <string name="trailer_mounted_lift_description">"Platforma na prikolici je vrsta platforme koju može vući vozilo, idealno za one koji su u pokretu. Podizni pogoni na električni pogon prikolice savršeno su prikladni kako za unutarnju tako i za vanjsku upotrebu."</string>
+    <string name="truck_mounted_lift_description">"Auto košara je vrsta zračne platforme. Dizanje dizala je postavljeno na vozilo. Stoga je auto košara montirana na kamion izvrstan izbor za one koji su uvijek u pokretu."</string>
+    <string name="telehandler_standard_description">"Teleskopski viličar je moćan stroj koji podiže teške materijale. Teleskopski bum može se protezati nekoliko metara prema naprijed i prema gore. Dostupni su dodaci kao što su kante, daske, kolica, paletne vilice i pametne platforme kako bi se proširila svestranost i učinkovitost teleskopskog viličara."</string>
+    <string name="telehandler_rotating_description">"Okretni  teleskopski viličar je moćan stroj koji podiže teške materijale. Zahvaljujući rotirajućoj  ruci, rotirajući teleskopi se mogu koristiti na teško dostupnim mjestima. Dostupni su dodaci kao što su kante, daske, kolica,paletne vilice i pametne platforme kako bi se proširila svestranost i učinkovitost  okretnog telekopskog viličara."</string>
+    <string name="crane_description">"Mini dizalice su dizalice izgrađene za relativno lagano podizanje. Kada su zahtjevi za dizanjem na mjestu s uskim pristupom, ograničenim prostorom ili preprekama, mini dizalica će biti savršena za taj posao. Mini dizalice su dizajnirane za odlazak na mjesta gdje konvencionalne ili velike dizalice ne mogu ići."</string>
+    <string name="glass_lift_description">"Dizalica za stakla je dizajniran za sigurno i lako postavljanje staklenih ploča. Ovi revolucionarni novi strojevi za obradu stakla podižu i postavljaju ravne i zakrivljene ploče precizno, omogućujući vam da svoje staklo postavite točno ondje gdje vam je potrebno."</string>
+    <string name="retry">"Pokušaj ponovno"</string>
+    <string name="error">"Greška"</string>
+    <string name="key_fleet_number">"Broj flote"</string>
+    <string name="order_confirmation_dialog_message">"Narudžba vrijedi samo nakon primitka potvrde narudžbe"</string>
+
+    <!-- RENTAL PANEL -->
+    <string name="order_panel_on_rent_date_title">"Početak iznajmljivanja"</string>
+
+    <!-- Fuzzy -->
+    <string name="order_panel_off_rent_date_strictness_title">"Imate li točan datum završetka?"</string>
+    <string name="order_panel_off_rent_date_estimate_title">"Očekuje se prestanak najma"</string>
+    <string name="rental_panel_off_rent_date_title">"Prestanak najma"</string>
+    <string name="rental_panel_date_button_placeholder">"Datum"</string>
+    <string name="rental_panel_time_button_placeholder">"Vrijeme"</string>
+    <string name="order_panel_earliest_delivery_day_notice">"Najraniji dan dostave je %s. Trebate stroj ranije? Nazovite nas.
+"</string>
+
+    <!-- Fuzzy -->
+    <string name="off_rent_panel_same_day_off_rent_cutoff_notice">"Ako odabirete danas kao datum prestanka najma moguće je samo prije %s. Molimo,nazovite nas ako trebate prestanak najma danas."</string>
+    <string name="machine_order_key_from">"Od"</string>
+    <string name="machine_order_key_to">"Do"</string>
+    <string name="dialog_comments_title">"Komentari"</string>
+    <string name="dialog_comments_message">"Ima li dodatnih napomena za odjel najma?"</string>
+
+    <!-- COMMON -->
+    <string name="riwal_app_name">"Riwal Rental"</string>
+    <string name="manlift_app_name">"Manlift Rental"</string>
+    <string name="manlift_slogan">"Vodimo Vas sigurno u nove visine!"</string>
+
+    <!-- COUNTRIES -->
+    <string name="country_none">"Nema izbora"</string>
+    <string name="country_india">"Indija"</string>
+    <string name="country_qatar">"Katar"</string>
+    <string name="country_uae">"Ujedinjeni Arapski Emirati"</string>
+    <string name="riwal_disclaimer_url">"https://www.riwal.com/about-riwal/disclaimer?strip=1"</string>
+    <string name="riwal_privacy_policy_url">"https://www.riwal.com/corporate/en/about-riwal/privacy-en-cookieverklaring-rental-app?strip=1"</string>
+    <string name="manlift_disclaimer_url">"https://www.manliftgroup.com/en/disclaimer?strip=1"</string>
+    <string name="manlift_privacy_policy_url">"https://www.manliftgroup.com/en/privacy-statement?strip=1"</string>
+
+    <!-- FEEDBACK SCREEN -->
+    <string name="riwal_feedback_how_satisfied_are_you">"Koliko ste zadovoljni sa aplikacijom Najam Riwal App?"</string>
+    <string name="manlift_feedback_how_satisfied_are_you">"Koliko ste zadovoljni sa aplikacijom Najam Manlift App?"</string>
+    <string name="riwal_feedback_how_can_we_improve">"Kako možemo poboljšati Najam Riwal App?"</string>
+    <string name="manlift_feedback_how_can_we_improve">"Kako možemo poboljšati Najam Manlift App?"</string>
+
+    <!-- WELCOME SCREEN -->
+    <string name="riwal_welcome_screen_title">"Dobrodošli u Riwal"</string>
+    <string name="manlift_welcome_screen_title">"Dobrodošli u Manlift"</string>
+    <string name="riwal_articulated_boom_lift_description">"Teleskopske zglobne platforme imaju višestruke funkcije zglobne ruke koja artikulira,  omogućujući vam pristup područjima koja se teško dostupna. Riwalove teleskopske zglobne platforme vam daju  mogućnost pozicioniranja gore, van, i preko."</string>
+    <string name="manlift_articulated_boom_lift_description">"Teleskopske zglobne platforme imaju višestruke funkcije zglobne ruke koja artikulira, omogućujući vam pristup područjima koja se teško dostupna. Manlift teleskopske zglobne platforme vam daju  mogućnost pozicioniranja gore, van, i preko."</string>
+    <string name="riwal_forklift_description">"Viličar je kamion s diesel pogonom koji se koristi za podizanje i premještanje materijala. Riwal nudi različite vrste viljuškara iz renomiranih robnih marki kao što je Jungheinrich."</string>
+    <string name="manlift_forklift_description">"Viličar je kamion s diesel pogonom koji se koristi za podizanje i premještanje materijala. Manlift nudi različite vrste viljuškara iz renomiranih robnih marki kao što je Jungheinrich."</string>
+
+    <!-- On rental screen -->
+    <string name="button_machine_details">"Detalji platforme"</string>
+
+    <!-- E.g. in the Rental Detail screen, the button to show more detailed information about your rental -->
+    <string name="button_more">"Više"</string>
+
+    <!-- E.g. in the Rental Detail screen, the button to show less detailed information about your rental -->
+    <string name="button_less">"Manje"</string>
+    <string name="call">"Poziv"</string>
+
+    <!-- Displayed e.g. when in the details of a Rental that cannot be ordered via the app, after clicking on the asset -->
+    <string name="contact_us">"Kontaktirajte nas"</string>
+
+    <!-- Message displayed in rental details when an asset cannot be ordered via the app -->
+    <string name="rental_asset_not_available_in_app">"U ovom trenutku nije moguće iznajmiti %s putem aplikacije."</string>
+
+    <!-- Displayed on standard buttons that just need the user to acknowledge a message -->
+    <string name="button_ok">"U redu"</string>
+
+    <!-- Message displayed when app asks permission for using the user's location -->
+    <string name="location_when_in_use_description">"Ovo upotrebljavamo za prikazivanje vaše lokacije na karti"</string>
+    <string name="error_invalid_phone_number">"Unesite ispravan broj telefona"</string>
+
+    <!-- Fuzzy -->
+    <string name="order_panel_off_rent_exact_explanation">"Najam će završiti na %s. Platforme ćemo prikupiti što je prije moguće. Ovo možete izmijeniti kasnije u Mojim najmovima na Vašem profilu ili nas kontaktirajte."</string>
+    <string name="order_panel_off_rent_approximate_explanation">"Imate opciju zadržavanja platforme nakon %s. Period najma će se produžiti dok ga ne zaustavite u Moji najmovi na Vašem profilu ili nas kontaktirajte."</string>
+    <string name="order_panel_off_rent_exact_explanation_no_access4u">"Najam će završiti na %s. Platforme ćemo prikupiti što je prije moguće. Ovo možete izmijeniti kasnije ako nas kontaktirate."</string>
+    <string name="order_panel_off_rent_approximate_explanation_no_access4u">"Imate opciju zadržavanja platforme nakon %s. Period najma će se produžiti dok nas ne kontaktirate i zaustavite najam."</string>
+    <string name="approximate_value">"~ %s"</string>
+    <string name="change_request_form_project_name_field_label">"Ime projekta"</string>
+    <string name="change_request_form_project_address_field_label">"Adresa"</string>
+    <string name="change_request_form_project_contact_field_label">"Kontakt osoba projekta"</string>
+    <string name="change_request_form_project_contact_phone_number_field_label">"Broj telefona"</string>
+    <string name="change_request_form_on_rent_date_field_label">"Datum početka najma"</string>
+    <string name="change_request_form_on_rent_time_field_label">"Vrijeme isporuke"</string>
+    <string name="change_request_form_off_rent_date_field_label">"Datum završetka najma"</string>
+    <string name="change_request_form_off_rent_time_field_label">"Vrijeme završetka najma"</string>
+    <string name="change_request_form_purchase_order_field_label">"Narudžba"</string>
+
+    <!-- Title on button to show the search results in My Rentals as a list -->
+    <string name="my_rentals_result_format_list_button_title">"Popis"</string>
+
+    <!-- Title on button to show the search results in My Rentals on a map -->
+    <string name="my_rentals_result_format_map_button_title">"Karta"</string>
+
+    <!-- Message displayed to indicate only machines with a GPS module are displayed on the Map in My Rentals -->
+    <string name="my_rentals_map_displays_only_gps_machines_message">"Prikazane su samo platforme s GPS praćenjem"</string>
+
+    <!-- Text preceding the project name in My Rentals and the detail page of a Rental -->
+    <string name="key_rental_order_project">"Projekt"</string>
+
+    <!-- Text preceding the status of the rental in My Rentals and the detail page of a rental -->
+    <string name="key_rental_order_status">"Status"</string>
+
+    <!-- Text preceding the off rent date in My Rentals and the detail page of a Rental -->
+    <string name="key_rental_order_stop_renting">"Zaustavi najam:"</string>
+
+    <!-- Text preceding the on rent date in My Rentals and the detail page of a Rental -->
+    <string name="key_rental_order_start_renting">"Započni najam:"</string>
+
+    <!-- Text displayed in My Rentals when a rental has no fixed off rent date -->
+    <string name="rental_order_stop_renting_date_tbd">"TBD"</string>
+    <string name="my_rentals_select_rental_order">"Odaberi"</string>
+    <string name="my_rentals_one_rental_order_selected">"Odabrani %s najam"</string>
+    <string name="my_rentals_multiple_rental_orders_selected">"Odabrani %s najmovi"</string>
+    <string name="off_rent_panel_off_rent_multiple_machines_explanation">"Najam završava  %s. Platforme ćemo prikupiti što je brže moguće."</string>
+    <string name="off_rent_panel_off_rent_single_machine_explanation">"Najam završava  %s. Platforme ćemo prikupiti što je brže moguće."</string>
+    <string name="help_me_choose_what_to_lift_section_title">"Trebam podići.."</string>
+    <string name="help_me_choose_lift_people_option_title">"Ljude"</string>
+    <string name="help_me_choose_lift_materials_option_title">"Materijal"</string>
+    <string name="help_me_choose_location_section_title">"Radi se..."</string>
+    <string name="help_me_choose_location_outdoors_option_title">"Vani"</string>
+    <string name="help_me_choose_location_indoors_option_title">"Unutra"</string>
+    <string name="help_me_choose_reachability_section_title">"Posao se može doseći.."</string>
+    <string name="help_me_choose_reach_vertical_option_title">"Vertikalno"</string>
+    <string name="help_me_choose_reach_angled_option_title">"Pod kutem"</string>
+    <string name="help_me_choose_reach_multi_angled_option_title">"Pod kompleksnim kutevima"</string>
+    <string name="help_me_choose_show_results_button_title">"Pokaži %s rezultate"</string>
+    <string name="help_me_choose_slider_zero_placeholder">"Odlučiti ću kasnije"</string>
+    <string name="help_me_choose_wizard_title">"Pomoć pri odabiru"</string>
+    <string name="help_me_choose_working_height_section_title">"Minimalna radna visina"</string>
+    <string name="help_me_choose_working_outreach_section_title">"Minimalni radni doseg"</string>
+
+    <!-- Text displayed when the user selects options in "Help me choose" that we have no available machines for, e.g. for telehandlers in Manlift countries -->
+    <string name="help_me_choose_no_results_message">"Nažalost, u vašoj zemlji ne postoje dostupni strojevi koje bismo mogli odmah preporučiti na temelju vaših kriterija. Naš bi rental desk mogao pronaći alternativu."</string>
+
+    <!-- Button displayed in the Machine Detail screen, when there is an 3D augmented reality (AR) model available for the machine. Clicking it will navigate to the AR view. -->
+    <string name="machine_detail_button_view_in_ar">"Pogledaj u AR"</string>
+    <string name="notification_channel_off_rent">"Alarm za odjavu platforme"</string>
+    <string name="notification_off_rent_will_expire_title">"Period odjave platforme će uskoro isteći"</string>
+    <string name="notification_off_rent_will_expire_message">"Period odjave za platformu %s će isteći kroz %s dan(s)"</string>
+
+    <!-- In the summary page, if the purchase order is not entered it will show an error message -->
+    <string name="purchase_order_required">"Molim popunite narudžbenicu
+"</string>
+
+    <!-- Message displayed when the user can place the machine in AR -->
+    <string name="machine_in_ar_onboarding_message">"Dodirnite zaslon da biste postavili platformu"</string>
+
+    <!-- Loading progress percentage displayed when AR model of machine is loading -->
+    <string name="machine_in_ar_loading_progress">"Učitavam: %s%%"</string>
+
+    <!-- Message displayed when the user is not connected to Wifi or cellular data -->
+    <string name="error_no_internet_connection_try_again">"Nema internetske veze. Povežite se s internetom i pokušajte ponovno."</string>
+
+    <!-- Message displayed when it takes too long to get data from the backend -->
+    <string name="error_timeout">"Veza je istekla. Molim pokušajte ponovno."</string>
+
+    <!-- Generic error message, when we don't have a better message to display. The code is something users can tell to the service desk, as a start for further investigation. -->
+    <string name="error_something_went_wrong">"Nešto je pošlo krivo.
+
+Kod: %s"</string>
+
+    <!-- Error displayed when we really have no idea what went wrong. -->
+    <string name="error_unknown">"Nešto je pošlo po zlu. Pokušajte ponovo kasnije ili se obratite servisnoj službi ako se taj problem i dalje pojavljuje."</string>
+
+    <!-- Message to show when server is down -->
+    <string name="server_not_reachable">"Poslužitelj je isključen, pokušajte ponovno kasnije."</string>
+
+    <!-- "Last inspection date" string which is shown in the order details page -->
+    <string name="last_inspection_date">"Posljednje pregledan:"</string>
+
+    <!-- Title displayed when preparing for Augmented Reality, while the app is scanning the floor -->
+    <string name="ar_tutorial_title_floor_detection">"Pokrenite telefon za početak"</string>
+
+    <!-- Title displayed in Augmented Reality, when the app has detected a floor and the user can place a machine on it -->
+    <string name="ar_tutorial_title_machine_movement">"Pomaknite stroj.
+"</string>
+
+    <!-- Title displayed in Augmented Reality, when the user has selected the Measure mode and still needs to detect a wall -->
+    <string name="ar_tutorial_title_wall_detection">"Premjesti telefon ispred zida"</string>
+
+    <!-- Title displayed in Augmented Reality, when the app has detected a wall and the user can display the machine dimensions on it -->
+    <string name="ar_tutorial_title_machine_dimensions_movement">"Dimenzije stroja."</string>
+
+    <!-- Button displayed in Augmented Reality. Selecting it will switch to a mode where the user can see and move a 3D model of the machine. -->
+    <string name="ar_mode_3d">"3D"</string>
+
+    <!-- Button displayed in Augmented Reality. Selecting it will switch to a mode where the user can see the machine's dimensions projected on a real-world wall. -->
+    <string name="ar_mode_measure">"Izmjerite"</string>
+
+    <!-- Message displayed in Augmented Reality, when the loading of the selected machine's 3D model has failed for some reason. -->
+    <string name="ar_machine_model_loading_failed">"Učitavanje nije uspjelo, pokušajte ponovo kasnije"</string>
+
+    <!-- One of the help items displayed when the user presses the "Help" button in Augmented Reality -->
+    <string name="ar_help_item_lighting">"Provjerite jesu li svjetlosni uvjeti optimalni."</string>
+
+    <!-- The title of the page displayed when the user presses the "Help" button in Augmented Reality -->
+    <string name="ar_help_title">"Pomoć"</string>
+
+    <!-- One of the help items displayed when the user presses the "Help" button in Augmented Reality -->
+    <string name="ar_help_item_floor_reflectivity">"Uvjerite se da pod i / ili zid nisu reflektirajući. AR ne funkcionira dobro na npr. sjajnim podovima ili staklenim zidovima."</string>
+
+    <!-- One of the help items displayed when the user presses the \"Help\" button in Augmented Reality -->
+    <string name="ar_help_item_open_area">"Stroj postavite na mjesto gdje bi se mogao fizički uklopiti. To sprječava optičke iluzije da stroj izgleda \"plutajuće\" kada se preklapa s objektima stvarnog svijeta."</string>
+
+    <!-- One of the help items displayed when the user presses the \"Help\" button in Augmented Reality -->
+    <string name="ar_help_item_movement_speed">"Pomaknite fotoaparat sporim do srednjim tempom.
+"</string>
+
+    <!-- Button the user can press to dismiss the help view in Augmented Reality -->
+    <string name="ar_help_dismiss_button">"Imam ga!"</string>
+
+    <!-- Button displayed in Augmented Reality. Tapping it will bring up a help view with tips for using Augmented Reality. -->
+    <string name="ar_help_button">"Pomoć"</string>
+
+    <!-- Message displayed in the main screen when loading machines has failed (e.g. because of a problem with the internet connection) -->
+    <string name="error_loading_machines_failed_message">"Učitavanje nije uspjelo"</string>
+    <string name="augmented_reality_not_supported_message">"AR je podržan samo na iPhone 6s i novijim uređajima koji se izvode na iOS-u 11.3 ili novijem"</string>
+
+    <!-- Message displayed in a popup on the AR screen, to explain the buttons to rotate the machine -->
+    <string name="ar_onboarding_message_rotate_machine">"Držite lijevu ili desnu tipku za rotaciju stroja."</string>
+
+    <!-- Message displayed in a popup on the AR screen, to explain the buttons to change the machine positions -->
+    <string name="ar_onboarding_message_change_machine_position">"Promijenite poziciju stroja."</string>
+
+    <!-- Message displayed in a popup on the AR screen, to explain the button to switch to the measure mode -->
+    <string name="ar_onboarding_message_measure_mode">"Izmjerite da li stroj odgovara Vašem projektu."</string>
+
+    <!-- Extra hint displayed when scanning a wall -->
+    <string name="ar_tutorial_subtitle_wall_detection">"Udaljite se 2 metra."</string>
+    <string name="error_loading_machines_message">"Učitavanje nije uspjelo."</string>
+    <string name="request_an_account">"Zatražite korisnički račun."</string>
+    <string name="request_account_message">"Molim unesite podatke. Primiti ćete mail potvrde kada pošaljete obrazac."</string>
+    <string name="riwal_login_message_title">"Pogledajte My Riwal."</string>
+    <string name="login_message">"Želite pogledati svoje trenutne najmove? Lako odjaviti strojeve ili izmijeniti trenutne najmove?"</string>
+    <string name="account_request_succeeded">"Korisnički račun zatražen. Vaš zahtjev ćemo obraditi što prije."</string>
+    <string name="account_request_failed">"Traženje korisničkog računa nije uspjelo. Molim pokušajte kasnije."</string>
+
+    <!-- Description text for alert dialog shown before logging out from the application -->
+    <string name="logout_confirmation_dialog_message">"Da li ste sigurni da se želite odjaviti?"</string>
+
+    <!-- Title text shown for Alert Dialog before Logging out from Application -->
+    <string name="logout_confirm_title">"Potvrdi odjavu."</string>
+    <string name="notification_for_delivery_is_not_available_in_weekend">"Isporuke vikendom nije moguće naručiti putem aplikacije. Molim kontaktirajte Odjel najma telefonom. Ispričavamo se radi neugodnosti."</string>
+    <string name="select_this_location">"Odaberite ovu lokaciju."</string>
+    <string name="search_place">"Pretražite lokaciju."</string>
+    <string name="no_location_selected">"Ni jedna lokacija nije odabrana."</string>
+    <string name="download_pdf_button">"Preuzmite PDF."</string>
+    <string name="rental_detail_report_breakdown_button">"Prijavite kvar."</string>
+    <string name="breakdown_report_message">"Kvar prijavljen. Obraditi ćemo ga što prije."</string>
+    <string name="breakdown_report_failed">"Prijava kvara nije uspjela. Molim pokušajte kasnije."</string>
+    <string name="breakdown_text_field_hint">"Što je problem?"</string>
+    <string name="breakdown_explanation_text">"Naša tehnička podrška će Vas kontaktirati što prije sa rješenjem problema."</string>
+
+    <!-- To explain to the user for which reason we need to use their camera  -->
+    <string name="camera_permission_reason">"Ova aplikacija koristi kameru za skeniranje QR kodova i Proširenu stvarnost."</string>
+    <string name="breakdown_title">"Kvar"</string>
+
+    <!-- Message displayed after the QR code on the machine was successfully scanned, and the information about the current rental order is being loaded -->
+    <string name="scan_machine_qr_loading_rental_message">"Učitavam informacije"</string>
+
+    <!-- Hint displayed in the QR code scanning screen to help the user figure out what to do -->
+    <string name="scan_machine_qr_hint">"Skenirajte QR kod na platformi"</string>
+
+    <!-- Error message displayed when scanning a QR code that was not a valid Riwal machine QR code -->
+    <string name="scan_machine_qr_error_invalid_qr_code_message">"QR kod nije prepoznat"</string>
+
+    <!-- Error message displayed when looking up the current rental order for the scanned machine has failed -->
+    <string name="scan_machine_qr_error_rental_not_found_message">"Ne mogu naći najam za ovu platformu"</string>
+
+    <!-- Title of the popup displayed when asking the user for permission to access the camera, after the user had initially denied that permission. The %s is a placeholder for the app name (e.g. "My Riwal"), keep it in the translated string! -->
+    <string name="camera_permission_after_deny_ios_popup_title">"%s želi pristupiti kameri"</string>
+
+    <!-- Message of the popup displayed when asking the user for permission to access the camera, after the user had initially denied that permission -->
+    <string name="camera_permission_after_deny_ios_popup_message">"Omogućite kameru u postavkama uređaja za upotrebu ove funkcionalnosti"</string>
+
+    <!-- Title of the popup displayed when notifying the user that the app cannot use the camera, because the device administrator has disabled access to the camera -->
+    <string name="camera_usage_restricted_popup_title">"Ograničen pristup kameri"</string>
+
+    <!-- Message in the popup displayed when notifying the user that the app cannot use the camera, because the device administrator has disabled access to the camera -->
+    <string name="camera_usage_restricted_popup_message">"Ograničen je pristup kameri. Molim kontaktirajte administratora vašeg uređaja"</string>
+
+    <!-- Machine QR code scanning button in the account screen -->
+    <string name="account_scan_machine_option">"Skenirajte stroj"</string>
+
+    <!-- Title for the error popup that is displayed when access to the camera is blocked for an unknown reason -->
+    <string name="camera_usage_failed_unknown_error_popup_title">"Problem sa kamerom"</string>
+
+    <!-- Message in the error popup that is displayed when access to the camera is blocked for an unknown reason -->
+    <string name="camera_usage_failed_unknown_error_popup_message">"Ne mogu upotrijebiti kameru iz nepoznatog razloga. Obavijestili smo tim za razvoj aplikacije"</string>
+    <string name="breakdown_contact_phone_number">"Broj telefona"</string>
+    <string name="item_received_title">"Dostavljena platforma"</string>
+    <string name="item_requested_title">"Tražena platforma"</string>
+    <string name="forgot_password_button_title">"Zaboravili ste lozinku?
+"</string>
+    <string name="forgot_password_explanation">"Poslati ćemo vam mailom novu lozinku čim pošaljete zahtjev
+"</string>
+    <string name="reset_password_button_title">"Promijenite lozinku"</string>
+    <string name="reset_password__success_message">"Vaša lozinka je uspješno promijenjena. Molim provjerite mail, poslali smo vam novu lozinku
+"</string>
+    <string name="reset_password_failed">"Unijeli ste neispravnu mail adresu, molim unesite mail adresu s kojom ste se registrirali"</string>
+    <string name="privacy_policy_message">"Pročitao sam i prihvaćam politiku privatnosti"</string>
+    <string name="quantity_dialog_title">"Odaberite količinu"</string>
+    <string name="add_accessories_title">"Dodajte nastavke"</string>
+    <string name="accessories_title">"Nastavci"</string>
+    <string name="no_customers_found">"Trenutno nema klijenata za ovog korisnika. Molim dodajte klijenta za login"</string>
+    <string name="cancel_rent_button">"Poništavanje najma"</string>
+    <string name="request_cancel_rent_failed">"Poništavanje najma nije uspjelo. Molim pokušajte kasnije."</string>
+    <string name="cancel_rent_requested">"Zatraženo poništavanje najma. Obraditi ćemo ga u najkraćem roku."</string>
+
+    <!-- select a customer from a list of customers. -->
+    <string name="select_customer_title">"Odaberite klijenta"</string>
+
+    <!-- Please choose a time before %s, or call us if you need to stop renting at this time. -->
+    <string name="invalid_off_rent_time">"Molim odaberite vrijeme prije %s, ili nas nazovite ako želite zaustaviti najam u ovo vrijeme.
+"</string>
+
+    <!-- Please choose a time before %s, or call us if you need to start renting at this time. -->
+    <string name="invalid_on_rent_time">"Molim odaberite vrijeme prije %s, ili nas nazovite ako želite započeti najam u ovo vrijeme.
+"</string>
+    <string name="open_rental">"Otvorite najam"</string>
+    <string name="accessories_on_rent">"Dodaci za najam"</string>
+    <string name="no_accessories_found">"Nisu pronađeni dodaci"</string>
+    <string name="error_loading_accessories_message">"Unos nije uspio."</string>
+    <string name="no_accessories_on_rent_found">"Nisu pronađeni dodaci u najmu"</string>
+    <string name="my_projects">"Moji projekti"</string>
+    <string name="book_training">"Rezerviraj obuku
+
+"</string>
+    <string name="upload_image">"Učitaj sliku"</string>
+    <string name="contact_dialog_title">"Odaberi kontakt"</string>
+    <string name="project_dialog_title">"Odaberi projekt"</string>
+    <string name="upload_confirm_title">"Potvrdi prijenos"</string>
+    <string name="upload_confirmation_dialog_message">"Jeste li sigurni da želite prenijeti slike?"</string>
+    <string name="transfer_confirm_title">"Potvrdi prijenos"</string>
+
+    <!-- make sure to keep ( %s ) in 3 places ,  this will be replaced by the following :
+1- first ( %s ) will be dynamically replaced by machine fleet number
+2- second ( %s ) will be dynamically replaced by to customer name
+3- third ( %s )will be dynamically replaced by to contact name -->
+    <string name="transfer_confirmation_dialog_message">"Zatražili ste prijenos %s na %s. %s primit će obavijest o prihvaćanju prijenosa. Jednom kada se prihvati i obradi u našem sustavu, status će se promijeniti u stroj prenesen."</string>
+    <string name="transfer">"Prijenos"</string>
+    <string name="request_reject_transfer_failed">"Odbijanje zahtjeva za prijenos nije uspjelo. Molimo pokušajte ponovo kasnije."</string>
+    <string name="reject_transfer_requested">"Odbijen je zahtjev za prijenos. Obradit ćemo ga što je prije moguće."</string>
+    <string name="request_transfer_failed">"Zahtjev za prijenos nije uspio. Molimo pokušajte ponovo kasnije."</string>
+    <string name="transfer_requested">"Vaš je zahtjev uspješno poslan."</string>
+    <string name="reject_confirmation_dialog_message">"Jeste li sigurni da želite odbiti prijenosni stroj?"</string>
+    <string name="reject">"Odbaciti"</string>
+    <string name="transfer_reject_title">"Potvrdi odbijanje prijenosa"</string>
+    <string name="upload_limit_title">"Molimo odaberite najmanje četiri slike."</string>
+    <string name="upload_limit_dialog_message">"Molimo odaberite najmanje četiri slike."</string>
+    <string name="notification_transfer_requested_message">"Tražili ste prebacivanje %s u %s %s . Oni će dobiti obavijest o prihvaćanju prijenosa stroja/strojeva. Nakon prihvaćanja i obrade u našem sustavu, dobit ćete e-poštu s potvrdom prijenosa."</string>
+    <string name="notification_transfer_received_message">"%s od %s je zatražio %s. Prije premještanja stroja želimo potvrditi da nema oštećenja. Stoga vas molimo da fotografirate stroj sa svih strana."</string>
+    <string name="notification_transfer_accepted_message">"Prijenos %s iz %s na %s je zatražen. Naš odjel za iznajmljivanje obradit će zahtjev u najkraćem mogućem roku. Da bismo osigurali sigurnost, na stroju će se izvršiti provjere prije nego što ga možete koristiti do tada ne možemo koristiti stroj."</string>
+    <string name="notification_transfer_declined_message">"%s je odbio vaš zahtjev za prijenosom %s."</string>
+    <string name="no_transactions">"Nije pronađena transakcija"</string>
+    <string name="transfer_machine">"Prijenos  stroja"</string>
+    <string name="request_transfer">"Zatražiti prijenos"</string>
+    <string name="minimum_limit_of_image_dialog_message">"Molimo odaberite najmanje 4 slike."</string>
+
+    <!-- Accept machine transfer request -->
+    <string name="accept_button">"Prihvati"</string>
+
+    <!-- Upload machine images before accepting the transfer -->
+    <string name="upload_buttton">"Učitaj"</string>
+
+    <!-- Off rent -->
+    <string name="off_rent">"Van najma"</string>
+
+    <!-- The transfer of %s from %s at %s has accepted. Our rental desk will process the request as soon as possible. To guarantee safety, a First Check will be carried out on the machine before you can use it. -->
+    <string name="notification_transfer_accepted_acknowledgement_message">"Prijenos %s iz %s na %s je prihvaćen. Naš odjel za iznajmljivanje obradit će zahtjev u najkraćem mogućem roku. Da bi se zajamčila sigurnost, na stroju će se izvršiti provjere prije nego što ga možete koristiti."</string>
+
+    <!-- Pending Transfer -->
+    <string name="pending_transfer">"Prijenos na čekanju"</string>
+
+    <!-- Decline -->
+    <string name="decline">"Odbijeno"</string>
+
+    <!-- Accept transfer requested, We will process it as soon as possible -->
+    <string name="accept_transfer_succeeded">"Zatražen prihvat prijenosa, obradit ćemo ga u najkraćem mogućem roku."</string>
+
+    <!-- Accept transfer failed. Please try again later. -->
+    <string name="accept_transfer_failed">"Prihvat prijenos nije uspio. Molimo pokušajte ponovo kasnije."</string>
+
+    <!-- Camera permission request to show QR code scanner -->
+    <string name="scan_machine_camera_permission_message">"Za upotrebu QR skenera potrebno je dopuštenje fotoaparata"</string>
+
+    <!-- Password request failed warning message title -->
+    <string name="reset_password_failed_title">"Poništavanje zaporke nije uspjelo"</string>
+
+    <!-- Notification -->
+    <string name="notification">"Obavijest"</string>
+
+    <!-- Title to show before selecting the customer to transfer (eg: Transfer machine(Rental type) to (a customer)) -->
+    <string name="transfer_machine_bottom_sheet_discription">"Prijenos %s na"</string>
+
+    <!-- Select transfer date -->
+    <string name="key_select_transfer_date">"Odaberite datum prijenosa"</string>
+
+    <!-- Please add images for the machines that is going to be transferred. -->
+    <string name="add_image_prompt">"Molimo dodajte slike strojeva koji će biti preneseni."</string>
+
+    <!-- Please wait -->
+    <string name="please_wait">"Molimo pričekajte"</string>
+    <string name="training_types">"Vrste treninga"</string>
+    <string name="dialog_new_feature_title">"Dostupna je nova značajka"</string>
+    <string name="key_course">"Tečaj:"</string>
+    <string name="key_duration">"Trajanje"</string>
+    <string name="key_certification">"Certifikacija"</string>
+    <string name="key_location">"Lokacija"</string>
+    <string name="key_participant">"Sudionici"</string>
+    <string name="key_price">"Cijena"</string>
+    <string name="button_details">"Detalji"</string>
+    <string name="button_send_request">"Pošalji zahtjev"</string>
+    <string name="start_date">"Datum početka"</string>
+    <string name="request_quote_button">"Zatražite ponudu"</string>
+    <string name="dialog_confirm_training_request_title">"Zatražite ponudu za trening"</string>
+    <string name="dialog_confirm_training_request_message">"Zahtjev za ponudom za trening bit će obrađen u najkraćem roku."</string>
+    <string name="training_request_succeed">"Zatražena ponuda za treningom. Kontaktirat ćemo Vas u najkraćem roku"</string>
+    <string name="check_other_training">"Provjeri druge treninge"</string>
+    <string name="booking">"Rezervacija"</string>
+    <string name="page_home">"Početna stranica"</string>
+    <string name="no_training_found">"Treninzi nisu pronađeni"</string>
+    <string name="error_loading_training_message">"Učitavanje nije uspjelo"</string>
+    <string name="no_invoice_found">"Račun nije pronađen"</string>
+
+    <!-- make sure to keep %s in the translation, it will be replaced with dynamic values.
+
+Example -> 10 invoices are overdue, Overdue amount is 123.89 -->
+    <string name="invoices_overview">"%s fakture kasne, dospjeli iznos je %s"</string>
+
+    <!-- make sure to keep %s in the translation. It will be replaced with dynamic values.
+
+
+
+example -> 10 days -->
+    <string name="invoice_due_days">"%s dani"</string>
+    <string name="filter_invoice_type_title">"Tip računa"</string>
+    <string name="contact_person">"Kontakt osoba"</string>
+    <string name="venue">"Objekt"</string>
+
+    <!-- https://s3.eu-west-1.amazonaws.com/po-pub/i/S9y9sovCN6kW0gAZPBoZFQqI.jpg -->
+    <string name="overdue">"Zakašnjelo"</string>
+    <string name="paid">"Plaćeno"</string>
+
+    <!-- Inv Date :
+
+(inv) is used instead of (invoice ) to look better in the design.
+so it would be great if it's possible to use shortcut in your translation to fit in place -->
+    <string name="inv_date">"Datum računa:"</string>
+
+    <!-- Due Date : -->
+    <string name="due_date">"Datum dospijeća"</string>
+
+    <!-- https://s3.eu-west-1.amazonaws.com/po-pub/i/S3BXXATtblq9vbkU6IpMj81S.jpg -->
+    <string name="invoice_type">"Tip računa:"</string>
+
+    <!-- https://s3.eu-west-1.amazonaws.com/po-pub/i/IiILiEpWW974IhL6WF0WJbyy.jpg -->
+    <string name="rental_order_number">"Broj narudžbe:"</string>
+
+    <!-- https://s3.eu-west-1.amazonaws.com/po-pub/i/I2YsjAP264SYkHHUIYdSBt15.jpg -->
+    <string name="amount">"Iznos"</string>
+    <string name="sales">"Prodaja"</string>
+    <string name="maintenance">"Održavanje"</string>
+    <string name="damage">"šteta"</string>
+    <string name="participant_validation">"Unesite vrijednost između %s i %s"</string>
+    <string name="location">"Lokacija"</string>
+    <string name="participants">"Sudionici"</string>
+
+    <!-- This is the title to to be displayed on the Calendar to pick a starting date for filtering the invoice date -->
+    <string name="invoice_start_date_title">"Razdoblje fakturiranja počinje od"</string>
+
+    <!-- This is the title to to be displayed on the Calendar to pick a end date for filtering the invoice date -->
+    <string name="invoice_end_date_title">"Razdoblje fakturiranja završava na"</string>
+
+    <!-- Title to be displayed on training detail page -->
+    <string name="training_details_title">"Detalji treninga"</string>
+
+    <!-- One fo the invoices types. will be shown inside the invoices filter under invoice types.  -->
+    <string name="credit">"Kredit"</string>
+
+    <!-- One fo the invoices types. will be shown inside the invoices filter under invoice types.  -->
+    <string name="hire_credit">"Najam kredita"</string>
+
+    <!-- One fo the invoices types. will be shown inside the invoices filter under invoice types.  -->
+    <string name="repair">"Popravak"</string>
+
+    <!-- One fo the invoices types. will be shown inside the invoices filter under invoice types.  -->
+    <string name="loss">"Gubitak"</string>
+
+    <!-- if the invoices type is unknown or not defined we use this. will be shown inside the invoices filter under invoice types.  -->
+    <string name="other">"Drugo"</string>
+    <string name="pick_up_location">"Mjesto preuzimanja"</string>
+
+    <!-- Only for danish customers. To be displayed in the home page with an icon to load the Advent calendar game -->
+    <string name="game">"Game"</string>
+
+    <!-- Only for danish customers. To be displayed as the title in the webview page for the Advent calendar game -->
+    <string name="game_webview_title">"Advent calendar"</string>
+    <string name="empty_field_message">"Polje ne smije biti prazno"</string>
+    <string name="string_new">"Novo"</string>
+    <string name="vat_number">"OIB"</string>
+    <string name="next_button_title">"Slijedeće"</string>
+    <string name="new_feature_alert">"Upozorenje o novoj značajci!"</string>
+    <string name="training_tutorial_message_home">"Jeste li znali da sada možete rezervirati trening putem aplikacije. Pritisnite u redu za prikaz vodiča."</string>
+    <string name="tutorial_message_training_category">"Odaberite kategoriju treninga koja vas zanima."</string>
+    <string name="tutorial_message_training_list">"Kliknite gumb pojedinosti za odabir određenog tečaja osposobljavanja."</string>
+    <string name="tutorial_message_training_detail">"Pritisnite gumb Zatraži ponudu da biste zatražili obuku."</string>
+    <string name="tutorial_message_training_request_form">"Ispunite detalje zahtjeva."</string>
+    <string name="tutorial_message_training_request_send">"Dodirnite gumb za slanje da biste zatražili trening. Uskoro će vas kontaktirati jedan od naših djelatnika."</string>
+    <string name="skip_tutorial_label">"Preskoči vodič"</string>
+    <string name="hide_tutorial_label">"Sakri"</string>
+    <string name="my_quotations">"Moje ponude"</string>
+    <string name="quotation_date">"Datum ponude:"</string>
+    <string name="on_hire_date">"Početak najma:"</string>
+    <string name="off_hire_date">"Kraj najma:"</string>
+    <string name="venue_city">"Mjesto održavanja:"</string>
+
+    <!-- Message to be displayed in the quotation view if there is no quotation for the specified date range -->
+    <string name="no_quotation_found">"Ponuda nije pronađena"</string>
+
+    <!-- Title to be shown on the calendar to select the quotation start date -->
+    <string name="quotation_start_date_title">"Razdoblje ponude počinje"</string>
+
+    <!-- Title to be shown on the calendar to select the quotation end date -->
+    <string name="quotation_end_date_title">"Razdoblje ponude počinje"</string>
+
+    <!-- Message to shown if the file try to download is not available  -->
+    <string name="file_not_available">"Datoteka koju ste zatražili nije dostupna"</string>
+
+    <!-- confirmation question to ask to the customer before off renting "is the machine is available for pickup by our driver? -->
+    <string name="pickup_location_confirmation_title">"Je li stroj dostupan za preuzimanje od našeg vozača?"</string>
+    <string name="training_tutorial_message_home_from_url">"Jeste li znali da trening možete rezervirati putem aplikacije?"</string>
+    <string name="refresh">"Osvježi"</string>
+    <string name="machine_location">"Lokacija stroja"</string>
+
+    <!-- Text field to describe the location of a machine when a breakdown is reported. -->
+    <string name="machine_location_description">"Opišite gdje se stroj nalazi"</string>
+    <string name="apply">"Primijeni"</string>
+    <string name="clear_filters">"Obriši filtre"</string>
+    <string name="browse_machine">"Pretraživanje strojeva"</string>
+    <string name="end_date">"Datum završetka"</string>
+    <string name="remove">"Ukloni"</string>
+    <string name="place_order">"Naruči"</string>
+    <string name="validation_message_for_start_renting_on">"Prvo odaberite datum i vrijeme početka najma."</string>
+    <string name="order_request_delivery_message_check_box_two">"Vaš stroj (strojeve) možemo isporučiti dan prije zatraženog početnog dana"</string>
+    <string name="order_request_delivery_message_check_box_three">"Vaš stroj (strojeve) možemo isporučiti tijekom noći"</string>
+    <string name="order_request_delivery_message_check_box_one">"Veće strojeve možemo isporučiti na vašu lokaciju"</string>
+    <string name="hint_fleet_number">"Broj flote"</string>
+    <string name="delivery_option_button">"Opcije dostave"</string>
+
+    <!-- invoice type name for inter company invoice -->
+    <string name="inter_company_invoice">"Međukompanijski"</string>
+
+    <!-- Invoices related to workshop -->
+    <string name="workshop_invoice">"Radionica"</string>
+
+    <!-- invoice for upfront payment -->
+    <string name="upfront_payment_invoice">"Plaćanje unaprijed"</string>
+    <string name="page_product">"Proizvodi"</string>
+    <string name="rental_status_allocated">"Dodijeljeno"</string>
+
+    <!-- will be shown when a machine is exchanged in my rentals -->
+    <string name="rental_status_exchanged">"Zamijenjeno"</string>
+    <string name="rental_status_off_hire_not_confirmed">"Nije potvrđeno"</string>
+    <string name="rental_status_wait_invoicing">"Pričekajte izdavanje računa"</string>
+    <string name="machine_type">"Vrsta stroja"</string>
+    <string name="change_on_rent_date">"Promjeni datuma početka najma"</string>
+    <string name="change_off_rent_date">"Promjeni datuma završetka najma"</string>
+    <string name="to">"do"</string>
+
+    <!-- Hydrostatic machine propulsion  -->
+    <string name="hydrostatic">"Hidrostatski"</string>
+    <string name="hydraulic">"Hidraulički"</string>
+    <string name="lpg">"LPG"</string>
+    <string name="none">"Nijedan"</string>
+    <string name="petrol">"Benzin"</string>
+    <string name="help_me_choose_liftcapacity_section_title">"Nosivost najmanje ..."</string>
+    <string name="machine_unavailable">"Ovaj stroj nije dostupan"</string>
+
+    <!-- Will be asked to the customer while adding to the cart, whether it is possible to deliver larger machines at your location? -->
+    <string name="order_panel_larger_machine_consent_request">"Možemo li isporučiti veće strojeve na vašu lokaciju?"</string>
+
+    <!-- Will be asked to the customer while adding to the cart, whether it is possible to deliver the day before requested day? -->
+    <string name="order_panel_early_delivery_consent_request">"Možemo li strojeve isporučiti dan ranije od traženog dana?"</string>
+
+    <!-- Will be asked to the customer while adding to the cart, whether it is possible to deliver machines during night? -->
+    <string name="order_panel_night_delivery_consent_request">"Možemo li strojeve isporučiti tijekom noći?"</string>
+    <string name="edit_accessories_title">"Uredite dodatke"</string>
+    <string name="delivery_options">"Opcije dostave"</string>
+    <string name="rental_status_cancelled">"Otkazano"</string>
+    <string name="title_guest">"Gost"</string>
+    <string name="order_status_canceled">"Otkazano"</string>
+    <string name="order_status_pending_collections">"Čekanje preuzimanja"</string>
+    <string name="machine_documents_screen_manuals_title">"Priručnici"</string>
+
+    <string name="key_ordered_by">"Naručeno od"</string>
+</resources>

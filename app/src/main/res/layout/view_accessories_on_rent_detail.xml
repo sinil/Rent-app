@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/toolbar" />
+
+
+    <com.riwal.rentalapp.common.ui.easyrecyclerview.EasyRecyclerView
+        android:id="@+id/orderSpecificationsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+
+        android:nestedScrollingEnabled="false"
+        app:aggressiveRecycling="false"
+        app:dividerStyle="none"
+        android:layout_marginTop="56dp"
+        android:padding="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/actionsRecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/row_single_line_key_value" />
+
+    <com.riwal.rentalapp.common.ui.easyrecyclerview.EasyRecyclerView
+        android:id="@+id/accessoriesOnRentActionsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:nestedScrollingEnabled="false"
+        android:overScrollMode="never"
+        app:dividerLeftInset="72dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orderSpecificationsRecyclerView"
+        tools:itemCount="3"
+        tools:listitem="@layout/row_material_list_item" />
+
+
+    <com.riwal.rentalapp.common.ui.ChatButton
+        android:id="@+id/accessoriesOnRentChatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end|bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="RelativeOverlap" />
+
+    <com.riwal.rentalapp.common.ui.PhoneCallButton
+        android:id="@+id/accessoriesOnRentPhoneCallButton"
+        app:layout_constraintBottom_toTopOf="@+id/accessoriesOnRentChatButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/chatButton"
+        android:layout_alignParentEnd="true"
+        tools:ignore="RelativeOverlap" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

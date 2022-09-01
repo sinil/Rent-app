@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="manlift_blue">#001f60</color>
+    <color name="manlift_blue_transparent">#86001F60</color>
+    <color name="manlift_yellow">#f7da00</color>
+    <color name="manlift_yellow_disabled">#80f7da00</color>
+
+    <color name="colorPrimary">@color/manlift_blue</color>
+    <color name="colorPrimaryDark">@color/material_indigo_900_dark</color>
+    <color name="colorAccent">@color/colorPrimary</color>
+
+    <color name="app_bar_text">@color/manlift_yellow</color>
+    <color name="button_raised_text">@color/manlift_yellow</color>
+    <color name="button_flat_text">@color/colorPrimary</color>
+
+    <color name="selected_dot_color">@color/manlift_blue</color>
+    <color name="unselected_dot_color">@color/manlift_blue_transparent</color>
+
+</resources>

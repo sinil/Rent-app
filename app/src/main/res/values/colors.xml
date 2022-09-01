@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="material_text_high_emphasis">#DE000000</color>
+    <color name="material_text_medium_emphasis">#99000000</color>
+    <color name="material_text_disabled">#61000000</color>
+
+    <color name="material_text_high_emphasis_on_dark">#DEFFFFFF</color>
+    <color name="material_text_medium_emphasis_on_dark">#99FFFFFF</color>
+    <color name="material_text_disabled_on_dark">#61FFFFFF</color>
+
+    <color name="material_helper_text_high">#DE000000</color>
+    <color name="material_helper_text_default">#99000000</color>
+    <color name="material_helper_text_error">#B00020</color>
+
+    <color name="material_helper_text_high_on_dark">#DEFFFFFF</color>
+    <color name="material_helper_text_default_on_dark">#99FFFFFF</color>
+
+    <color name="material_icon_active">#DE000000</color>
+    <color name="material_icon_inactive">#99000000</color>
+    <color name="material_icon_disabled">#61000000</color>
+
+    <color name="material_icon_active_on_dark">#DEFFFFFF</color>
+    <color name="material_icon_inactive_on_dark">#99FFFFFF</color>
+    <color name="material_icon_disabled_on_dark">#61FFFFFF</color>
+
+    <color name="material_empty">#6e6e6e</color>
+    <color name="material_divider">#e2e2e2</color>
+
+    <color name="material_background">#F5F5F5</color>
+
+    <color name="riwal_blue">#14213D</color>
+    <color name="riwal_blue_dark">#01142F</color>
+    <color name="riwal_yellow">#FFC61E</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_transparent">#AAFFFFFF</color>
+    <color name="material_grey_200">#eeeeee</color>
+    <color name="material_grey_300" tools:override="true">#E0E0E0</color>
+    <color name="material_grey_400">#BDBDBD</color>
+    <color name="material_grey_500">#9E9E9E</color>
+    <color name="material_grey_600" tools:override="true">#757575</color>
+    <color name="material_grey_900" tools:override="true">#212121</color>
+    <color name="default_grey">#666666</color>
+    <color name="black">#FF000000</color>
+    <color name="black_transparent">#AA000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="overlay">#22000000</color>
+
+    <color name="material_yellow_accent_700">#ffd600</color>
+    <color name="material_yellow_900">#F57F17</color>
+    <color name="material_yellow_900_transparent">#75F57F17</color>
+    <color name="material_orange_900">#E65100</color>
+    <color name="material_red_500">#F44336</color>
+    <color name="material_red_300">#E57373</color>
+    <color name="material_green_700">#388e3c</color>
+    <color name="material_green_500">#4CAF50</color>
+    <color name="material_green_300">#81c784</color>
+    <color name="material_blue_500">#2196f3</color>
+    <color name="material_blue_300">#64b5f6</color>
+    <color name="material_blue_200">#90caf9</color>
+    <color name="material_blue_accent_700">#2962FF</color>
+    <color name="material_indigo_900">#1A237E</color>
+    <color name="material_indigo_900_dark">#000051</color>
+
+    <color name="material_text_high_emphasis_orange_900">#DEE65100</color>
+    <color name="material_text_high_emphasis_yellow_900">#DEF57F17</color>
+    <color name="material_text_high_emphasis_green_500">#de4caf50</color>
+    <color name="material_text_medium_emphasis_green_500">#994CAF50</color>
+
+    <color name="snackbar_background">#323232</color>
+
+    <color name="green">#008000</color>
+    <color name="red">#FF0000</color>
+    <color name="light_gray">#BDBDBD</color>
+
+    <color name="material_separator">#1F000000</color>
+    <color name="material_separator_light">#1FFFFFFF</color>
+
+    <color name="counter_bg">@color/colorPrimary</color>
+    <color name="toolbar_bg">@color/colorPrimary</color>
+</resources>

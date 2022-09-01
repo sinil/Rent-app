@@ -1,0 +1,39 @@
+{
+  materials: [
+    {
+      name: 'Material',
+      parameters: [
+        {
+          baseColor: [
+            0,
+            0,
+            0,
+            0,
+          ],
+        },
+        {
+          emissive: [
+            0,
+            0,
+            0,
+            0,
+          ],
+        },
+      ],
+      source: 'assets/default_unlit_transparent.mat',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'assets/dummy_unlit_transparent.obj',
+    name: 'dummy_unlit_transparent',
+    recenter: 'root',
+    scale: 0.5,
+  },
+  version: '0.54:2',
+}

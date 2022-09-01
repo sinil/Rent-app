@@ -1,0 +1,145 @@
+{
+  "project_info": {
+    "project_number": "686187364898",
+    "firebase_url": "https://customer-app-acceptance.firebaseio.com",
+    "project_id": "customer-app-acceptance",
+    "storage_bucket": "customer-app-acceptance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686187364898:android:c1231d3ff81c8c79",
+        "android_client_info": {
+          "package_name": "com.manlift.rentalapp.acceptance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686187364898-p6gngr7rqr6rsldo92dgbspqk7o91414.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manlift.rentalapp.acceptance",
+            "certificate_hash": "5119af8844fd748a6c39557c710944ef05265281"
+          }
+        },
+        {
+          "client_id": "686187364898-2t971drdu46vcoqeqdsqmcr3e8me7gkc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manlift.rentalapp.acceptance",
+            "certificate_hash": "a4b33aa14c79fe1fa676524dd1d7022ff4495e63"
+          }
+        },
+        {
+          "client_id": "686187364898-6o5d9cnf719hsvdsmcvdo7r1nnvujdql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manlift.rentalapp.acceptance",
+            "certificate_hash": "4823894dcb506bc358470e872f9f6990444cd188"
+          }
+        },
+        {
+          "client_id": "686187364898-qppmnjvtgvqgq9cn8ri5tv5ui2qcho2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5BiQ-cuUpWSr_POPKoW3WLUztCl-LHK0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686187364898-qppmnjvtgvqgq9cn8ri5tv5ui2qcho2k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "686187364898-qq5kucubi7nt9p2husk7k8mo43d30lsm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.manliftgroup.rentalapp.acceptance"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686187364898:android:896ca9e46ea89d4c",
+        "android_client_info": {
+          "package_name": "com.riwal.rentalapp.acceptance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686187364898-72m4md5qlb7l7so20cklbrbdni6f439p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riwal.rentalapp.acceptance",
+            "certificate_hash": "5119af8844fd748a6c39557c710944ef05265281"
+          }
+        },
+        {
+          "client_id": "686187364898-lnd26083ktboj61hbvqi442v4fo1qicn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riwal.rentalapp.acceptance",
+            "certificate_hash": "a4b33aa14c79fe1fa676524dd1d7022ff4495e63"
+          }
+        },
+        {
+          "client_id": "686187364898-irpdddmdrmd9lv8dug08ctna03v27l8c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riwal.rentalapp.acceptance",
+            "certificate_hash": "4823894dcb506bc358470e872f9f6990444cd188"
+          }
+        },
+        {
+          "client_id": "686187364898-qppmnjvtgvqgq9cn8ri5tv5ui2qcho2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5BiQ-cuUpWSr_POPKoW3WLUztCl-LHK0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686187364898-qppmnjvtgvqgq9cn8ri5tv5ui2qcho2k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "686187364898-qq5kucubi7nt9p2husk7k8mo43d30lsm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.manliftgroup.rentalapp.acceptance"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

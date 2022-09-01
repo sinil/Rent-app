@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".contactform.ContactFormViewImpl">
+
+    <include layout="@layout/toolbar" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/contentCoordinator"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- COMPANY -->
+
+            <com.riwal.rentalapp.common.ui.EditTextView
+                android:id="@+id/companyEditTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/company"
+                android:imeOptions="actionNext"
+                android:inputType="text|textCapWords"
+                android:src="@drawable/ic_company" />
+
+            <!-- NAME -->
+
+            <com.riwal.rentalapp.common.ui.EditTextView
+                android:id="@+id/nameEditTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/name"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName|textCapWords"
+                android:src="@drawable/ic_person" />
+
+            <!-- PHONE -->
+
+            <com.riwal.rentalapp.common.ui.EditTextView
+                android:id="@+id/phoneEditTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/phone"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:src="@drawable/ic_phone" />
+
+
+            <!-- EMAIL -->
+
+            <com.riwal.rentalapp.common.ui.EditTextView
+                android:id="@+id/emailEditTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress"
+                android:src="@drawable/ic_mail" />
+
+        </LinearLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bottomToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="@dimen/bottom_app_bar_elevation"
+        android:outlineProvider="bounds">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/continueButton"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:text="@string/button_continue" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+</LinearLayout>

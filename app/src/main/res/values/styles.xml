@@ -1,0 +1,146 @@
+<resources>
+
+    <!-- Common -->
+
+    <style name="NoParent" />
+
+    <style name="Material" />
+
+    <!-- Themes -->
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorError">@color/red</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:spinnerItemStyle">@style/MooSpinnerItem</item>
+    </style>
+
+    <style name="MooSpinnerItem" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/MooTextAppearanceSpinnerItem</item>
+    </style>
+
+    <style name="MooTextAppearanceSpinnerItem" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+    <style name="AppTheme.Toolbar" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/material_text_high_emphasis</item>
+        <item name="android:textColorSecondary">@color/material_text_medium_emphasis</item>
+        <item name="actionMenuTextColor">@color/material_text_high_emphasis</item>
+        <item name="android:colorBackground">@color/material_grey_600</item>
+        <item name="actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
+        <item name="colorControlNormal">@color/app_bar_text</item>
+    </style>
+
+    <style name="AppTheme.Toolbar.Light" parent="AppTheme.Toolbar">
+        <item name="android:textColorPrimary">@color/material_text_high_emphasis</item>
+        <item name="android:textColorSecondary">@color/material_text_high_emphasis</item>
+        <item name="actionMenuTextColor">@color/material_text_high_emphasis</item>
+    </style>
+
+    <style name="OverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="PopupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/material_background</item>
+    </style>
+
+    <style name="AppTheme.Fullscreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme.Dialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+
+    <!-- Material text appearances -->
+
+    <style name="Material.TextAppearance" />
+
+    <style name="Material.TextAppearance.TextInputLayout.Hint" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Material Card text appearances -->
+
+    <style name="Material.TextAppearance.Card" />
+
+    <style name="Material.TextAppearance.Card.Subtitle" parent="TextAppearance.MaterialComponents.Body2" />
+
+    <style name="Material.TextAppearance.Card.SupportingText" parent="TextAppearance.MaterialComponents.Body2" />
+
+    <!-- Material Toolbar text appearances -->
+
+    <style name="Material.TextAppearance.Toolbar.Title" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/material_text_high_emphasis</item>
+    </style>
+
+    <style name="Material.TextAppearance.Toolbar.Title.Light" parent="Material.TextAppearance.Toolbar.Title">
+        <item name="android:textColor">@color/material_text_high_emphasis_on_dark</item>
+    </style>
+
+    <style name="TextAppearance.Toolbar.Title" parent="Material.TextAppearance.Toolbar.Title">
+        <item name="android:textColor">@color/app_bar_text</item>
+    </style>
+
+    <!-- Styles -->
+
+    <!-- Material Card styles -->
+
+    <style name="Material.Card" />
+
+    <style name="Material.Card.Title" parent="NoParent">
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline5
+        </item>
+    </style>
+
+    <style name="Material.Card.Subtitle" parent="NoParent">
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:textAppearance">@style/Material.TextAppearance.Card.Subtitle</item>
+    </style>
+
+    <style name="Material.Card.SupportingText">
+        <item name="android:textAppearance">@style/Material.TextAppearance.Card.SupportingText
+        </item>
+    </style>
+
+    <!-- Other styles -->
+
+    <style name="Divider">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/material_divider</item>
+    </style>
+
+    <style name="MySeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint">@color/colorPrimary</item>
+        <item name="android:progressBackgroundTintMode">src_over</item>
+        <item name="android:progressTint">#dbdbdb</item>
+        <item name="android:colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="mdtp_ActionButton.Text" parent="Widget.MaterialComponents.Button.TextButton.Dialog" />
+
+
+</resources>
