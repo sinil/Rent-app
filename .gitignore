@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.idea
+keystore.properties
+app/production/
+default.json.bak
+app/src/main/res/raw/dummy_lit_opaque.sfb
+app/src/main/res/raw/dummy_unlit_transparent.sfb

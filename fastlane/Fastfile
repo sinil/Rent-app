@@ -1,0 +1,143 @@
+default_platform(:android)
+
+platform :android do
+  desc "Runs all important tests"
+  lane :test do
+    gradle(task: "testAcceptanceRiwalReleaseUnitTest")
+    gradle(task: "testAcceptanceManliftReleaseUnitTest")
+    gradle(task: "testProductionRiwalReleaseUnitTest")
+    gradle(task: "testProductionManliftReleaseUnitTest")
+  end
+
+
+  #--------------------------------------------- Riwal --------------------------------------------#
+
+
+  desc "Submit a new Beta Build for Riwal to Firebase distribution"
+  lane :deploy_riwal_rental_to_firebase_distribution do |options|
+    gradle(task: "clean assembleAcceptanceRiwalRelease")
+
+    release_notes_file = latest_release_notes_file()
+	commit = last_git_commit
+	commit_notes = ""
+    if git_branch == "develop"
+       commit_notes = "Release candidate. #{commit[:message]}"
+    end
+ 
+    # Uploads APK and release notes to Firebase (we use the file because notes: has a bug)
+    publish_to_firebase(flavor: options[:flavor], branch: options[:branch], notes: commit_notes, author: commit[:author], app_id: options[:app_id], firebase_token: options[:firebase_token])
+  end
+
+  desc "Deploy a new version of Riwal Rental to the Google Play"
+  lane :deploy_riwal_rental_to_play_store do
+    gradle(task: "clean assembleProductionRiwalRelease")
+    json_key_data = sh "echo $SUPPLY_JSON_KEY_DATA_BASE64 | base64 --decode"
+    upload_to_play_store(
+      package_name: "com.riwal.rentalapp",
+      json_key_data: json_key_data,
+      track: "alpha"
+    )
+   end
+
+
+  #-------------------------------------------- Manlift -------------------------------------------#
+
+
+  desc "Submit a new Beta Build for Manlift to Firebase distribution"
+  lane :deploy_manlift_rental_to_firebase_distribution do |options|
+    gradle(task: "clean assembleAcceptanceManliftRelease")
+
+    release_notes_file = latest_release_notes_file()
+	commit = last_git_commit
+	commit_notes = ""
+    if git_branch == "develop"
+       commit_notes = "Release candidate. #{commit[:message]}"
+    end
+
+    # Uploads APK and release notes to Firebase distribution (we use the file because notes: has a bug)
+    publish_manlift_to_firebase(flavor: options[:flavor], branch: options[:branch], notes: commit_notes, author: commit[:author], app_id: options[:app_id], firebase_token: options[:firebase_token])
+  end
+
+  desc "Deploy a new version for Manlift to the Google Play"
+  lane :deploy_manlift_rental_to_play_store do
+      gradle(task: "clean assembleProductionManliftRelease")
+      json_key_data = sh "echo $SUPPLY_JSON_KEY_DATA_BASE64_MANLIFT | base64 --decode"
+      upload_to_play_store(
+        package_name: "com.manlift.rentalapp",
+        json_key_data: json_key_data,
+        track: "alpha"
+      )
+   end
+
+
+end
+
+
+#--------------------------------------------- Methods --------------------------------------------#
+
+
+def latest_release_notes_file
+
+  # Get the current working directory (working directory in shell is location of fastlane, so we have to provide an absolute path to the release notes)
+  working_directory = ENV['PWD']
+
+  # Prints release notes up until a line containing only whitespace
+  latest_release_notes = sh "sed \"/^\s*$/q\" #{working_directory}/release-notes.md"
+
+  release_notes_file = "#{working_directory}/latest-release-notes"
+
+  # Puts the latest release notes in a temporary file
+  sh "echo \"#{latest_release_notes}\" > #{release_notes_file}"
+
+  return release_notes_file
+
+end
+
+#--------------------------------------------- Firebase publish --------------------------------------------#
+
+
+desc "Publish Riwal Build to Firebase"
+  lane :publish_to_firebase do |options|
+    gradle(
+    task: "assemble",
+    flavor: "AcceptanceRiwal",
+    build_type: "Release",
+    print_command: false,
+    properties: {
+      "android.injected.signing.store.file" => "keystore.jks",
+      "android.injected.signing.store.password" => ENV['STORE_PASSWORD'],
+      "android.injected.signing.key.alias" => ENV['KEY_ALIAS'],
+      "android.injected.signing.key.password" => ENV['KEY_PASSWORD'],
+    })
+    build_notes = "Environment: #{options[:flavor].capitalize}. Branch: #{options[:branch]}. Notes: #{options[:notes]}. Built by #{options[:author]}"
+    firebase_app_distribution(
+       app: "#{options[:app_id]}",
+       groups: "internal-testers",
+       release_notes_file: latest_release_notes_file(),
+       apk_path: "app/build/outputs/apk/#{options[:flavor]}/release/app-acceptance-riwal-release.apk",
+       firebase_cli_token: "#{options[:firebase_token]}"
+    )
+  end
+
+desc "Publish Manlift Build to Firebase"
+  lane :publish_manlift_to_firebase do |options|
+    gradle(
+    task: "assemble",
+    flavor: "AcceptanceManlift",
+    build_type: "Release",
+    print_command: false,
+    properties: {
+      "android.injected.signing.store.file" => "keystore.jks",
+      "android.injected.signing.store.password" => ENV['STORE_PASSWORD'],
+      "android.injected.signing.key.alias" => ENV['KEY_ALIAS'],
+      "android.injected.signing.key.password" => ENV['KEY_PASSWORD'],
+    })
+    build_notes = "Environment: #{options[:flavor].capitalize}. Branch: #{options[:branch]}. Notes: #{options[:notes]}. Built by #{options[:author]}"
+    firebase_app_distribution(
+       app: "#{options[:app_id]}",
+       groups: "internal-testers",
+       release_notes_file: latest_release_notes_file(),
+       apk_path: "app/build/outputs/apk/#{options[:flavor]}/release/app-acceptance-manlift-release.apk",
+       firebase_cli_token: "#{options[:firebase_token]}"
+    )
+  end
