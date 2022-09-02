@@ -79,7 +79,7 @@ android {
             buildConfigField "String", "RENTAL_APP_SERVER_URL", "\"https://us-central1-customer-app-dev.cloudfunctions.net/api\""
             buildConfigField "String", "MY_RIWAL_URL", "\"https://myriwal.com\""
             buildConfigField("String", "MIXPANEL_API_KEY", "\"6c77dfc0a13c54237dfacfce6ad325fc\"")
-            manifestPlaceholders = [GOOGLE_GEO_API_KEY: "AIzaSyDPYCBWw0D-kOWRCB-httZoYVPtEU7Tbas"]
+            manifestPlaceholders = [GOOGLE_GEO_API_KEY: ""]
         }
         acceptance {
             dimension "environment"
@@ -89,7 +89,7 @@ android {
             buildConfigField "String", "RENTAL_APP_SERVER_URL", "\"https://us-central1-customer-app-acceptance.cloudfunctions.net/api\""
             buildConfigField "String", "MY_RIWAL_URL", "\"https://myriwal.com\""
             buildConfigField("String", "MIXPANEL_API_KEY", "\"2ae91b44fc909d3a7b24495957515c70\"")
-            manifestPlaceholders = [GOOGLE_GEO_API_KEY: "AIzaSyCzArqR5FSwxR069M8vlT2nElygUSHImPc"]
+            manifestPlaceholders = [GOOGLE_GEO_API_KEY: ""]
         }
         production {
             dimension "environment"
@@ -98,7 +98,7 @@ android {
             buildConfigField "String", "RENTAL_APP_SERVER_URL", "\"https://us-central1-customer-app-8c658.cloudfunctions.net/api\""
             buildConfigField "String", "MY_RIWAL_URL", "\"https://myriwal.com\""
             buildConfigField("String", "MIXPANEL_API_KEY", "\"5150ec4da5dbabb731d31a9a60881cef\"")
-            manifestPlaceholders = [GOOGLE_GEO_API_KEY: "AIzaSyCtHEJuN02JqSVRJb-JqyOgP3QfzPk4ZyQ"]
+            manifestPlaceholders = [GOOGLE_GEO_API_KEY: ""]
         }
     }
 
